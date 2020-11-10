@@ -1,0 +1,28 @@
+What is the supposed name of the creator of Bitcoin?
+*	Satoshi Nakamoto
+	Satoshi Makamota
+	Satoshi Heracry
+	Bram Cohen
+	Minimoko Satoshi
+What technology do most cryptocurrencies run on?
+*	Blockchain
+	Chainlink
+	Bitblock
+	Blockstack
+	Physical Currency
+	Private Banking
+As of January 1, 2018, what was the highest price 1 Bitcoin was traded at?
+*	19,650 USD
+	10,950 USD
+	16,500 USD
+	28,572 USD
+	26,572 USD
+	25,650 USD
+Which cryptocurrency utilizes "Proof of Space and Time" and utilizes hard-drive space versus GPU/CPU power?
+*	Chia
+	Greencoin
+	ByteCoin
+	Garlic Coin
+	Celo
+	ICON
+	Enjin Coin
