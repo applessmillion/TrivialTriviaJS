@@ -1,3 +1,13 @@
+===== Version 3 / 12.28.20
++ Added animations to loading screen, start page, finish page.
++ Added a splash screen to start and finish pages.
++ Made the header in the quiz nicer. Now has an animated timer bar too.
++ Cleaned up some styling in the pages. Still a bit to go, but looks nicer code-wise.
+
+Things to work on:
+/ See Version 1 Things to work on
+/ Animation between quiz and start page.
+
 ===== Version 2 / 12.27.20
 + Added loading screen.
 + Changed buttons on finish/start to quiz button css.
