@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<meta http-equiv="refresh" content="2.39;url=start.html" />
+<title>loader</title>
+<link rel="stylesheet" href="fonts.css">
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="loader.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("A9DAC858D35727468AC33907A2E00579");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.loader();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+		<style>
+			.hidden {
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-transition: opacity 1.12s ease-in-out;
+    -moz-transition: opacity 1.12s ease-in-out;
+    -ms-transition: opacity 1.12s ease-in-out;
+    -o-transition: opacity 1.12s ease-in-out;
+     opacity: 1;
+			}
+		</style>
+</head>
+<body onload="init();" style="background:#00002d;margin:auto;text-align:center">
+	<img src="images/logo.png" style="width:60vw;max-width:60vw;padding:3.85vh 0vw">
+	<h1 id="txt" style="font-family:Andika New Basic;font-weight:700;font-size:calc(14pt + 4vh);color:white;">Loading...</h1>
+	<div id="animation_container" style="margin:auto;">
+		<canvas id="canvas" style=""></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden;position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+<script>
+	setTimeout(function(){ document.getElementById("canvas").className += "hidden"; }, 10);
+	setTimeout(function(){ document.getElementById("txt").className += "hidden"; }, 10);
+	setTimeout(function(){ document.getElementById("canvas").style = "opacity:0;"; }, 1200);
+	setTimeout(function(){ document.getElementById("txt").style = "opacity:0;font-family:Andika New Basic;font-weight:700;font-size:calc(14pt + 4vh);color:white;"; }, 1200);
+</script>
+</html>

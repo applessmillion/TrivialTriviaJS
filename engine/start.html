@@ -1,0 +1,26 @@
+<html lang="en-us">
+	<head>
+		<title>Trivial Trivia!</title>
+		<link rel="stylesheet" href="styles-start.css">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="fonts.css">
+		<script src="js/start.js" type="text/javascript"></script>
+		<script src="integrations/ngAPI.js" type="text/javascript"></script>
+		<meta name="mobile-web-app-capable" content="yes">
+	</head>
+	<div id="EnterAnimation" style="" class="hidden"></div>
+	<body class="start-body" onload="tossStuff()">
+		<div id="TriviaLogoDiv" style="z-index:1">
+			<img src="images/logo.png" class="title-image" id="TriviaLogo" style="width:60vw;max-width:60vw;" alt="Logo of Trivia">
+		</div>
+		<main id="mainContent" style="main-content">
+			<p id="body-description" style="padding-top:6vh;padding-bottom:2vh"></p>
+			<button onclick="window.location.href = 'quiz.html';" class="quiz-button">Start the Trivia!</button>
+		</main>
+		<script>
+			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;"; }, 10);
+			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 1680);
+			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 200);
+		</script>
+	</body>
+</html>

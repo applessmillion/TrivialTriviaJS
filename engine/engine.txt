@@ -1,0 +1,18 @@
+===== Version 2 / 12.27.20
++ Added loading screen.
++ Changed buttons on finish/start to quiz button css.
++ Optimized sizing for smaller displays. Mainly decreased logo size.
++ Added cute animation when images resize on page size change.
+
+Things to work on:
+/ See Version 1 Things to work on
+/ Make the quiz header prettier
+
+
+===== Version 1 / 12.24.20
++ Initial release.
+
+Things to work on:
+/ Incorrect answer randomizer.
+/ Question randomizer (in case of a bank of more than x questions)
+/ Newgrounds achievements?
