@@ -17,7 +17,10 @@ function initSession() {
 
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
+		/* Trivia Score submit */
 		ngio.callComponent('ScoreBoard.postScore', {id:9821, value:Number(localStorage.latestscore)});
+		
+		/* Attempts score submit */
 		ngio.callComponent('ScoreBoard.postScore', {id:9822, value:Number(1)});
 		
 		//if(localStorage.latestscore >= 15){ unlockMedal("Cyberbuff") }

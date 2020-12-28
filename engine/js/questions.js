@@ -1,214 +1,209 @@
 var questions = {
 	"0":{
-		"Phrase":"In what year was Blade Runner released to theaters?",
-		"CorrectAnswer":"1982",
+		"Phrase":"When was the video game Cyberpunk 2077 released for PC, Xbox, PlayStation, and Stadia?",
+		"CorrectAnswer":"December 10, 2020",
 		"IncorrectAnswer": [
-			"1980",
-			"1992",
-			"1965",
-			"1999",
-			"1990"
+			"December 1, 2020",
+			"November 19, 2020",
+			"April 26, 2020",
+			"December 14, 2020"
 		]	
 	},
 	"1":{
-		"Phrase":"In what year do the events of Blade Runner take place?",
-		"CorrectAnswer":"2019",
+		"Phrase":"In what year was Cyberpunk 2077 first announced?",
+		"CorrectAnswer":"2012",
 		"IncorrectAnswer": [
-			"2020",
-			"2000",
-			"2009",
-			"2005",
-			"2049",
-			"2077"
+			"2010",
+			"2011",
+			"2016",
+			"2018"
 		]	
 	},
 	"2":{
-		"Phrase":"What is the name of the beings that are near-identical to humans?",
-		"CorrectAnswer":"Replicant",
+		"Phrase":"Which city does the game Cyberpunk 2020 take place in?",
+		"CorrectAnswer":"Night City",
 		"IncorrectAnswer": [
-			"Cyborg",
-			"Cyberman",
-			"Unit",
-			"Runner",
-			"Nexus"
+			"Silver City",
+			"The Outlands",
+			"Neurocity",
+			"Corpo"
 		]	
 	},
 	"3":{
-		"Phrase":"Which organization created the replicants?",
-		"CorrectAnswer":"Tyrell Corporation",
+		"Phrase":"Which of the following is not a valid life path for V?",
+		"CorrectAnswer":"Netrunner",
 		"IncorrectAnswer": [
-			"Militech",
-			"LAPD",
-			"Voight-Kampff Corporation",
-			"Cyberware Genetics"
+			"Corpo-Rat",
+			"Street Kid",
+			"The Nomad"
 		]	
 	},
 	"4":{
-		"Phrase":"The main character in Blade Runner, played by Harrison Ford, is named...",
-		"CorrectAnswer":"Rick Deckard",
+		"Phrase":"In Act I, which character does V closely associate with?",
+		"CorrectAnswer":"Jackie Welles",
 		"IncorrectAnswer": [
-			"Rob Deckard",
-			"Dick Blade",
-			"Leon Kowalski",
-			"Pris"
+			"Johnny Silverhand",
+			"Panam Palmer",
+			"Kerry Eurodyne",
+			"Adam Smasher"
 		]	
 	},
 	"5":{
-		"Phrase":"The movie is based on a book released in 1968. What was the title of the book?",
-		"CorrectAnswer":"Do Androids Dream of Electric Sheep?",
+		"Phrase":"Which character introduces V to dreamdances?",
+		"CorrectAnswer":"Judy Alvarez",
 		"IncorrectAnswer": [
-			"Bladerunners",
-			"Adventure of the Bladerunner",
-			"Electric Sleep of the Androids",
-			"Electric Runaroo",
-			"Do Robots Dream in Their Seep?"
+			"Meredith Stout",
+			"Jackie Welles",
+			"Brick",
+			"Panam Palmer"
 		]	
 	},
 	"6":{
-		"Phrase":"The term replicant is used to describe humanoid-beings in the movie. What were they originally called in the book the movie was based on?",
-		"CorrectAnswer":"Andy",
+		"Phrase":"Which artificial intelligence runs a taxi service in Night City?",
+		"CorrectAnswer":"Delamain",
 		"IncorrectAnswer": [
-			"Robots",
-			"Droids",
-			"Replicants",
-			"Robos"
+			"Villefort",
+			"Art",
+			"Valentino",
 		]	
 	},
 	"7":{
-		"Phrase":"What is the maximum lifespan of a replicant?",
-		"CorrectAnswer":"4 Years",
+		"Phrase":"In Act I, who recruits V and Jackie to steal the relic from Arasaka?",
+		"CorrectAnswer":"Dexter DeShawn",
 		"IncorrectAnswer": [
-			"3 Years",
-			"2 Years",
-			"5 Years",
-			"6 Years"
+			"Delamain",
+			"Victor Vector",
+			"Sandra Dorsett",
+			"Johnny Silverhand"
 		]	
 	},
 	"8":{
-		"Phrase":"What was the name of the leader of the rogue replicants in the film?",
-		"CorrectAnswer":"Roy Batty",
+		"Phrase":"Which of the following are not one of the visual styles in the game?",
+		"CorrectAnswer":"Neoentropism",
 		"IncorrectAnswer": [
-			"Hannibal Chew",
-			"Gaff",
-			"Pris",
-			"Rachael"
+			"Entropism",
+			"Neomilitarism",
+			"Kitsch",
+			"Neokitsch"
 		]	
 	},
 	"9":{
-		"Phrase":"What is the test to determine if someone is a human or replicant?",
-		"CorrectAnswer":"Voight-Kampff Test",
+		"Phrase":"What is the area named on the outskirts of Night City?",
+		"CorrectAnswer":"Badlands",
 		"IncorrectAnswer": [
-			"Empathy Test",
-			"Decker-Tyrell Exam",
-			"Tyrell Droid Test",
-			"Android Test"
+			"Pacifica",
+			"Watson",
+			"Outlands",
+			"Grimlands"
 		]	
 	},
 	"10":{
-		"Phrase":"What is the name of the replicant Decker encounters when first visiting the Tyrell Corporation?",
-		"CorrectAnswer":"Rachael",
+		"Phrase":"Which of the following are not one of Night City's districts?",
+		"CorrectAnswer":"Eastbrook",
 		"IncorrectAnswer": [
-			"Zhora",
-			"Roy",
-			"Sebastian",
-			"Pris"
+			"Westbrook",
+			"Santo Domingo",
+			"Pacifica",
+			"Watson"
 		]	
 	},
 	"11":{
-		"Phrase":"Roy ultimately dies in the movie's climax. What/who 'retires' him?",
-		"CorrectAnswer":"4 Year Lifespan",
+		"Phrase":"What was the name of the rock band that Johnny Silverhand was associated with?",
+		"CorrectAnswer":"Samurai",
 		"IncorrectAnswer": [
-			"Deckard",
-			"Falling off the roof",
-			"Tris",
-			"Software malfunction"
+			"Ninja",
+			"Refused",
+			"Metal Fire",
+			"Archangel"
 		]	
 	},
 	"12":{
-		"Phrase":"Based on the director's cut of the movie, what is Deckard assumed to be?",
-		"CorrectAnswer":"Replicant",
+		"Phrase":"What group was Panam Palmer previously associated with?",
+		"CorrectAnswer":"Aldecaldos",
 		"IncorrectAnswer": [
-			"Human",
-			"Hybrid",
-			"Unclear"
+			"Militech",
+			"Night Corp",
+			"Arasaka",
+			"Kang Tao"
 		]	
 	},
 	"13":{
-		"Phrase":"The movie Blade Runner recieved a direct sequel in the form of a novel. What is the name of the second sequel to the film?",
-		"CorrectAnswer":"Blade Runner 2: The Edge of Human",
+		"Phrase":"Which character murdered Saburo Arasaka?",
+		"CorrectAnswer":"Yorinobu Arasaka",
 		"IncorrectAnswer": [
-			"Blade Runner 2: Replicant Night",
-			"Blade Runner 2: Eye and Talon",
-			"Blade Runner Beyond",
-			"Blade Runner 2047"
+			"Adam Smasher",
+			"Hanako Arasaka",
+			"Jackie Welles",
+			"V"
 		]	
 	},
 	"14":{
-		"Phrase":"A visual element subtly marks every replicant in the movie at least once. What is the visual element?",
-		"CorrectAnswer":"Red glint in eye",
+		"Phrase":"Which former scientist does V track down for questions related to the Relic?",
+		"CorrectAnswer":"Anders Hellman",
 		"IncorrectAnswer": [
-			"Muffled tiking noise",
-			"Crease on the neck",
-			"Dark red hair",
-			"Birthmark on face"
+			"Andrew Jones",
+			"Mr. Hands",
+			"Rogue",
+			"Evelyn Parker"
 		]	
 	},
 	"15":{
-		"Phrase":"What is the name of the book adaption of the movie?",
-		"CorrectAnswer":"Blade Runner: A Story of the Future",
+		"Phrase":"Which quest was T-Bug not associated with in Cyberpunk 2077?",
+		"CorrectAnswer":"The Pickup",
 		"IncorrectAnswer": [
-			"Blade Runner: Deckard",
-			"Blade Runner: Replicant Night",
-			"Blade Runner: 2019"
+			"Breaking Through",
+			"The Heist",
+			"The Gift",
 		]	
 	},
 	"16":{
-		"Phrase":"How many replicants were stated to have escaped at the beginning of the movie?",
-		"CorrectAnswer":"Six",
+		"Phrase":"What is the robotic device that V and Jackie obtain to assist with the heist?",
+		"CorrectAnswer":"The Flathead",
 		"IncorrectAnswer": [
-			"Three",
-			"Five",
-			"Four",
-			"Eight"
+			"Spiderbot",
+			"The Frontrunner",
+			"The Flatbot",
+			"Spidyman"
 		]	
 	},
 	"17":{
-		"Phrase":"At the beginning of the movie, what was the name of the Blade Runner shot while giving a Voight-Kampff test?",
-		"CorrectAnswer":"Dave Holden",
+		"Phrase":"Cyberpunk 2077 is based on an RPG tabletop series of games. Which game is it an adaption of?",
+		"CorrectAnswer":"Cyberpunk 2020",
 		"IncorrectAnswer": [
-			"Harry Bryant",
-			"Eldon Tyrell",
-			"Leon Kowalski",
-			"Rick Deckard"
+			"Cyberpunk 2002",
+			"Night City",
+			"Cyberpunk 2013",
+			"Cyberpunk Red"
 		]	
 	},
 	"18":{
-		"Phrase":"There are a few brand names displayed in the world of Blade Runner. Which of the following company names appear throughout the movie?",
-		"CorrectAnswer":"Atari",
+		"Phrase":"Various Cyberware is available as upgrades to V. ALL upgrades to the Frontal Cortex have requirements of which skill?",
+		"CorrectAnswer":"Intelligence",
 		"IncorrectAnswer": [
-			"Apple",
-			"Nintendo",
-			"Imagic",
-			"Telegames"
+			"Body",
+			"Technical Ability",
+			"Cool",
+			"Reflexes"
 		]	
 	},
 	"19":{
-		"Phrase":"Which of the escaped replicants is found in a bar as a dancer?",
-		"CorrectAnswer":"Zhora",
+		"Phrase":"Various Cyberware is available as upgrades to V. ALL upgrades to the Nervous System have requirements of which skill?",
+		"CorrectAnswer":"Reflexes",
 		"IncorrectAnswer": [
-			"Roy",
-			"Pris",
-			"Leon",
-			"Gaff"
+			"Cool",
+			"Technical Ability",
+			"Body",
+			"Nothing"
 		]	
 	},
 	"20":{
-		"Phrase":"Leon Kowalski, an escaped replicant, was 'retired' by which chatacter?",
-		"CorrectAnswer":"Rachael",
+		"Phrase":"In Cyberpunk 2077, the population of Night City has been stated to be millions. What is the approximate number of citizens of Night City?",
+		"CorrectAnswer":"6.9 Million",
 		"IncorrectAnswer": [
-			"Deckard",
-			"Pris",
-			"Gaff"
+			"9.1 Million",
+			"5.0 Million",
+			"3.2 Million",
+			"13.8 Million"
 		]	
 	}
 }
