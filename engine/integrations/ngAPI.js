@@ -1,5 +1,5 @@
-var ngio = new Newgrounds.io.core('51278:vFeDW1gW', 'l8dcPo3qX3DAPZn2/3uwnQ==');
-
+/* Edit this var below with the app ID and secret key */
+var ngio = new Newgrounds.io.core('51299:QsfZW64a', 'UZ4Sm8LUQIpUGNuaJQVo9A==');
 
 ngio.callComponent("Gateway.getDatetime", {}, function(result) {
    if (result.success) {
@@ -17,21 +17,22 @@ function initSession() {
 
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
-		/* Trivia Score submit */
+		/* 'Trivia Score' submit. Change for each variation of the trivia. */
 		if(localStorage.latestscore < 22){
-			ngio.callComponent('ScoreBoard.postScore', {id:9817, value:Number(localStorage.latestscore)});
+			ngio.callComponent('ScoreBoard.postScore', {id:9828, value:Number(localStorage.latestscore)});
 			
 			
-			/* Attempts score submit */
-			ngio.callComponent('ScoreBoard.postScore', {id:9818, value:Number(1)});
+			/* 'Attempts' score submit. */
+			ngio.callComponent('ScoreBoard.postScore', {id:9827, value:Number(1)});
 			
-			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61654}); }
+			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61700}); }
 		}
 		/* Hide button to prevent multiple clicks per session */
 		document.getElementById("submitscore").style = "display:none";
 	}
 }
 
+/* Function to test if the game is currently hosted on Newgrounds. Returns true if so, false if not. */
 function amIOnNewgrounds(){
 	var currentURL = window.location.href;
 	var result = currentURL.includes("ungrounded");
