@@ -32,7 +32,7 @@ h1 h2 h3 h4 h5{ font-family:Title; }
 .quiz-button{
 	width:28vw;
 	font-weight:600;
-	font-size:calc(1vw + 8pt);
+	font-size:calc(1vw + 10pt);
 	margin:1vw;
 }
 }
