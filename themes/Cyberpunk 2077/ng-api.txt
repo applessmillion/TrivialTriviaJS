@@ -1,5 +1,0 @@
-AppID: 51278:vFeDW1gW
-Base64: l8dcPo3qX3DAPZn2/3uwnQ==
-
-Attempts Scoreboard: 9818
-Trivia Score Scoreboard: 9817
