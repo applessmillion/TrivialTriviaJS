@@ -1,209 +1,221 @@
 var questions = {
 	"0":{
-		"Phrase":"When was the video game Cyberpunk 2077 released for PC, Xbox, PlayStation, and Stadia?",
-		"CorrectAnswer":"December 10, 2020",
+		"Phrase":"What date did the version 1.16 release? ",
+		"CorrectAnswer":"June 23, 2020",
 		"IncorrectAnswer": [
-			"December 1, 2020",
-			"November 19, 2020",
-			"April 26, 2020",
-			"December 14, 2020"
+			"July 2, 2020",
+			"June 21, 2020",
+			"August 21, 2020",
+			"September 1, 2020",
+			"November 6, 2020"
 		]	
 	},
 	"1":{
-		"Phrase":"In what year was Cyberpunk 2077 first announced?",
-		"CorrectAnswer":"2012",
+		"Phrase":"1.16.2 introduced a new mob that wields a golden axe. What is the name of this mob?",
+		"CorrectAnswer":"Piglin Brute",
 		"IncorrectAnswer": [
-			"2010",
-			"2011",
-			"2016",
-			"2018"
+			"Piglin Warrior",
+			"Piglin Remnant",
+			"Pigman",
+			"Hoglin",
+			"Strider"
 		]	
 	},
 	"2":{
-		"Phrase":"Which city does the game Cyberpunk 2020 take place in?",
-		"CorrectAnswer":"Night City",
+		"Phrase":"1.16 Introduced many new blocks, mobs, and features. What was the official name of this update?",
+		"CorrectAnswer":"Nether Update",
 		"IncorrectAnswer": [
-			"Silver City",
-			"The Outlands",
-			"Neurocity",
-			"Corpo"
+			"Down Under Update",
+			"Pigpeople Update",
+			"Ruin and Pork Update",
+			"Lava and Ruin Update",
+			"Porkpeople Update"
 		]	
 	},
 	"3":{
-		"Phrase":"Which of the following is not a valid life path for V?",
-		"CorrectAnswer":"Netrunner",
+		"Phrase":"A new armortype was introduced with the 1.16 update. What is the material of this armor?",
+		"CorrectAnswer":"Netherite",
 		"IncorrectAnswer": [
-			"Corpo-Rat",
-			"Street Kid",
-			"The Nomad"
+			"Crystal",
+			"Obsidian",
+			"Stone",
+			"Basalt",
+			"Blackstone"
 		]	
 	},
+	
+	
 	"4":{
-		"Phrase":"In Act I, which character does V closely associate with?",
-		"CorrectAnswer":"Jackie Welles",
+		"Phrase":"Netherite Ingots require more than one material. One of these materials is Netherite Scrap. What else is required by the recipe?",
+		"CorrectAnswer":"Gold Ingot",
 		"IncorrectAnswer": [
-			"Johnny Silverhand",
-			"Panam Palmer",
-			"Kerry Eurodyne",
-			"Adam Smasher"
+			"Basalt",
+			"Obsidian",
+			"Diamond",
+			"Iron",
+			"Soulsand",
+			"Sand"
 		]	
 	},
 	"5":{
-		"Phrase":"Which character introduces V to dreamdances?",
-		"CorrectAnswer":"Judy Alvarez",
+		"Phrase":"As of 1.16, two types of forests can be found in the Nether. What are the names of these two types?",
+		"CorrectAnswer":"Warped & Crimson",
 		"IncorrectAnswer": [
-			"Meredith Stout",
-			"Jackie Welles",
-			"Brick",
-			"Panam Palmer"
+			"Crimson & Corruption",
+			"Nethersprout & Fungi",
+			"Ruin & Hellscape",
+			"Warped & Corruption",
+			"Netherest & Lava Rivers"
 		]	
 	},
 	"6":{
-		"Phrase":"Which artificial intelligence runs a taxi service in Night City?",
-		"CorrectAnswer":"Delamain",
+		"Phrase":"Which two items can be used to craft wooden planks that do not burn?",
+		"CorrectAnswer":"Crimson & Warped Stems",
 		"IncorrectAnswer": [
-			"Villefort",
-			"Art",
-			"Valentino",
+			"Crimson & Warped Roots",
+			"Crimson & Corrupt Roots",
+			"Crimson & Warped Nylium",
+			"Warped & Wicked Stems"
 		]	
 	},
 	"7":{
-		"Phrase":"In Act I, who recruits V and Jackie to steal the relic from Arasaka?",
-		"CorrectAnswer":"Dexter DeShawn",
+		"Phrase":"Two new blocks in the Nether can be found and mined for golden nuggets. What is the name of one of these blocks?",
+		"CorrectAnswer":"Gilded Blackstone",
 		"IncorrectAnswer": [
-			"Delamain",
-			"Victor Vector",
-			"Sandra Dorsett",
-			"Johnny Silverhand"
+			"Crying Obsidian",
+			"Piglin Crate",
+			"Gilded Obsidian",
+			"Tinted Blackstone",
+			"Gilded Netherrite"
 		]	
 	},
 	"8":{
-		"Phrase":"Which of the following are not one of the visual styles in the game?",
-		"CorrectAnswer":"Neoentropism",
+		"Phrase":"What new block can be placed to repel hostile Piglin?",
+		"CorrectAnswer":"Soul Campfire",
 		"IncorrectAnswer": [
-			"Entropism",
-			"Neomilitarism",
-			"Kitsch",
-			"Neokitsch"
+			"Battle Banner",
+			"Undead Marker",
+			"Undead Campfire",
+			"Raging Turret"
 		]	
 	},
 	"9":{
-		"Phrase":"What is the area named on the outskirts of Night City?",
-		"CorrectAnswer":"Badlands",
+		"Phrase":"Crying Obsidian can be used in the crafting of an item that allows players to respawn where this crafted block is placed. What is the name of the block?",
+		"CorrectAnswer":"Respawn Anchor",
 		"IncorrectAnswer": [
-			"Pacifica",
-			"Watson",
-			"Outlands",
-			"Grimlands"
+			"Activated Obsidian",
+			"Activated Grave",
+			"Sprit Anchor",
+			"Respawn Camp"
 		]	
 	},
 	"10":{
-		"Phrase":"Which of the following are not one of Night City's districts?",
-		"CorrectAnswer":"Eastbrook",
+		"Phrase":"Which of the following is not true about Netherite Armor?",
+		"CorrectAnswer":"Prevents fire damage",
 		"IncorrectAnswer": [
-			"Westbrook",
-			"Santo Domingo",
-			"Pacifica",
-			"Watson"
+			"Floats in lava",
+			"Does not burn",
+			"Tougher than diamond"
 		]	
 	},
 	"11":{
-		"Phrase":"What was the name of the rock band that Johnny Silverhand was associated with?",
-		"CorrectAnswer":"Samurai",
+		"Phrase":"A new music disc was added with 1.16. This music disc can be found in bastion remnants in the Nether. What is the name of the song on this disc?",
+		"CorrectAnswer":"Pigstep",
 		"IncorrectAnswer": [
-			"Ninja",
-			"Refused",
-			"Metal Fire",
-			"Archangel"
+			"Reaper",
+			"Lava Hop",
+			"Gallop",
+			"Pigmen",
+			"Ol Wither"
 		]	
 	},
 	"12":{
-		"Phrase":"What group was Panam Palmer previously associated with?",
-		"CorrectAnswer":"Aldecaldos",
+		"Phrase":"Which of the following is not a type of item that can be crafted with Netherite?",
+		"CorrectAnswer":"Shears",
 		"IncorrectAnswer": [
-			"Militech",
-			"Night Corp",
-			"Arasaka",
-			"Kang Tao"
+			"Sword",
+			"Hoe",
+			"Axe",
+			"Shovel"
 		]	
 	},
 	"13":{
-		"Phrase":"Which character murdered Saburo Arasaka?",
-		"CorrectAnswer":"Yorinobu Arasaka",
+		"Phrase":"The movie Blade Runner recieved a direct sequel in the form of a novel. What is the name of the second sequel to the film?",
+		"CorrectAnswer":"Blade Runner 2: The Edge of Human",
 		"IncorrectAnswer": [
-			"Adam Smasher",
-			"Hanako Arasaka",
-			"Jackie Welles",
-			"V"
+			"Blade Runner 2: Replicant Night",
+			"Blade Runner 2: Eye and Talon",
+			"Blade Runner Beyond",
+			"Blade Runner 2047"
 		]	
 	},
 	"14":{
-		"Phrase":"Which former scientist does V track down for questions related to the Relic?",
-		"CorrectAnswer":"Anders Hellman",
+		"Phrase":"A new mob inhabits the Nether's plentyful lava oceans. What is the name of this mob?",
+		"CorrectAnswer":"Strider",
 		"IncorrectAnswer": [
-			"Andrew Jones",
-			"Mr. Hands",
-			"Rogue",
-			"Evelyn Parker"
+			"Piglin",
+			"Hoglin",
+			"Zoglin",
+			"Ghast"
 		]	
 	},
 	"15":{
-		"Phrase":"Which quest was T-Bug not associated with in Cyberpunk 2077?",
-		"CorrectAnswer":"The Pickup",
+		"Phrase":"Which of the following mobs can only be found in the Crimson Forests found in the Nether?",
+		"CorrectAnswer":"Hoglins",
 		"IncorrectAnswer": [
-			"Breaking Through",
-			"The Heist",
-			"The Gift",
+			"Piglins",
+			"Ghasts",
+			"Zoglins"
 		]	
 	},
 	"16":{
-		"Phrase":"What is the robotic device that V and Jackie obtain to assist with the heist?",
-		"CorrectAnswer":"The Flathead",
+		"Phrase":"When killed, what will drop from a Strider?",
+		"CorrectAnswer":"String",
 		"IncorrectAnswer": [
-			"Spiderbot",
-			"The Frontrunner",
-			"The Flatbot",
-			"Spidyman"
+			"Golden Nuggets",
+			"Soulsand",
+			"Lava Buckets",
+			"Arrows"
 		]	
 	},
 	"17":{
-		"Phrase":"Cyberpunk 2077 is based on an RPG tabletop series of games. Which game is it an adaption of?",
-		"CorrectAnswer":"Cyberpunk 2020",
+		"Phrase":"Which of the following mobs inhabit the Nether Wastes and Crimson Forests found in the Nether?",
+		"CorrectAnswer":"Piglins",
 		"IncorrectAnswer": [
-			"Cyberpunk 2002",
-			"Night City",
-			"Cyberpunk 2013",
-			"Cyberpunk Red"
+			"Hoglins",
+			"Ghasts",
+			"Zoglins"
 		]	
 	},
 	"18":{
-		"Phrase":"Various Cyberware is available as upgrades to V. ALL upgrades to the Frontal Cortex have requirements of which skill?",
-		"CorrectAnswer":"Intelligence",
+		"Phrase":"Which of the following events will damage a Strider?",
+		"CorrectAnswer":"Rain",
 		"IncorrectAnswer": [
-			"Body",
-			"Technical Ability",
-			"Cool",
-			"Reflexes"
+			"Walking on land",
+			"Walking in lava",
+			"Being ridden",
 		]	
 	},
 	"19":{
-		"Phrase":"Various Cyberware is available as upgrades to V. ALL upgrades to the Nervous System have requirements of which skill?",
-		"CorrectAnswer":"Reflexes",
+		"Phrase":"When taken out of the Nether, a Hoglin will change. Which of the following mobs are the result of taking a Hoglin to the Overworld?",
+		"CorrectAnswer":"Zoglin",
 		"IncorrectAnswer": [
-			"Cool",
-			"Technical Ability",
-			"Body",
-			"Nothing"
+			"Zombified Pigman",
+			"Hoglin",
+			"Piglin",
+			"Witch"
 		]	
 	},
 	"20":{
-		"Phrase":"In Cyberpunk 2077, the population of Night City has been stated to be millions. What is the approximate number of citizens of Night City?",
-		"CorrectAnswer":"6.9 Million",
+		"Phrase":"To achieve the achievement 'Bullseye', the player must hit an archery target from a distance. What is the minimum distance to get this achievement?",
+		"CorrectAnswer":"30 Blocks",
 		"IncorrectAnswer": [
-			"9.1 Million",
-			"5.0 Million",
-			"3.2 Million",
-			"13.8 Million"
+			"50 Blocks",
+			"10 Blocks",
+			"20 Blocks",
+			"40 Blocks",
+			"60 Blocks",
+			"100 Blocks"
 		]	
 	}
 }

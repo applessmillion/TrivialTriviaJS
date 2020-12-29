@@ -1,5 +1,6 @@
 #TriviaLogoDiv{
-	padding:1.25vw;
+	padding-top:1.25vw;
+	padding-bottom:0.5vw;
 	text-align:center;
 }
 .title-image{
@@ -9,10 +10,17 @@
 	padding-top:2vh;
 	position:relative;
 }
+.end-image{
+	max-width:calc(32px + 32vw);
+	margin:auto;
+	pointer-events:none;
+	padding-top:2vh;
+	position:relative;
+}
 
 #mainContent{
 	padding: 0vh 5vw;
-	max-width:90vw;
+	max-width:calc(120px + 50vw);
 	margin:auto;
 	text-align:center;
 }
@@ -30,8 +38,10 @@
 
 .start-body{
 	margin:auto;
-	max-width:85vw;
+	width:100%;
+	overflow:hidden;
 	background:#ffffffe3;
+	background: linear-gradient(0deg, rgba(0,18,45,.85) 6%, rgba(255,255,255,.75) 53%)
 }
 
 #body-description{

@@ -12,7 +12,7 @@
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <meta http-equiv="refresh" content="2.39;url=start.html" />
-<title>loader</title>
+<title>Trivial Trivia! - Loading</title>
 <link rel="stylesheet" href="fonts.css">
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="loader.js"></script>
@@ -71,7 +71,7 @@ function handleComplete(evt,comp) {
 </head>
 <body onload="init();" style="background:#00002d;margin:auto;text-align:center">
 	<img src="images/logo.png" style="width:55vw;max-width:55vw;padding-top:3.85vh">
-	<h1 id="txt" style="font-family:Andika New Basic;font-weight:800;font-size:calc(14pt + 2vh);color:white;">Loading...</h1>
+	<h1 id="txt" style="font-family:Basic Bold;font-weight:800;font-size:calc(14pt + 2vh);color:white;">Loading...</h1>
 	<div id="animation_container" style="margin:auto;">
 		<canvas id="canvas" width=192 height=192 style=""></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden;position: absolute; left: 0px; top: 0px; display: block;">
@@ -82,6 +82,6 @@ function handleComplete(evt,comp) {
 	setTimeout(function(){ document.getElementById("canvas").className += "hidden"; }, 10);
 	setTimeout(function(){ document.getElementById("txt").className += "hidden"; }, 10);
 	setTimeout(function(){ document.getElementById("canvas").style = "opacity:0;"; }, 1200);
-	setTimeout(function(){ document.getElementById("txt").style = "opacity:0;font-family:Andika New Basic;font-weight:800;font-size:calc(14pt + 2vh);color:white;"; }, 1200);
+	setTimeout(function(){ document.getElementById("txt").style = "opacity:0;font-family:Basic Bold;font-weight:800;font-size:calc(14pt + 2vh);color:white;"; }, 1200);
 </script>
 </html>

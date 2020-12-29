@@ -1,5 +1,21 @@
+===== Version 4 / 12.29.20
++ Added basic anti-cheat. Will now deny scores higher than there are questions.
++ Added annoyance for changing values via dev console.
++ Changed look and layout of start, quiz, and finish. Mainly a background change.
+  # Will need to see how this looks with black text. Looks fine for now. For now....
++ Added proper incorrect question randomizer. Will now use the full bank of incorrect answers.
++ Fixed timer bar not resetting immediately at the beginning of a new question.
+
+Things to work on:
+/ Animation between start->quiz, and a subtle animation for quiz->finish.
+/ Newgrounds achivement banner?
+/ Newgrounds embedded leaderboard?
+/ Randomized question sets?
+
+
 ===== Version 3 patch1 / 12.28.20
 + Fixed NG achievement issue. Was a dumb debug variable set.
+
 
 ===== Version 3 / 12.28.20
 + Added animations to loading screen, start page, finish page.
@@ -10,6 +26,7 @@
 Things to work on:
 / See Version 1 Things to work on
 / Animation between quiz and start page.
+
 
 ===== Version 2 / 12.27.20
 + Added loading screen.

@@ -1,88 +1,68 @@
 require(['./js/questions'], function (questions) {});
 
 /* Init global variables */
-currentQuestion = 0;
-incorrectAnswer = [];
-correctAnswer = '';
-questionPhrase = '';
-goodAnswer = 0;
-score = 0;
-timertime = 12;
+var currentQuestion = 0;
+var incorrectAnswer = [];
+var correctAnswer = '';
+var questionPhrase = '';
+var goodAnswer = 0;
+var score = 0;
+var timertime = 12;
 
 
 function setQuestionState(){
-	ranX = Math.floor(Math.random()*8);
+	ranX = Math.floor(Math.random()*4);
 	questionDetails = getQuestionDetails();
 	questionTimer = setInterval(timerCountdown, 1020);
+	
+	/* Update question number and phrase */
 	document.getElementById("QuizNumber").innerHTML = 'Question #'+Number(currentQuestion+1);
 	document.getElementById("QuizPhrase").innerHTML = questionPhrase;
 	
+	/* Set timer bar back to full-width and set the timer back up to 13 seconds. */
+	document.getElementById("TimeBorderDisplay").style = "width:100%";
 	timertime = 13;
-	document.getElementById("timeText").innerHTML = '12';
+	document.getElementById("timeText").innerHTML = currentQuestion;
+	
+	/* Hide the Next Question button until the user clicks an answer again. */
 	document.getElementById("QuizButtonNext").style = 'display:none';
 	
 	/* Yes, there is a better way to do this. No, I won't fix it for ver1. 
 	I'll get this fixed in a future release. Right now I'm making a game aimed for the
 	25th on the 24th, so I don't have much time to make things good on the backend.
 	
-	Randomize order of answers based on random int */
+	/* Summon a random picking of incorrect answers. Will pick between any listed from our questions array. */
+	var incorrectAnswers = grabIncorrectAnswers();
+	
+	/* Randomize order of answers based on random int */
 	if(ranX == 0){
 		document.getElementById("QuizButton1").innerHTML = correctAnswer;
-		document.getElementById("QuizButton2").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton4").innerHTML = incorrectAnswer[2];
+		document.getElementById("QuizButton2").innerHTML = incorrectAnswers[0];
+		document.getElementById("QuizButton3").innerHTML = incorrectAnswers[1];
+		document.getElementById("QuizButton4").innerHTML = incorrectAnswers[2];
 		goodAnswer = 1;
 	}
 	if(ranX == 1){
 		document.getElementById("QuizButton2").innerHTML = correctAnswer;
-		document.getElementById("QuizButton1").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton4").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[2];
+		document.getElementById("QuizButton1").innerHTML = incorrectAnswers[0];
+		document.getElementById("QuizButton4").innerHTML = incorrectAnswers[1];
+		document.getElementById("QuizButton3").innerHTML = incorrectAnswers[2];
 		goodAnswer = 2;
 	}
 	if(ranX == 2){
 		document.getElementById("QuizButton3").innerHTML = correctAnswer;
-		document.getElementById("QuizButton2").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton1").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton4").innerHTML = incorrectAnswer[2];
+		document.getElementById("QuizButton2").innerHTML = incorrectAnswers[0];
+		document.getElementById("QuizButton1").innerHTML = incorrectAnswers[1];
+		document.getElementById("QuizButton4").innerHTML = incorrectAnswers[2];
 		goodAnswer = 3;
 	}
 	if(ranX == 3){
 		document.getElementById("QuizButton4").innerHTML = correctAnswer;
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton2").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton1").innerHTML = incorrectAnswer[2];
+		document.getElementById("QuizButton3").innerHTML = incorrectAnswers[0];
+		document.getElementById("QuizButton2").innerHTML = incorrectAnswers[1];
+		document.getElementById("QuizButton1").innerHTML = incorrectAnswers[2];
 		goodAnswer = 4;
 	}
-	if(ranX == 4){
-		document.getElementById("QuizButton4").innerHTML = correctAnswer;
-		document.getElementById("QuizButton2").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton1").innerHTML = incorrectAnswer[2];
-		goodAnswer = 4;
-	}
-	if(ranX == 5){
-		document.getElementById("QuizButton4").innerHTML = correctAnswer;
-		document.getElementById("QuizButton1").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton2").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[2];
-		goodAnswer = 4;
-	}
-	if(ranX == 6){
-		document.getElementById("QuizButton1").innerHTML = correctAnswer;
-		document.getElementById("QuizButton4").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton2").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[2];
-		goodAnswer = 1;
-	}
-	if(ranX == 7){
-		document.getElementById("QuizButton2").innerHTML = correctAnswer;
-		document.getElementById("QuizButton3").innerHTML = incorrectAnswer[0];
-		document.getElementById("QuizButton4").innerHTML = incorrectAnswer[1];
-		document.getElementById("QuizButton1").innerHTML = incorrectAnswer[2];
-		goodAnswer = 2;
-	}
-
 }
 
 function getQuestionDetails(){
@@ -103,15 +83,16 @@ function clickOn4(){if(goodAnswer == 4){ correctAnswerClick(4); }else{ badAnswer
 
 /* Functions to handle results of a click */
 function correctAnswerClick(clickedAnswer){
+	/* Let the user know their answer is correct and award a point. 
+	Also update the score counter to reflect the addition of a point. */
 	score = score+1;
 	document.getElementById("scoreText").innerHTML = "Score: "+score;
 	reviewBeforeProceeding(clickedAnswer);
 	document.getElementById("QuizNumber").innerHTML = 'Correct!';
-	document.getElementById("QuizPhrase").innerHTML = 'You answered correctly! Below is the answer you selected.';
-
-	
+	document.getElementById("QuizPhrase").innerHTML = 'You answered correctly! Below is the answer you selected.';	
 }
 function badAnswerClick(clickedAnswer){
+	/* Let the user know their answer was incorrect. Do not reward a point. */
 	reviewBeforeProceeding(clickedAnswer);
 	document.getElementById("QuizNumber").innerHTML = 'Incorrect Answer';
 	document.getElementById("QuizPhrase").innerHTML = 'Below is the answer you selected.';
@@ -172,4 +153,20 @@ function reviewBeforeProceeding(clickedAnswer){
 		document.getElementById("QuizButton1").style = 'display:none';
 	}
 	document.getElementById("QuizButtonNext").style = '';
+}
+
+/* Grab the incorrectAnswers array from questions.js and pick 3 from the available list. */
+function grabIncorrectAnswers(){
+	var randomArray = questions[currentQuestion].IncorrectAnswer;
+	var pickedArray = [];
+	
+	/* Grab a total of 3 questions from our larger array */
+	while(pickedArray.length < 3)
+	{
+		var random = Math.floor(Math.random()*2);
+		if(random == 1){ pickedArray.push(randomArray.pop()); }
+		else{ pickedArray.push(randomArray.shift()); }
+	}
+	
+	return pickedArray;
 }

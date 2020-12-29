@@ -1,6 +1,6 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'21 questions, 12 seconds to answer each one! This trivia covers the plot, related media, and setting about the 2020 video game Cyberpunk 2077. '+
-	'There are questions that will contain spoilers. If you do not wish for these to be spoiled, do not take this trivia.';
+	'21 questions, 12 seconds to answer each one! This trivia quizzes you on the features and changes of the 1.16 update for Minecraft. '+
+	'Questions and answers will not detail any differences between Bedrock and Java editions of the game.';
 	
 }
