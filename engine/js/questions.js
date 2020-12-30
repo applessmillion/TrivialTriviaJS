@@ -140,13 +140,15 @@ var questions = {
 		]	
 	},
 	"13":{
-		"Phrase":"The movie Blade Runner recieved a direct sequel in the form of a novel. What is the name of the second sequel to the film?",
-		"CorrectAnswer":"Blade Runner 2: The Edge of Human",
+		"Phrase":"A new achievement can be obtained by opening a chest in a bastion remnant. What is the name of this achievement?",
+		"CorrectAnswer":"War Pigs",
 		"IncorrectAnswer": [
-			"Blade Runner 2: Replicant Night",
-			"Blade Runner 2: Eye and Talon",
-			"Blade Runner Beyond",
-			"Blade Runner 2047"
+			"Those Were The Days",
+			"Oh Shiny",
+			"This Boat Has Legs",
+			"Going Under",
+			"Big Loot",
+			"Treasure Hunter"
 		]	
 	},
 	"14":{
