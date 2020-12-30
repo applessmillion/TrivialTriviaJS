@@ -1,5 +1,5 @@
 /* Edit this var below with the app ID and secret key */
-var ngio = new Newgrounds.io.core('51299:QsfZW64a', 'UZ4Sm8LUQIpUGNuaJQVo9A==');
+var ngio = new Newgrounds.io.core('51306:jJmFndTw', 'KpELoOSj76KdmNH64hZYgQ==');
 
 ngio.callComponent("Gateway.getDatetime", {}, function(result) {
    if (result.success) {
@@ -19,13 +19,14 @@ function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
 		if(localStorage.latestscore < 22){
-			ngio.callComponent('ScoreBoard.postScore', {id:9828, value:Number(localStorage.latestscore)});
+			ngio.callComponent('ScoreBoard.postScore', {id:9865, value:Number(localStorage.latestscore)});
 			
 			
 			/* 'Attempts' score submit. */
-			ngio.callComponent('ScoreBoard.postScore', {id:9827, value:Number(1)});
+			ngio.callComponent('ScoreBoard.postScore', {id:9864, value:Number(1)});
 			
-			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61700}); }
+			/* Unlock medal if conditions are met. */
+			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61738}); }
 		}
 		/* Hide button to prevent multiple clicks per session */
 		document.getElementById("submitscore").style = "display:none";

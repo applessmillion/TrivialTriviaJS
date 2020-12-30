@@ -1,0 +1,7 @@
+AppID: 
+Base64:
+
+Attempts Scoreboard: 
+Trivia Score Scoreboard:
+
+15pt Medal: 

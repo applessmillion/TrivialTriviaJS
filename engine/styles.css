@@ -8,9 +8,9 @@ html{
 img{ transition-duration:1s;}
 
 button{
-	border:rgb(55 55 55 / 25%) 4px solid;
+	border:#6F2D91 4px solid;
 	border-radius:0px;
-	background-color:#555555;
+	background-color:#C74FFF;
 	color:white;
 	padding:1vh 1vw;
 	transition-duration: 0.55s;
@@ -18,11 +18,11 @@ button{
 }
 
 button:hover{
-	border:rgb(0 0 45 / 55%) 4px solid!important;
-	background-color:#333333!important;
+	border:#371749 4px solid!important;
+	background-color:#6F2D91!important;
 }
 
-h1 h2 h3 h4 h5{ font-family:Title; }
+h1,h2,h3,h4,h5{ font-family:Title; }
 
 
 @media (orientation: landscape) {

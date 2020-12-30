@@ -1,7 +1,7 @@
-AppID: 51299:QsfZW64a
-Base64: UZ4Sm8LUQIpUGNuaJQVo9A==
+AppID: 51305:NfsbPhER
+Base64: nwCIPLoGypIvuIKagXnsXQ==
 
-Attempts Scoreboard: 9827
-Trivia Score Scoreboard: 9828 
+Attempts Scoreboard: 9862
+Trivia Score Scoreboard: 9863
 
-15pt Medal: 61700
+15pt Medal: 61737

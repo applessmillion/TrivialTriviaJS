@@ -41,7 +41,7 @@
 	width:100%;
 	overflow:hidden;
 	background:#ffffffe3;
-	background: linear-gradient(0deg, rgba(0,18,45,.85) 6%, rgba(255,255,255,.75) 53%)
+	background: linear-gradient(0deg, rgba(0,18,45,.85) 6%, rgba(255,255,255,.15) 53%)
 }
 
 #body-description{
