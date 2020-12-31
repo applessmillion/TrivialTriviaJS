@@ -1,3 +1,15 @@
+===== Version 5 / 12.30.20
++ Added css folder for all css files. Was getting up there in count.
++ Added theme css stylesheet for easy editing of theme colors on pages.
++ Misc backend work.
+
+Things to work on:
+/ Animation between start->quiz, and a subtle animation for quiz->finish.
+/ Newgrounds achivement banner?
+/ Newgrounds embedded leaderboard?
+/ Randomized question sets?
+
+
 ===== Version 4 / 12.29.20
 + Added basic anti-cheat. Will now deny scores higher than there are questions.
 + Added annoyance for changing values via dev console.

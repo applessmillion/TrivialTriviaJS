@@ -1,7 +1,0 @@
-AppID: 51306:jJmFndTw
-Base64: KpELoOSj76KdmNH64hZYgQ==
-
-Attempts Scoreboard: 9864
-Trivia Score Scoreboard: 9865
-
-15pt Medal: 61738

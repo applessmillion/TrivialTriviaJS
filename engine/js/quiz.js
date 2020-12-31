@@ -16,7 +16,7 @@ function setQuestionState(){
 	questionTimer = setInterval(timerCountdown, 1020);
 	
 	/* Update question number and phrase */
-	document.getElementById("QuizNumber").innerHTML = 'Question #'+Number(currentQuestion+1);
+	document.getElementById("QuizNumber").innerHTML = 'Question '+Number(currentQuestion+1);
 	document.getElementById("QuizPhrase").innerHTML = questionPhrase;
 	
 	/* Set timer bar back to full-width and set the timer back up to 13 seconds. */

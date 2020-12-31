@@ -1,0 +1,5 @@
+.hidden {color: #FFFFFF;text-align: center;-webkit-transition: opacity 1.12s ease-in-out;-moz-transition: opacity 1.12s ease-in-out;-ms-transition: opacity 1.12s ease-in-out;transition: opacity 1.12s ease-in-out;opacity: 1;}
+#loadbg { background:#00002d;margin:auto;text-align:center; }
+#trivialogo{ width:55vw;max-width:55vw;padding-top:3.85vh; }
+#dom_overlay_container {pointer-events:none; overflow:hidden;position: absolute; left: 0px; top: 0px; display: block;}
+#txt{ font-family:Title;font-weight:600;font-size:calc(14pt + 2vh);color:white;}
