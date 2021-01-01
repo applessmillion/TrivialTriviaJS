@@ -1,8 +1,7 @@
 /* Edit this var below with the app ID and secret key */
-var ngio = new Newgrounds.io.core('51314:CZhQGcFA', 'wg0vfX+qh6W1CXJQpuwsMA==');
+var ngio = new Newgrounds.io.core('51314:CZhQGcFA', ' wg0vfX+qh6W1CXJQpuwsMA==');
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
-		
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
 		if(localStorage.latestscore < 36){
 			/* 'Trivia Score' submit */
@@ -33,6 +32,7 @@ ngio.getValidSession(function() { if (ngio.user) { onLoggedIn(); }else{ notLogge
 function notLoggedIn(){
 	document.getElementById("NewgroundsUserInformation").style = "left:8px;top:4px;";
 	document.getElementById("nameUserInformation").innerHTML = 'Log in to Newgrounds';
+	document.getElementById("titleUserInformation").style = "display:none"; 
 	document.getElementById("NewgroundsUserInformation").setAttribute("onClick","initSession()");
 }
 

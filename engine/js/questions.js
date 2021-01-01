@@ -1,194 +1,214 @@
 var questions = {
 	"0":{
-		"Phrase":"Dark Souls has released on multiple platforms over the years. Which of the following was not one of these platforms?",
-		"CorrectAnswer":"Wii",
+		"Phrase":"In what year was Blade Runner released to theaters?",
+		"CorrectAnswer":"1982",
 		"IncorrectAnswer": [
-			"Xbox 360",
-			"PlayStation 3",
-			"PC"
+			"1980",
+			"1992",
+			"1965",
+			"1999",
+			"1990"
 		]	
-	},"1":{
-		"Phrase":"Undead are doomed to become what without humanity?",
-		"CorrectAnswer":"Hollow",
+	},
+	"1":{
+		"Phrase":"In what year do the events of Blade Runner take place?",
+		"CorrectAnswer":"2019",
 		"IncorrectAnswer": [
-			"Doomed",
-			"Phantoms",
-			"Ones",
-			"Fallen"
+			"2020",
+			"2000",
+			"2009",
+			"2005",
+			"2049",
+			"2077"
 		]	
-	},"2":{
-		"Phrase":"When did the game release for North America and Europe?",
-		"CorrectAnswer":"October 2011",
+	},
+	"2":{
+		"Phrase":"What is the name of the beings that are near-identical to humans?",
+		"CorrectAnswer":"Replicant",
 		"IncorrectAnswer": [
-			"September 2011",
-			"June 2011",
-			"December 2011",
-			"October 2010",
-			"December 2010"
+			"Cyborg",
+			"Cyberman",
+			"Unit",
+			"Runner",
+			"Nexus"
 		]	
-	},"3":{
-		"Phrase":"What is the player's character often referred as?",
-		"CorrectAnswer":"Chosen Undead",
+	},
+	"3":{
+		"Phrase":"Which organization created the replicants?",
+		"CorrectAnswer":"Tyrell Corporation",
 		"IncorrectAnswer": [
-			"Chosen One",
-			"Demon Slayer",
-			"Undead Slayer",
-			"Lost Soul"
+			"Militech",
+			"LAPD",
+			"Voight-Kampff Corporation",
+			"Cyberware Genetics"
 		]	
-	},"4":{
-		"Phrase":"What is the name of the first boss the player encounters?",
-		"CorrectAnswer":"Asylum Demon",
-		"IncorrectAnswer":[
-			"Stray Demon",
-			"Gaping Dragon",
-			"Iron Golem",
-			"Capra Demon"
-		]	
-	},"5":{
-		"Phrase":"What is the name of the location the player can find the first boss in the game?",
-		"CorrectAnswer":"Undead Asylum",
+	},
+	"4":{
+		"Phrase":"The main character in Blade Runner, played by Harrison Ford, is named...",
+		"CorrectAnswer":"Rick Deckard",
 		"IncorrectAnswer": [
-			"Undead Burg",
-			"Undead Depths",
-			"The Depths",
-			"Demon Asylum"
+			"Rob Deckard",
+			"Dick Blade",
+			"Leon Kowalski",
+			"Pris"
 		]	
-	},"6":{
-		"Phrase":"Which type of magic is mostly used to cast defensive spells, such as healing and augmentation?",
-		"CorrectAnswer":"Miracle",
+	},
+	"5":{
+		"Phrase":"The movie is based on a book released in 1968. What was the title of the book?",
+		"CorrectAnswer":"Do Androids Dream of Electric Sheep?",
 		"IncorrectAnswer": [
-			"Pyromancy",
-			"Sorcery",
-			"Necromancy",
-			"Sins"
+			"Bladerunners",
+			"Adventure of the Bladerunner",
+			"Electric Sleep of the Androids",
+			"Electric Runaroo",
+			"Do Robots Dream in Their Seep?"
 		]	
-	},"7":{
-		"Phrase":"Havel the Rock is an enemy that can be encountered near the start of the game. Where is he located?",
-		"CorrectAnswer":"Undead Burg",
+	},
+	"6":{
+		"Phrase":"The term replicant is used to describe humanoid-beings in the movie. What were they originally called in the book the movie was based on?",
+		"CorrectAnswer":"Andy",
 		"IncorrectAnswer": [
-			"The Depths",
-			"Blighttown",
-			"Anor Londo",
-			"Undead Asylum"
+			"Robots",
+			"Droids",
+			"Replicants",
+			"Robos"
 		]	
-	},"8":{
-		"Phrase":"The Depths can only be accessed after obtaining a key in the Undead Burg. What type of enemy drops this key?",
-		"CorrectAnswer":"Capra Demon",
+	},
+	"7":{
+		"Phrase":"What is the maximum lifespan of a replicant?",
+		"CorrectAnswer":"4 Years",
 		"IncorrectAnswer": [
-			"Attack Dog",
-			"Black Knight",
-			"Undead Rat",
-			"Hollow Warrior"
+			"3 Years",
+			"2 Years",
+			"5 Years",
+			"6 Years"
 		]	
-	},"9":{
-		"Phrase":"The weapon Dragon King Greataxe can be obtained from an enemy in The Depths. What is the name of this enemy?",
-		"CorrectAnswer":"Gaping Dragon",
+	},
+	"8":{
+		"Phrase":"What was the name of the leader of the rogue replicants in the film?",
+		"CorrectAnswer":"Roy Batty",
 		"IncorrectAnswer": [
-			"Black Dragon",
-			"Capra Demon",
-			"Pinwheel",
-			"Gravelord Nito"
+			"Hannibal Chew",
+			"Gaff",
+			"Pris",
+			"Rachael"
 		]	
-	},"10":{
-		"Phrase":"Sen's Fortress is known for it's many enemies, traps, and hazards. What is the boss of this area?",
-		"CorrectAnswer":"Iron Golem",
+	},
+	"9":{
+		"Phrase":"What is the test to determine if someone is a human or replicant?",
+		"CorrectAnswer":"Voight-Kampff Test",
 		"IncorrectAnswer": [
-			"Serpent Soldier",
-			"Undead Prince Ricard",
-			"Giant Gatekeeper",
-			"Giant Firebomber"
+			"Empathy Test",
+			"Decker-Tyrell Exam",
+			"Tyrell Droid Test",
+			"Android Test"
 		]	
-	},"11":{
-		"Phrase":"The Painted World of Ariamis, an optional location, can be accessed from which other area?",
-		"CorrectAnswer":"Anor Londo",
+	},
+	"10":{
+		"Phrase":"What is the name of the replicant Decker encounters when first visiting the Tyrell Corporation?",
+		"CorrectAnswer":"Rachael",
 		"IncorrectAnswer": [
-			"Sen's Fortress",
-			"The Catacombs",
-			"Darkroot Garden",
-			"The Depths",
-			"Undead Asylum"
+			"Zhora",
+			"Roy",
+			"Sebastian",
+			"Pris"
 		]	
-	},"12":{
-		"Phrase":"Which optional boss can be found in the Painted World of Ariamis?",
-		"CorrectAnswer":"Crossbreed Priscilla",
+	},
+	"11":{
+		"Phrase":"Roy ultimately dies in the movie's climax. What/who 'retires' him?",
+		"CorrectAnswer":"4 Year Lifespan",
 		"IncorrectAnswer": [
-			"Ariamis",
-			"Dragon Crossbreed",
-			"Dark Sun Gwyndolin",
-			"Moonlight Butterfly"
+			"Deckard",
+			"Falling off the roof",
+			"Tris",
+			"Software malfunction"
 		]	
-	},"13":{
-		"Phrase":"This underground location is filled with skeletons, wisps, and necromancers. It leads to the Tomb of the Giants. What is the name of this location?",
-		"CorrectAnswer":"The Catacombs",
+	},
+	"12":{
+		"Phrase":"Based on the director's cut of the movie, what is Deckard assumed to be?",
+		"CorrectAnswer":"Replicant",
 		"IncorrectAnswer": [
-			"Crystal Cave",
-			"New Londo Ruins",
-			"Anor Londo",
-			"The Duke's Archives"
+			"Human",
+			"Hybrid",
+			"Unclear"
 		]	
-	},"14":{
-		"Phrase":"Pinwheel is a weak boss with a unique attack involving a purple light. Which attack allows is this?",
-		"CorrectAnswer":"Clone",
+	},
+	"13":{
+		"Phrase":"The movie Blade Runner recieved a direct sequel in the form of a novel. What is the name of the second sequel to the film?",
+		"CorrectAnswer":"Blade Runner 2: The Edge of Human",
 		"IncorrectAnswer": [
-			"Vanish",
-			"Combustion",
-			"Flamethrower",
-			"Quick Fireball"
+			"Blade Runner 2: Replicant Night",
+			"Blade Runner 2: Eye and Talon",
+			"Blade Runner Beyond",
+			"Blade Runner 2047"
 		]	
-	},"15":{
-		"Phrase":"In what location can the Four Kings be found?",
-		"CorrectAnswer":"The Abyss",
+	},
+	"14":{
+		"Phrase":"A visual element subtly marks every replicant in the movie at least once. What is the visual element?",
+		"CorrectAnswer":"Red glint in eye",
 		"IncorrectAnswer": [
-			"Crystal Cave",
-			"New Londo Ruins",
-			"The Duke's Archives",
-			"Anor Londo",
-			"Sen's Fortress"
+			"Muffled tiking noise",
+			"Crease on the neck",
+			"Dark red hair",
+			"Birthmark on face"
 		]	
-	},"16":{
-		"Phrase":"Which area is mostly flooded with lava upon the player's arrival?",
-		"CorrectAnswer":"Demon Ruins",
+	},
+	"15":{
+		"Phrase":"What is the name of the book adaption of the movie?",
+		"CorrectAnswer":"Blade Runner: A Story of the Future",
 		"IncorrectAnswer": [
-			"Chasm of the Abyss",
-			"New Londo Ruins",
-			"Quelaag's Domain",
-			"Crystal Cave"
+			"Blade Runner: Deckard",
+			"Blade Runner: Replicant Night",
+			"Blade Runner: 2019"
 		]	
-	},"17":{
-		"Phrase":"Which blacksmith can ascend weapons to the Divine, Occult, and Raw paths?",
-		"CorrectAnswer":"Andre of Astora",
+	},
+	"16":{
+		"Phrase":"How many replicants were stated to have escaped at the beginning of the movie?",
+		"CorrectAnswer":"Six",
 		"IncorrectAnswer": [
-			"Giant Blacksmith",
-			"Vamos",
-			"Rickert of Vinheim"
+			"Three",
+			"Five",
+			"Four",
+			"Eight"
 		]	
-	},"18":{
-		"Phrase":"The final boss in the base game can be found at the Kiln of the First Flame. What is the name of this boss?",
-		"CorrectAnswer":"Gwyn, Lord of Cinder",
+	},
+	"17":{
+		"Phrase":"At the beginning of the movie, what was the name of the Blade Runner shot while giving a Voight-Kampff test?",
+		"CorrectAnswer":"Dave Holden",
 		"IncorrectAnswer": [
-			"Artorias the Abysswalker",
-			"Seath the Scaleless",
-			"Dragon Slayer Ornstein",
-			"Black Dragon Kalameet"
+			"Harry Bryant",
+			"Eldon Tyrell",
+			"Leon Kowalski",
+			"Rick Deckard"
 		]	
-	},"19":{
-		"Phrase":"Dark Souls is thought of as the spiritual successor of which game?",
-		"CorrectAnswer":"Demon's Souls",
+	},
+	"18":{
+		"Phrase":"There are a few names displayed in the world of Blade Runner. Which of the following company names appear throughout the movie?",
+		"CorrectAnswer":"Atari",
 		"IncorrectAnswer": [
-			"Bloodborne",
-			"Ashen",
-			"Titan Souls",
-			"Lords of the Fallen",
-			"Salt and Sanctuary"
+			"Apple",
+			"Nintendo",
+			"Imagic",
+			"Telegames"
 		]	
-	},"20":{
-		"Phrase":"Dark Souls: Prepare to Die Edition introduces a new land full of new enemies, locations, and story. What is the name of this land?",
-		"CorrectAnswer":"Oolacile",
+	},
+	"19":{
+		"Phrase":"Which of the escaped replicants is found in a bar as a dancer?",
+		"CorrectAnswer":"Zhora",
 		"IncorrectAnswer": [
-			"Chasm of the Abyss",
-			"Lordran",
-			"Lothric",
-			"Anor Londo"
+			"Roy",
+			"Pris",
+			"Leon",
+			"Gaff"
+		]	
+	},
+	"20":{
+		"Phrase":"Leon Kowalski, an escaped replicant, was 'retired' by which chatacter?",
+		"CorrectAnswer":"Rachael",
+		"IncorrectAnswer": [
+			"Deckard",
+			"Pris",
+			"Gaff"
 		]	
 	}
 }
