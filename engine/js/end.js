@@ -15,3 +15,15 @@ function timerCountdown(){
 		localStorage.latestscore = 0;
 	}
 }
+
+/* If the player scores enough to recieve a medal, let them know via modified strings. 
+   If the player is not on Newgrounds at the time of playing, let them know as well. */
+function checkMedalQualification(){
+	
+	/* Check if the score is higher than 15. This is what we usually reward the medal for.
+	   Also verify the score is lower than 22. Anti-cheat and stuff. */
+	if(localStorage.latestscore >= 15 && localStorage.latestscore < 23){
+		if(amIOnNewgrounds() == true){
+			document.getElementById("body-description").innerHTML += " You qualify for a medal! Click the submit button below to submit your score and recieve the medal!";
+	}
+}

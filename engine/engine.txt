@@ -1,3 +1,18 @@
+===== Version 6 / 1.1.20
++ Added newgrounds user & score/achievement popouts.
+ # Logged out users will be prompted to log in when clicked on.
+ # Logged in users can click their profile pic to go to their profile.
+ # Score submit popout lets you know subtly if you got an achievement.
++ Cleaned up NG integration js file. Added comments.
++ Added comments to start and finish.
++ End 'Play Again' button brings you back to start page vs quiz page.
++ Modified css styling to make the game look better on taller screens.
+
+Things to work on:
+/ NG+ mode. 35 questions, achievement for getting 30 correct.
+// Can be started from start page (which is why the new redir on finish page).
+/ Test embedded leaderboard. Might look messy. If so, don't do it.
+
 ===== Version 5 / 12.30.20
 + Added css folder for all css files. Was getting up there in count.
 + Added theme css stylesheet for easy editing of theme colors on pages.
