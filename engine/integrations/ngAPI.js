@@ -1,20 +1,20 @@
-/* Edit this var below with the app ID and secret key */
-var ngio = new Newgrounds.io.core('51288:geZhSVqk', 'zX1LV7LXpVOTcZ6qx+Z0Ew==');
+require(['./nginfo'], function (ngAPI) {});
+
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
 		if(localStorage.latestscore < 36){
 			/* 'Trivia Score' submit */
-			ngio.callComponent('ScoreBoard.postScore', {id:9821, value:Number(localStorage.latestscore)});
+			ngio.callComponent('ScoreBoard.postScore', {id:scoreLB, value:Number(localStorage.latestscore)});
 			
 			/* 'Attempts' score submit. */
-			ngio.callComponent('ScoreBoard.postScore', {id:9822, value:Number(1)});
+			ngio.callComponent('ScoreBoard.postScore', {id:attemptsLB, value:Number(1)});
 			
 			/* Unlock 1st medal if conditions are met. */
-			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61699}); }
+			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:firstmedal}); }
 			
 			/* Unlock 2nd medal if conditions are met. This medal should only be used if our quiz has 35 questions. */
-			//if(localStorage.latestscore >= 30){ ngio.callComponent('Medal.unlock', {id:61762}); }
+			if(localStorage.latestscore >= 30 && secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:secondmedal}); }
 		}
 		
 		/* Hide button to prevent multiple clicks per session */
@@ -26,7 +26,10 @@ function postScoreboardScores(){
 /* Initialize session for active user.
 If we do not have a logged in user, activate notLoggedIn().
 If we have a logged in user, activate onLoggedIn(). */
-ngio.getValidSession(function() { if (ngio.user) { onLoggedIn(); }else{ notLoggedIn();}}); 
+function initNG(){
+	var ngio = new Newgrounds.io.core(ngAPI.appid, ngAPI.secret);
+	ngio.getValidSession(function() { if (ngio.user) { onLoggedIn(); }else{ notLoggedIn();}}); 
+}
 
 /* If the user is not currently logged in with a valid session, display this in our little box. */
 function notLoggedIn(){
