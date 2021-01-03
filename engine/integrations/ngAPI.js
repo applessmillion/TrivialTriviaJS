@@ -1,17 +1,17 @@
 /* Edit this var below with the app ID and secret key */
-var ngio = new Newgrounds.io.core('51314:CZhQGcFA', ' wg0vfX+qh6W1CXJQpuwsMA==');
+var ngio = new Newgrounds.io.core('51288:geZhSVqk', 'zX1LV7LXpVOTcZ6qx+Z0Ew==');
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
 		if(localStorage.latestscore < 36){
 			/* 'Trivia Score' submit */
-			ngio.callComponent('ScoreBoard.postScore', {id:9874, value:Number(localStorage.latestscore)});
+			ngio.callComponent('ScoreBoard.postScore', {id:9821, value:Number(localStorage.latestscore)});
 			
 			/* 'Attempts' score submit. */
-			ngio.callComponent('ScoreBoard.postScore', {id:9873, value:Number(1)});
+			ngio.callComponent('ScoreBoard.postScore', {id:9822, value:Number(1)});
 			
 			/* Unlock 1st medal if conditions are met. */
-			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61762}); }
+			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:61699}); }
 			
 			/* Unlock 2nd medal if conditions are met. This medal should only be used if our quiz has 35 questions. */
 			//if(localStorage.latestscore >= 30){ ngio.callComponent('Medal.unlock', {id:61762}); }
