@@ -3,7 +3,6 @@ function tossStuff(){
 	
 	/* This will make it annoying to manually change variables in dev console. */
 	setInterval(timerCountdown, 500);
-	initNG();
 }
 
 /* Incredibly basic anticheat. Basically makes cheating more annoying. */

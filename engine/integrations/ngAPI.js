@@ -5,30 +5,22 @@ function postScoreboardScores(){
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
 		if(localStorage.latestscore < 36){
 			/* 'Trivia Score' submit */
-			ngio.callComponent('ScoreBoard.postScore', {id:scoreLB, value:Number(localStorage.latestscore)});
+			ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.scoreLB), value:Number(localStorage.latestscore)});
 			
 			/* 'Attempts' score submit. */
-			ngio.callComponent('ScoreBoard.postScore', {id:attemptsLB, value:Number(1)});
+			ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.attemptsLB), value:Number(1)});
 			
 			/* Unlock 1st medal if conditions are met. */
-			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:firstmedal}); }
+			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.firstmedal)}); }
 			
 			/* Unlock 2nd medal if conditions are met. This medal should only be used if our quiz has 35 questions. */
-			if(localStorage.latestscore >= 30 && secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:secondmedal}); }
+			if(localStorage.latestscore >= 30 && secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.secondmedal)}); }
 		}
 		
 		/* Hide button to prevent multiple clicks per session */
 		document.getElementById("submitscore").style = "display:none";
 		doRewardPopup();
 	}
-}
-
-/* Initialize session for active user.
-If we do not have a logged in user, activate notLoggedIn().
-If we have a logged in user, activate onLoggedIn(). */
-function initNG(){
-	var ngio = new Newgrounds.io.core(ngAPI.appid, ngAPI.secret);
-	ngio.getValidSession(function() { if (ngio.user) { onLoggedIn(); }else{ notLoggedIn();}}); 
 }
 
 /* If the user is not currently logged in with a valid session, display this in our little box. */
@@ -58,6 +50,7 @@ function onLoggedIn() {
 	document.getElementById("picUserInformation").setAttribute("onClick","window.open('https://"+profilename+".newgrounds.com/','_blank')");
 	document.getElementById("picUserInformation").src = profileimg;
 	document.getElementById("titleUserInformation").innerHTML = "Logged in as"; 
+	document.getElementById("titleUserInformation").style = ""; 
 }
 function onLoginFailed() { console.log("There was a problem logging in: " . ngio.login_error.message );}
 function onLoginCancelled() { console.log("The user cancelled the login."); }
