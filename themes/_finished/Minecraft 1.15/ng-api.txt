@@ -1,7 +1,0 @@
-AppID: 51313:zz0zMGJq
-Base64: RMuHA2y/h3dWBWFukvFpTg==
-
-Attempts Scoreboard: 9872
-Trivia Score Scoreboard: 9871
-
-15pt Medal: 61759
