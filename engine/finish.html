@@ -1,6 +1,9 @@
 <html lang="en-us">
 	<head>
 		<title>Trivial Trivia! Results</title>
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta charset="utf-8"/>
+		<meta name="description" content="Trivia game with 21 questions.">
 		<link rel="stylesheet" href="css/styles-start.css">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/ngapi.css">
@@ -19,7 +22,6 @@
 		<script>
 		var x = document.getElementById("audio");
 		x.volume = 0.22;
-		
 		document.addEventListener('click', musicPlay);
 		function musicPlay() {
 			document.getElementById('audio').play();
@@ -28,12 +30,9 @@
 		</script> 
 	<body class="start-body" onload="tossStuff()">
 		<div id="EnterAnimation" style="" class="hidden-long"><h2 id="loadtxt" class="hidden">Let's see your score!</h2></div>
-		
 		<!-- Newgrounds user information integration. This element will display the user's profile image and username. -->
 		<div id="NewgroundsUserInformation">
-			<div id="userPicDiv">
-				<img id="picUserInformation" src="images/square.png">
-			</div>
+			<div id="userPicDiv"><img id="picUserInformation" src="images/square.png"></div>
 			<div id="userNameDiv">
 				<h6 id="titleUserInformation"></h6>
 				<h3 id="nameUserInformation">Log in to Newgrounds</h3>
@@ -44,9 +43,7 @@
 		
 		<!-- Newgrounds reward information integration. This element will display the user's medal/scoreboard eligibility status. -->
 		<div id="NewgroundsRewardInformation">
-			<div id="RewardPicDiv">
-				<img id="RewardImg" src="images/square.png">
-			</div>
+			<div id="RewardPicDiv"><img id="RewardImg" src="images/square.png"></div>
 			<div id="RewardTxtDiv">
 				<h3 id="RewardTitle">Scores Added Successfully</h3>
 				<h5 id="RewardDesc"></h5>
@@ -69,7 +66,6 @@
 			setTimeout(function(){ document.getElementById("loadtxt").style = "opacity:0;"; }, 800);
 			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 2850);
 			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 1200);
-			
 		</script>
 	</body>
 </html>

@@ -10,7 +10,7 @@ var score = 0;
 var timertime = 12;
 
 
-function setQuestionState(){
+function setQuestionState(timer=13){
 	ranX = Math.floor(Math.random()*4);
 	questionDetails = getQuestionDetails();
 	questionTimer = setInterval(timerCountdown, 1020);
@@ -21,8 +21,8 @@ function setQuestionState(){
 	
 	/* Set timer bar back to full-width and set the timer back up to 13 seconds. */
 	document.getElementById("TimeBorderDisplay").style = "width:100%";
-	timertime = 13;
-	document.getElementById("timeText").innerHTML = currentQuestion;
+	timertime = timer;
+	document.getElementById("timeText").innerHTML = '12';
 	
 	/* Hide the Next Question button until the user clicks an answer again. */
 	document.getElementById("QuizButtonNext").style = 'display:none';
