@@ -187,5 +187,140 @@ var questions = {
 			"Crown of the Old Iron King",
 			"Crown of the Ivory King"
 		]	
+	},"21":{
+		"Phrase":"The Looking Glass Knight boss was known by a different name in the Dark Souls II beta. What was his beta name?",
+		"CorrectAnswer":"Mirror Knight",
+		"IncorrectAnswer": [
+			"Steel Knight",
+			"Spear Glass Knight",
+			"Drangleic Knight",
+			"Demon Knight"
+		]
+	},"22":{
+		"Phrase":"When exploring the Undead Crypt, the player will be invaded. What enemy invades the player?",
+		"CorrectAnswer":"Nameless Usurper",
+		"IncorrectAnswer": [
+			"Dark Spirit",
+			"Armorer Dennis",
+			"Hollow Soldier",
+			"Bowman Guthry"
+		]
+	},"23":{
+		"Phrase":"What is the name of the area that acts as a tutorial to the player?",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"24":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"25":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"26":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"27":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"28":{
+		"Phrase":"When was the first DLC episode released?",
+		"CorrectAnswer":"July 22, 2014",
+		"IncorrectAnswer": [
+			"August 22, 2014",
+			"August 26, 2014",
+			"September 30, 2014",
+			"July 21, 2014"
+		]
+	},"29":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"30":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"31":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"32":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"33":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"34":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
+	},"35":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]
 	}
 }
