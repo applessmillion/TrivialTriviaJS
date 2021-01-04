@@ -7,7 +7,7 @@ function tossStuff(){
 
 /* Incredibly basic anticheat. Basically makes cheating more annoying. */
 function timerCountdown(){
-	if(localStorage.latestscore > 21){
+	if(localStorage.latestscore > 40){
 		localStorage.latestscore = 0;
 	}
 }

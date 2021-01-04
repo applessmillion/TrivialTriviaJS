@@ -8,12 +8,12 @@ var questionPhrase = '';
 var goodAnswer = 0;
 var score = 0;
 var timertime = 12;
-
+var triviamode = localStorage.triviadifficulty;
 
 function setQuestionState(timer=13){
 	ranX = Math.floor(Math.random()*4);
 	questionDetails = getQuestionDetails();
-	questionTimer = setInterval(timerCountdown, 1020);
+	questionTimer = setInterval(timerCountdown, 1075);
 	
 	/* Update question number and phrase */
 	document.getElementById("QuizNumber").innerHTML = 'Question '+Number(currentQuestion+1);
@@ -26,11 +26,7 @@ function setQuestionState(timer=13){
 	
 	/* Hide the Next Question button until the user clicks an answer again. */
 	document.getElementById("QuizButtonNext").style = 'display:none';
-	
-	/* Yes, there is a better way to do this. No, I won't fix it for ver1. 
-	I'll get this fixed in a future release. Right now I'm making a game aimed for the
-	25th on the 24th, so I don't have much time to make things good on the backend.
-	
+		
 	/* Summon a random picking of incorrect answers. Will pick between any listed from our questions array. */
 	var incorrectAnswers = grabIncorrectAnswers();
 	
@@ -100,7 +96,9 @@ function badAnswerClick(clickedAnswer){
 }
 
 function gotoNextQuestion(){
-	if(currentQuestion == 20){
+	if(triviamode == 0){ limit = 20;}
+	if(triviamode == 1){ limit = 35;}
+	if(currentQuestion == limit){
 		localStorage.latestscore = score;
 		document.getElementById("QuizNumber").innerHTML = 'End of Trivia!';
 		document.getElementById("QuizPhrase").innerHTML = 'Counting totals & redirecting you to the results page...';
@@ -133,24 +131,28 @@ function timerCountdown(){
 function reviewBeforeProceeding(clickedAnswer){
 	clearInterval(questionTimer);
 	if(clickedAnswer==1){
-		document.getElementById("QuizButton2").style = 'display:none';
+		document.getElementById("QuizButton1").style = 'pointer-events:none;';
+		document.getElementById("QuizButton2").style = 'display:none;';
 		document.getElementById("QuizButton3").style = 'display:none';
 		document.getElementById("QuizButton4").style = 'display:none';
 	}
 	if(clickedAnswer==2){
 		document.getElementById("QuizButton1").style = 'display:none';
+		document.getElementById("QuizButton2").style = 'pointer-events:none;';
 		document.getElementById("QuizButton3").style = 'display:none';
 		document.getElementById("QuizButton4").style = 'display:none';
 	}
 	if(clickedAnswer==3){
 		document.getElementById("QuizButton2").style = 'display:none';
 		document.getElementById("QuizButton1").style = 'display:none';
+		document.getElementById("QuizButton3").style = 'pointer-events:none;';
 		document.getElementById("QuizButton4").style = 'display:none';
 	}
 	if(clickedAnswer==4){
 		document.getElementById("QuizButton2").style = 'display:none';
 		document.getElementById("QuizButton3").style = 'display:none';
 		document.getElementById("QuizButton1").style = 'display:none';
+		document.getElementById("QuizButton4").style = 'pointer-events:none;';
 	}
 	document.getElementById("QuizButtonNext").style = '';
 }

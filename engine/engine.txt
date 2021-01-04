@@ -7,9 +7,12 @@
 + Added small transition from start to quiz page.
  # Adjusted timer function to allow for more time & give the user a second while the page loads.
  # Also allows for editing the max timer time more easily.
-
-Things to work on:
-/ NG+ mode. Will need to adjust the functions in quiz.js. Most other stuff is set up.
++ Added hard mode capability.
+ # Will be used in DS2 first.
+ # The engine will *mostly* adjust automatically when it detects 36 questions.
+ # Needed to add new entries to nginfo for hard mode LB and hard mode badge.
++ Fixed exploit that allowed you to click correct buttons multiple times.
++ Added new start js file. Old file used in customizing the text in each theme. 
 
 ===== Version 6 / 1.1.21
 + Added newgrounds user & score/achievement popouts.

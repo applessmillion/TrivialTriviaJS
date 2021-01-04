@@ -3,18 +3,26 @@ require(['./nginfo'], function (ngAPI) {});
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
-		if(localStorage.latestscore < 36){
-			/* 'Trivia Score' submit */
-			ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.scoreLB), value:Number(localStorage.latestscore)});
-			
+		if(localStorage.latestscore < 40){			
 			/* 'Attempts' score submit. */
 			ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.attemptsLB), value:Number(1)});
 			
 			/* Unlock 1st medal if conditions are met. */
 			if(localStorage.latestscore >= 15){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.firstmedal)}); }
 			
-			/* Unlock 2nd medal if conditions are met. This medal should only be used if our quiz has 35 questions. */
-			if(localStorage.latestscore >= 30 && secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.secondmedal)}); }
+			/* Handle hard mode */
+			if(localStorage.triviadifficulty == 1){
+				/* Unlock 2nd medal if conditions are met. This medal should only be used if our quiz has 35 questions. */
+				if(localStorage.latestscore >= 30 && secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.secondmedal)}); }
+				
+				/* Submit score to hard mode leaderboard */
+				ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.scorehardLB), value:Number(localStorage.latestscore)});
+			}
+			
+			/* 'Trivia Score normal mode submit */
+			if(localStorage.triviadifficulty == 0){
+				ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.scoreLB), value:Number(localStorage.latestscore)});
+			}
 		}
 		
 		/* Hide button to prevent multiple clicks per session */

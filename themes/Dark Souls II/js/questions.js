@@ -207,48 +207,48 @@ var questions = {
 		]
 	},"23":{
 		"Phrase":"What is the name of the area that acts as a tutorial to the player?",
-		"CorrectAnswer":"",
+		"CorrectAnswer":"Things Betwixt",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Dragon Shrine",
+			"Shaded Woods",
+			"Black Gulch",
+			"Grave of Saints"
 		]
 	},"24":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"How many bonfires can be found in the Forest of Fallen Giants?",
+		"CorrectAnswer":"4",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"3",
+			"2",
+			"5",
+			"6"
 		]
 	},"25":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What bonfire in the Forest of Fallen Giants can be used to access the Memory of Jeigh?",
+		"CorrectAnswer":"The Place Unbeknownst",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Cardinal Tower",
+			"Soldiers' Rest",
+			"Heide's Ruin",
+			"Tower of Flame"
 		]
 	},"26":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"In the DLC Crown of the Old Iron King, which area does the Fume Knight reside?",
+		"CorrectAnswer":"Brume Tower",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Iron Passage",
+			"Dragon's Sanctum",
+			"Dragon's Rest",
+			"Grand Cathedral"
 		]
 	},"27":{
 		"Phrase":"",
-		"CorrectAnswer":"",
+		"CorrectAnswer":"Which boss must be defeated in order to access Soul of Nadalia?",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Sir Alonne",
+			"Smelter Dragon",
+			"Burnt Ivory King",
+			"Nashandra"
 		]
 	},"28":{
 		"Phrase":"When was the first DLC episode released?",
@@ -260,67 +260,68 @@ var questions = {
 			"July 21, 2014"
 		]
 	},"29":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which item must be used to access the Throne of Want?",
+		"CorrectAnswer":"King's Ring",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Ancient Dragon Seal",
+			"Abyss Seal",
+			"Crest of Blood",
+			"Pharros' Lockstone"
 		]
 	},"30":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which boss must be defeated before Nashandra to make Lord Aldia appear?",
+		"CorrectAnswer":"Vendrick",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Giant Lord",
+			"Guardian Dragon",
+			"Demon of Song",
+			"Darklurker"
 		]
 	},"31":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which location is the Singer's Dress found in?",
+		"CorrectAnswer":"Shrine of Amana",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Sinners' Rise",
+			"Harvest Valley",
+			"Undead Crypt",
+			"Throne of Want"
 		]
 	},"32":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the following is not a gift that can be chosen from the character creation?",
+		"CorrectAnswer":"Divine Blessing",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Life Ring",
+			"Healing Wares",
+			"Bonfire Ascetic",
+			"Nothing",
+			"Petrified Something"
 		]
 	},"33":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"The Minotaur Helm is a unique helmet dropped by Iron Warriors. What is true about the helmet?",
+		"CorrectAnswer":"Heaviest in game",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"90 Physical Defense",
+			"Upgradable 12 times",
+			"Lowest Poise in game",
+			"45 Bleed Resist"
 		]
 	},"34":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the following locations are added in the Crown of the Ivory King expansion?",
+		"CorrectAnswer":"Grand Cathedral",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Brume Tower",
+			"Iron Passage",
+			"Cave of the Dead",
+			"Dragon's Rest"
 		]
 	},"35":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What is the name of the special PC edition released in April 2015?",
+		"CorrectAnswer":"Scholar of the First Sin",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Crown of the Ivory King",
+			"The Ringed City",
+			"Ashes of Ariandel",
+			"Artorias of the Abyss"
 		]
 	}
 }
