@@ -1,11 +1,10 @@
 var ngAPI = {
-	"appid":"51335:MBKWFcZd",
-	"secret":"XZVVthg4x5im5bmQKvyixUPRhyjKEy46",
-	"scoreLB":"9879",
-	"scorehardLB":"9880",
-	"attemptsLB":"9878",
-	"firstmedal":"61793",
-	"secondmedal":"61795"
+	"appid":"51314:CZhQGcFA",
+	"secret":"wg0vfX+qh6W1CXJQpuwsMA==",
+	"scoreLB":"9874",
+	"attemptsLB":"9873",
+	"firstmedal":"61762",
+	"secondmedal":"none"
 }
 
 /* Initialize session for active user.
