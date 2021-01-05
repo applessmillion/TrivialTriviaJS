@@ -207,17 +207,149 @@ var questions = {
 			"Piglin",
 			"Witch"
 		]	
-	},
-	"20":{
-		"Phrase":"To achieve the achievement 'Bullseye', the player must hit an archery target from a distance. What is the minimum distance to get this achievement?",
-		"CorrectAnswer":"30 Blocks",
+	},"20":{
+		"Phrase":"Which update added the social interactions features to Minecraft?",
+		"CorrectAnswer":"1.16.4",
 		"IncorrectAnswer": [
-			"50 Blocks",
-			"10 Blocks",
-			"20 Blocks",
-			"40 Blocks",
-			"60 Blocks",
-			"100 Blocks"
+			"1.16.6",
+			"1.16.1",
+			"1.16.2",
+			"1.16.3"
+		]	
+	},"21":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"22":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"23":{
+		"Phrase":"Which update added the ability for lanterns to be waterlogged?",
+		"CorrectAnswer":"1.16.2",
+		"IncorrectAnswer": [
+			"1.16.3",
+			"1.16.4",
+			"1.16",
+			"1.16.1"
+		]	
+	},"24":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"25":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"26":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"27":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"28":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"29":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"30":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"31":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"32":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"33":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"34":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
+		]	
+	},"35":{
+		"Phrase":"",
+		"CorrectAnswer":"",
+		"IncorrectAnswer": [
+			"",
+			"",
+			"",
+			""
 		]	
 	}
 }
