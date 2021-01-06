@@ -242,10 +242,10 @@ var questions = {
 			"Grand Cathedral"
 		]
 	},"27":{
-		"Phrase":"",
-		"CorrectAnswer":"Which boss must be defeated in order to access Soul of Nadalia?",
+		"Phrase":"Which of the below bosses drop a Smelter Wedge?",
+		"CorrectAnswer":"Sir Alonne",
 		"IncorrectAnswer": [
-			"Sir Alonne",
+			"Fume Knight",
 			"Smelter Dragon",
 			"Burnt Ivory King",
 			"Nashandra"

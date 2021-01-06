@@ -4,3 +4,5 @@ function tossStuff(){
 	'Questions and answers will not detail any differences between Bedrock and Java editions of the game.';
 	
 }
+
+var modes = 1;

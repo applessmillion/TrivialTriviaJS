@@ -1,16 +1,17 @@
-var questions=[];
-require(['./js/questions'], function (questions) {});
-require(['./js/start'], function (start) {});
-
 function doLoad(){
-	if(questions[35] != undefined){
+	if(modes == 1){
 		document.getElementById("startnormal").innerHTML = 'Start Trivia (Easy)';
-		document.getElementById("starthard").innerHTML = 'Start Trivia (Hard)';
-		console.log('We have Hard mode! Show both buttons.');
+		document.getElementById("starthard").innerHTML = 'Start Trivia (Extended)';
+		console.log('We have Extended mode! Show both buttons.');
+	}else if(modes == 0){
+		document.getElementById("startnormal").innerHTML = 'Start Trivia!';
+		document.getElementById("starthard").innerHTML = '';
+		document.getElementById("starthard").style = 'display:none;';
+		console.log('We don\'t have Extended mode! Swap to one button.');
 	}else{
 		document.getElementById("startnormal").innerHTML = 'Start Trivia!';
 		document.getElementById("starthard").innerHTML = '';
 		document.getElementById("starthard").style = 'display:none;';
-		console.log('We don\'t have Hard mode! Swap to one button.');
+		console.log('Unhandled modes variable. Perhaps this theme is not updated?');
 	}
 }

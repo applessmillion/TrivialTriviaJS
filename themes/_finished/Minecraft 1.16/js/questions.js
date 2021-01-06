@@ -217,22 +217,22 @@ var questions = {
 			"1.16.3"
 		]	
 	},"21":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"How many hearts (not health) do Zoglins have?",
+		"CorrectAnswer":"20",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"40",
+			"30",
+			"10",
+			"15"
 		]	
 	},"22":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which Nether biome is filled with basalt, blackstone, and has grey particles in the air?",
+		"CorrectAnswer":"Basalt Delta",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Crimson Forest",
+			"Warped Forest",
+			"Soul sand Valley",
+			"Volcanic Valley"
 		]	
 	},"23":{
 		"Phrase":"Which update added the ability for lanterns to be waterlogged?",
@@ -244,112 +244,113 @@ var questions = {
 			"1.16.1"
 		]	
 	},"24":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What is the name of the enchantment that allows the player to walk faster on soul sand and soul soil?",
+		"CorrectAnswer":"Soul Speed",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Soul Walker",
+			"Speed Walker",
+			"Soul Sugar",
+			"Speed of Soul"
 		]	
 	},"25":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the following is not one of the new splash texts introduced in 1.16?",
+		"CorrectAnswer":"Fabulous Pigpeople!",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Aww man!",
+			"Find your claw!",
+			"Zoglin!?",
+			"Vanilla!"
 		]	
 	},"26":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"The block Bamboo Saplings was renamed in 1.16. What is the new name of this block?",
+		"CorrectAnswer":"Bamboo Shoot",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Bamboo Shot",
+			"Bamboo Sling",
+			"Bamboo Start",
+			"Bamboo Starter"
 		]	
 	},"27":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"The Clay item was renamed in 1.16. What is the new name of this item?",
+		"CorrectAnswer":"Clay Ball",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Clay Block",
+			"Mud",
+			"Wet Clay",
+			"Clay Bit"
 		]	
 	},"28":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which gamerule can be set to make neutral mobs automatically aggressive towards the player?",
+		"CorrectAnswer":"universalAnger",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"forgiveDeadPlayers",
+			"neutralAnger",
+			"setDifficulty",
+			"alwaysAngry"
 		]	
 	},"29":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"A strider can be ridden and controlled when a player wields an item. What is the name of the item?",
+		"CorrectAnswer":"Warped fugus on a stick",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Carrot on a stick",
+			"Gold on a stick",
+			"Sword",
+			"Beef",
+			"Axe"
 		]	
 	},"30":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"In which biome can Soul Soil be found in?",
+		"CorrectAnswer":"Soul sand valleys",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Basalt deltas",
+			"Soul forests",
+			"Crimson forests",
+			"Soul sand plains"
 		]	
 	},"31":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What item is smelted in a furnace to create Netherite Scrap?",
+		"CorrectAnswer":"Ancient Debris",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Netherite Ore",
+			"Ancient Ore",
+			"Hyphae",
+			"Gilded Blackstone"
 		]	
 	},"32":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"How many snapshots did 1.16 have before release (not including pre-releases)?",
+		"CorrectAnswer":"19",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"17",
+			"26",
+			"21",
+			"10"
 		]	
 	},"33":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"How many pre-releases did 1.16 have before the final release?",
+		"CorrectAnswer":"8",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"7",
+			"6",
+			"9",
+			"5",
+			"10"
 		]	
 	},"34":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the below particles were not added in 1.16?",
+		"CorrectAnswer":"camp_fire_flame",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"ash",
+			"crimson_spore",
+			"soul_fire_flame",
+			"warped_spore"
 		]	
 	},"35":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the following soundtracks was NOT added to the Nether?",
+		"CorrectAnswer":"Pigdub",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Rubedo",
+			"Chrysopoeia",
+			"So Below"
 		]	
 	}
 }

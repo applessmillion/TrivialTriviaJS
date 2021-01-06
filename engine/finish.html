@@ -21,13 +21,10 @@
 			<source src="audio/music.mp3" type="audio/mpeg">
 		</audio>
 		<script>
-		var x = document.getElementById("audio");
-		x.volume = 0.22;
-		document.addEventListener('click', musicPlay);
-		function musicPlay() {
-			document.getElementById('audio').play();
-			document.removeEventListener('click', musicPlay);
-		}
+			var x = document.getElementById("audio");
+			x.volume = 0.22;
+			document.addEventListener('click', musicPlay);
+			function musicPlay() { document.getElementById('audio').play(); document.removeEventListener('click', musicPlay); }
 		</script> 
 	<body class="start-body" onload="tossStuff()">
 		<div id="EnterAnimation" style="" class="hidden-long"><h2 id="loadtxt" class="hidden">Let's see your score!</h2></div>
@@ -57,6 +54,7 @@
 		<main id="mainContent" class="main-content" style="padding-top:2vh">
 			<h1 style="margin-bottom:0px;font-size:calc(3vh + 6pt)">Your Score...</h1>
 			<h2 style="font-size:calc(3vh + 20pt);margin:0px;" id="scoretotal">0</h2>
+			<h3>Thanks for playing!</h3>
 			<p id="body-description">Want to try your luck again? Click below!</p>
 			<div id="ngMedalNotice" style="display:none;"></div>
 			<button id="Retry" class="quiz-button" onclick="window.location.href = 'start.html';">Play Again!</button><div class="mobilewrap"></div>
