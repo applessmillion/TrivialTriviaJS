@@ -1,23 +1,22 @@
 var questions = {
 	"0":{
-		"Phrase":"Dark Souls has released on multiple platforms over the years. Which of the following was not one of these platforms?",
-		"CorrectAnswer":"Wii",
+		"Phrase":"Which developer produced Dark Souls II?",
+		"CorrectAnswer":"From Software",
 		"IncorrectAnswer": [
-			"Xbox 360",
-			"PlayStation 3",
-			"PC"
+			"CD Projekt Red",
+			"Namco Bandai Games",
+			"Bethesda"
 		]	
 	},"1":{
-		"Phrase":"Undead are doomed to become what without humanity?",
-		"CorrectAnswer":"Hollow",
+		"Phrase":"What is the tagline of Dark Souls II?",
+		"CorrectAnswer":"Go Beyond Death",
 		"IncorrectAnswer": [
-			"Doomed",
-			"Phantoms",
-			"Ones",
-			"Fallen"
+			"Beyond Death",
+			"Go Beyond Souls",
+			"Go Above Death"
 		]	
 	},"2":{
-		"Phrase":"When did the game release for North America and Europe?",
+		"Phrase":"When did the game release for consoles globally?",
 		"CorrectAnswer":"October 2011",
 		"IncorrectAnswer": [
 			"September 2011",
@@ -27,168 +26,302 @@ var questions = {
 			"December 2010"
 		]	
 	},"3":{
-		"Phrase":"What is the player's character often referred as?",
-		"CorrectAnswer":"Chosen Undead",
+		"Phrase":"What is the protagonist often referred as in-game?",
+		"CorrectAnswer":"Bearer of the Curse",
 		"IncorrectAnswer": [
-			"Chosen One",
-			"Demon Slayer",
-			"Undead Slayer",
+			"The Undead Bearer",
+			"Great One",
+			"Cursed Slayer",
 			"Lost Soul"
 		]	
 	},"4":{
-		"Phrase":"What is the name of the first boss the player encounters?",
-		"CorrectAnswer":"Asylum Demon",
+		"Phrase":"The game had two special box editions. One of these editions was the Collector's edition. What was the name of the other edition?",
+		"CorrectAnswer":"Black Armor",
 		"IncorrectAnswer":[
-			"Stray Demon",
-			"Gaping Dragon",
-			"Iron Golem",
-			"Capra Demon"
+			"Premium ",
+			"Deluxe",
+			"Faraam",
+			"Black Soul"
 		]	
 	},"5":{
-		"Phrase":"What is the name of the location the player can find the first boss in the game?",
-		"CorrectAnswer":"Undead Asylum",
+		"Phrase":"What affliction does the player's character have?",
+		"CorrectAnswer":"Curse of the Undead",
 		"IncorrectAnswer": [
-			"Undead Burg",
-			"Undead Depths",
-			"The Depths",
-			"Demon Asylum"
+			"Curse of the Living",
+			"Curse of Sorrow",
+			"Curse of Hollow",
+			"Mark of the Dead"
 		]	
 	},"6":{
-		"Phrase":"Which type of magic is mostly used to cast defensive spells, such as healing and augmentation?",
-		"CorrectAnswer":"Miracle",
+		"Phrase":"Which class starts at level 1 with all base stats of 6?",
+		"CorrectAnswer":"Deprived",
 		"IncorrectAnswer": [
-			"Pyromancy",
-			"Sorcery",
-			"Necromancy",
-			"Sins"
+			"Explorer",
+			"Cleric",
+			"Bandit",
+			"Hollow"
 		]	
 	},"7":{
-		"Phrase":"Havel the Rock is an enemy that can be encountered near the start of the game. Where is he located?",
-		"CorrectAnswer":"Undead Burg",
+		"Phrase":"Which boss does the player normally encounter first in the game?",
+		"CorrectAnswer":"The Last Giant",
 		"IncorrectAnswer": [
-			"The Depths",
-			"Blighttown",
-			"Anor Londo",
-			"Undead Asylum"
+			"Dragonrider",
+			"Ruin Sentinels",
+			"Flexile Sentry",
+			"Lost Sinner"
 		]	
 	},"8":{
-		"Phrase":"The Depths can only be accessed after obtaining a key in the Undead Burg. What type of enemy drops this key?",
-		"CorrectAnswer":"Capra Demon",
+		"Phrase":"Which location is exclusively populated by Old Knights, and houses the boss Dragonrider?",
+		"CorrectAnswer":"Heide's Tower of Flame",
 		"IncorrectAnswer": [
-			"Attack Dog",
-			"Black Knight",
-			"Undead Rat",
-			"Hollow Warrior"
+			"Cathedral of Blue",
+			"No-man's Wharf",
+			"Belfry Luna",
+			"Sinners' Rise"
 		]	
 	},"9":{
-		"Phrase":"The weapon Dragon King Greataxe can be obtained from an enemy in The Depths. What is the name of this enemy?",
-		"CorrectAnswer":"Gaping Dragon",
+		"Phrase":"Which of the following characters can be found in No-man's Wharf?",
+		"CorrectAnswer":"Lucatiel of Mirrah",
 		"IncorrectAnswer": [
-			"Black Dragon",
-			"Capra Demon",
-			"Pinwheel",
-			"Gravelord Nito"
+			"Cale the Cartographer",
+			"Mild-Mannered Pate",
+			"Lonesome Gavlan",
+			"Devotee Scarlett"
 		]	
 	},"10":{
-		"Phrase":"Sen's Fortress is known for it's many enemies, traps, and hazards. What is the boss of this area?",
+		"Phrase":"The Lost Bastille is a large, aged prison. Which of the following bosses can be found at this location?",
 		"CorrectAnswer":"Iron Golem",
 		"IncorrectAnswer": [
-			"Serpent Soldier",
-			"Undead Prince Ricard",
-			"Giant Gatekeeper",
-			"Giant Firebomber"
+			"Old Dragonslayer",
+			"Executioner's Chariot",
+			"Belfry Gargoyles",
+			"Skeleton Lords"
 		]	
 	},"11":{
-		"Phrase":"The Painted World of Ariamis, an optional location, can be accessed from which other area?",
-		"CorrectAnswer":"Anor Londo",
+		"Phrase":"The Skeleton Lords are a collective boss that compose of multiple enemies. How many lords make up the Skeleton Lords?",
+		"CorrectAnswer":"3",
 		"IncorrectAnswer": [
-			"Sen's Fortress",
-			"The Catacombs",
-			"Darkroot Garden",
-			"The Depths",
-			"Undead Asylum"
+			"2",
+			"5",
+			"4",
+			"8"
 		]	
 	},"12":{
-		"Phrase":"Which optional boss can be found in the Painted World of Ariamis?",
-		"CorrectAnswer":"Crossbreed Priscilla",
+		"Phrase":"Which boss must be defeated in order to be introduced to the Brotherhood of Blood covenant?",
+		"CorrectAnswer":"Executioner's Chariot",
 		"IncorrectAnswer": [
-			"Ariamis",
-			"Dragon Crossbreed",
-			"Dark Sun Gwyndolin",
-			"Moonlight Butterfly"
+			"Lost Sinner",
+			"Old Iron King",
+			"Dragonrider",
+			"The Rotten"
 		]	
 	},"13":{
-		"Phrase":"This underground location is filled with skeletons, wisps, and necromancers. It leads to the Tomb of the Giants. What is the name of this location?",
-		"CorrectAnswer":"The Catacombs",
+		"Phrase":"Which boss can be found in Harvest Valley?",
+		"CorrectAnswer":"Covetous Demon",
 		"IncorrectAnswer": [
-			"Crystal Cave",
-			"New Londo Ruins",
-			"Anor Londo",
-			"The Duke's Archives"
+			"Old Dragonslayer",
+			"Old Iron King",
+			"Dragonrider",
+			"The Rotten"
 		]	
 	},"14":{
-		"Phrase":"Pinwheel is a weak boss with a unique attack involving a purple light. Which attack allows is this?",
-		"CorrectAnswer":"Clone",
+		"Phrase":"A Crystal Lizard can be found in Harvest Valley. Which of the following items does it not drop?",
+		"CorrectAnswer":"Faintstone",
 		"IncorrectAnswer": [
-			"Vanish",
-			"Combustion",
-			"Flamethrower",
-			"Quick Fireball"
+			"Palestpme",
+			"Large Titanite Shard",
+			"Titanite Shard"
 		]	
 	},"15":{
-		"Phrase":"In what location can the Four Kings be found?",
-		"CorrectAnswer":"The Abyss",
+		"Phrase":"Which area contains a large windmill that can be burnt and destroyed?",
+		"CorrectAnswer":"Earthen Peak",
 		"IncorrectAnswer": [
-			"Crystal Cave",
-			"New Londo Ruins",
-			"The Duke's Archives",
-			"Anor Londo",
-			"Sen's Fortress"
+			"Undead Purgatory",
+			"Harvest Valley",
+			"Earthen Peak",
+			"Black Gulch"
 		]	
 	},"16":{
-		"Phrase":"Which area is mostly flooded with lava upon the player's arrival?",
-		"CorrectAnswer":"Demon Ruins",
+		"Phrase":"Which of the following covenants is not a real covenant in Dark Souls II?",
+		"CorrectAnswer":"Dragon Keepers",
 		"IncorrectAnswer": [
-			"Chasm of the Abyss",
-			"New Londo Ruins",
-			"Quelaag's Domain",
-			"Crystal Cave"
+			"Bell Keepers",
+			"Blue Sentinels",
+			"Way of Blue",
+			"Heirs of the Sun",
+			"Brotherhood of Blood",
+			"Rat King"
 		]	
 	},"17":{
-		"Phrase":"Which blacksmith can ascend weapons to the Divine, Occult, and Raw paths?",
-		"CorrectAnswer":"Andre of Astora",
+		"Phrase":"Below Majula, an area featuring a decrepit cavern can be found. What is the name of this location?",
+		"CorrectAnswer":"Black Gulch",
 		"IncorrectAnswer": [
-			"Giant Blacksmith",
-			"Vamos",
-			"Rickert of Vinheim"
+			"Iron Keep",
+			"Grave of Saints",
+			"Brightstone Cove"
 		]	
 	},"18":{
-		"Phrase":"The final boss in the base game can be found at the Kiln of the First Flame. What is the name of this boss?",
-		"CorrectAnswer":"Gwyn, Lord of Cinder",
+		"Phrase":"What is the name of the area where Scorpioness Najka can be found?",
+		"CorrectAnswer":"Shaded Woods",
 		"IncorrectAnswer": [
-			"Artorias the Abysswalker",
-			"Seath the Scaleless",
-			"Dragon Slayer Ornstein",
-			"Black Dragon Kalameet"
+			"Doors of Pharros",
+			"Black Gulch",
+			"Drangleic Castle",
+			"Dark Chasm of Old"
 		]	
 	},"19":{
-		"Phrase":"Dark Souls is thought of as the spiritual successor of which game?",
-		"CorrectAnswer":"Demon's Souls",
+		"Phrase":"Which area can be described as a large, waterlogged cavern with ruined pillars and archways throughout?",
+		"CorrectAnswer":"Shrine of Amana",
 		"IncorrectAnswer": [
-			"Bloodborne",
-			"Ashen",
-			"Titan Souls",
-			"Lords of the Fallen",
-			"Salt and Sanctuary"
+			"Undead Crypt",
+			"Aldia's Keep",
+			"Dragon Shrine",
+			"Memory of Jeigh",
+			"Throne of Want"
 		]	
 	},"20":{
-		"Phrase":"Dark Souls: Prepare to Die Edition introduces a new land full of new enemies, locations, and story. What is the name of this land?",
-		"CorrectAnswer":"Oolacile",
+		"Phrase":"Dark Souls II featured three DLC expansions. Which of the following was not one of the three?",
+		"CorrectAnswer":"Crown of the Burned King",
 		"IncorrectAnswer": [
-			"Chasm of the Abyss",
-			"Lordran",
-			"Lothric",
-			"Anor Londo"
+			"Crown of the Sunken King",
+			"Crown of the Old Iron King",
+			"Crown of the Ivory King"
 		]	
+	},"21":{
+		"Phrase":"The Looking Glass Knight boss was known by a different name in the Dark Souls II beta. What was his beta name?",
+		"CorrectAnswer":"Mirror Knight",
+		"IncorrectAnswer": [
+			"Steel Knight",
+			"Spear Glass Knight",
+			"Drangleic Knight",
+			"Demon Knight"
+		]
+	},"22":{
+		"Phrase":"When exploring the Undead Crypt, the player will be invaded. What enemy invades the player?",
+		"CorrectAnswer":"Nameless Usurper",
+		"IncorrectAnswer": [
+			"Dark Spirit",
+			"Armorer Dennis",
+			"Hollow Soldier",
+			"Bowman Guthry"
+		]
+	},"23":{
+		"Phrase":"What is the name of the area that acts as a tutorial to the player?",
+		"CorrectAnswer":"Things Betwixt",
+		"IncorrectAnswer": [
+			"Dragon Shrine",
+			"Shaded Woods",
+			"Black Gulch",
+			"Grave of Saints"
+		]
+	},"24":{
+		"Phrase":"How many bonfires can be found in the Forest of Fallen Giants?",
+		"CorrectAnswer":"4",
+		"IncorrectAnswer": [
+			"3",
+			"2",
+			"5",
+			"6"
+		]
+	},"25":{
+		"Phrase":"What bonfire in the Forest of Fallen Giants can be used to access the Memory of Jeigh?",
+		"CorrectAnswer":"The Place Unbeknownst",
+		"IncorrectAnswer": [
+			"Cardinal Tower",
+			"Soldiers' Rest",
+			"Heide's Ruin",
+			"Tower of Flame"
+		]
+	},"26":{
+		"Phrase":"In the DLC Crown of the Old Iron King, which area does the Fume Knight reside?",
+		"CorrectAnswer":"Brume Tower",
+		"IncorrectAnswer": [
+			"Iron Passage",
+			"Dragon's Sanctum",
+			"Dragon's Rest",
+			"Grand Cathedral"
+		]
+	},"27":{
+		"Phrase":"",
+		"CorrectAnswer":"Which boss must be defeated in order to access Soul of Nadalia?",
+		"IncorrectAnswer": [
+			"Sir Alonne",
+			"Smelter Dragon",
+			"Burnt Ivory King",
+			"Nashandra"
+		]
+	},"28":{
+		"Phrase":"When was the first DLC episode released?",
+		"CorrectAnswer":"July 22, 2014",
+		"IncorrectAnswer": [
+			"August 22, 2014",
+			"August 26, 2014",
+			"September 30, 2014",
+			"July 21, 2014"
+		]
+	},"29":{
+		"Phrase":"Which item must be used to access the Throne of Want?",
+		"CorrectAnswer":"King's Ring",
+		"IncorrectAnswer": [
+			"Ancient Dragon Seal",
+			"Abyss Seal",
+			"Crest of Blood",
+			"Pharros' Lockstone"
+		]
+	},"30":{
+		"Phrase":"Which boss must be defeated before Nashandra to make Lord Aldia appear?",
+		"CorrectAnswer":"Vendrick",
+		"IncorrectAnswer": [
+			"Giant Lord",
+			"Guardian Dragon",
+			"Demon of Song",
+			"Darklurker"
+		]
+	},"31":{
+		"Phrase":"Which location is the Singer's Dress found in?",
+		"CorrectAnswer":"Shrine of Amana",
+		"IncorrectAnswer": [
+			"Sinners' Rise",
+			"Harvest Valley",
+			"Undead Crypt",
+			"Throne of Want"
+		]
+	},"32":{
+		"Phrase":"Which of the following is not a gift that can be chosen from the character creation?",
+		"CorrectAnswer":"Divine Blessing",
+		"IncorrectAnswer": [
+			"Life Ring",
+			"Healing Wares",
+			"Bonfire Ascetic",
+			"Nothing",
+			"Petrified Something"
+		]
+	},"33":{
+		"Phrase":"The Minotaur Helm is a unique helmet dropped by Iron Warriors. What is true about the helmet?",
+		"CorrectAnswer":"Heaviest in game",
+		"IncorrectAnswer": [
+			"90 Physical Defense",
+			"Upgradable 12 times",
+			"Lowest Poise in game",
+			"45 Bleed Resist"
+		]
+	},"34":{
+		"Phrase":"Which of the following locations are added in the Crown of the Ivory King expansion?",
+		"CorrectAnswer":"Grand Cathedral",
+		"IncorrectAnswer": [
+			"Brume Tower",
+			"Iron Passage",
+			"Cave of the Dead",
+			"Dragon's Rest"
+		]
+	},"35":{
+		"Phrase":"What is the name of the special PC edition released in April 2015?",
+		"CorrectAnswer":"Scholar of the First Sin",
+		"IncorrectAnswer": [
+			"Crown of the Ivory King",
+			"The Ringed City",
+			"Ashes of Ariandel",
+			"Artorias of the Abyss"
+		]
 	}
 }
