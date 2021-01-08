@@ -90,11 +90,12 @@ var questions = {
 		]	
 	},"10":{
 		"Phrase":"The Lost Bastille is a large, aged prison. Which of the following bosses can be found at this location?",
-		"CorrectAnswer":"Iron Golem",
+		"CorrectAnswer":"Ruin Sentinels",
 		"IncorrectAnswer": [
 			"Old Dragonslayer",
 			"Executioner's Chariot",
 			"Belfry Gargoyles",
+			"Iron Golem",
 			"Skeleton Lords"
 		]	
 	},"11":{
@@ -128,7 +129,7 @@ var questions = {
 		"Phrase":"A Crystal Lizard can be found in Harvest Valley. Which of the following items does it not drop?",
 		"CorrectAnswer":"Faintstone",
 		"IncorrectAnswer": [
-			"Palestpme",
+			"Palestone",
 			"Large Titanite Shard",
 			"Titanite Shard"
 		]	
@@ -138,7 +139,7 @@ var questions = {
 		"IncorrectAnswer": [
 			"Undead Purgatory",
 			"Harvest Valley",
-			"Earthen Peak",
+			"Shaded Woods",
 			"Black Gulch"
 		]	
 	},"16":{
@@ -157,7 +158,9 @@ var questions = {
 		"CorrectAnswer":"Black Gulch",
 		"IncorrectAnswer": [
 			"Iron Keep",
-			"Grave of Saints",
+			"Undead Crypt",
+			"Aldia's Keep",
+			"Dragon Shrine",
 			"Brightstone Cove"
 		]	
 	},"18":{
