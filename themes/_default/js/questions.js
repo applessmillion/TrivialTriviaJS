@@ -173,7 +173,7 @@ var questions = {
 		"IncorrectAnswer": [
 			"",
 			"",
-			"",
+			""
 		]	
 	},"19":{
 		"Phrase":"",

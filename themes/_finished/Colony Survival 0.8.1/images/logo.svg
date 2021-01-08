@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 109.81743 26.273731"
+   height="26.273729mm"
+   width="109.81744mm"
+   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\_finished\Colony Survival 0.8.1\images\logo.png"
+   inkscape:export-xdpi="427.89999"
+   inkscape:export-ydpi="427.89999">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1169"
+       inkscape:collect="always">
+      <stop
+         id="stop1165"
+         offset="0"
+         style="stop-color:#7d7d7d;stop-opacity:1" />
+      <stop
+         id="stop1167"
+         offset="1"
+         style="stop-color:#e7e7e7;stop-opacity:1" />
+    </linearGradient>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path883" />
+    </marker>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="122.96053"
+       x2="172.77846"
+       y1="145.94571"
+       x1="50.534504"
+       id="linearGradient1171"
+       xlink:href="#linearGradient1169"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0.5"
+     fit-margin-right="1"
+     fit-margin-left="1"
+     fit-margin-top="0.5"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="text835"
+     inkscape:document-units="mm"
+     inkscape:cy="72.243988"
+     inkscape:cx="222.12431"
+     inkscape:zoom="2.8"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-51.574523,-121.85538)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="text835"
+       aria-label="Trivial Trivia!">
+      <g
+         id="g926"
+         transform="matrix(0.35984704,0,0,0.35984704,65.751909,87.746153)"
+         style="fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <text
+           id="text920"
+           y="109.6871"
+           x="71.557121"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+             y="109.6871"
+             x="71.557121"
+             id="tspan918"
+             sodipodi:role="line">trivial</tspan></text>
+        <text
+           id="text924"
+           y="128.13394"
+           x="91.281258"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+             y="128.13394"
+             x="91.281258"
+             id="tspan922"
+             sodipodi:role="line">trivia</tspan></text>
+      </g>
+      <g
+         style="fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         transform="matrix(0.35984704,0,0,0.35984704,65.969319,87.582723)"
+         id="g869">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="71.557121"
+           y="109.6871"
+           id="text835-0"><tspan
+             sodipodi:role="line"
+             id="tspan833"
+             x="71.557121"
+             y="109.6871"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">trivial</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="91.281258"
+           y="128.13394"
+           id="text841"><tspan
+             sodipodi:role="line"
+             id="tspan839"
+             x="91.281258"
+             y="128.13394"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">trivia</tspan></text>
+      </g>
+      <rect
+         y="124.95013"
+         x="101.0155"
+         height="5.0732918"
+         width="4.568367"
+         id="rect928"
+         style="fill:#1f0651;fill-opacity:1;stroke:none;stroke-width:1.43939;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+      <g
+         style="fill:#763cec;fill-opacity:1;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(0.35984704,0,0,0.35984704,65.751909,87.746153)"
+         id="g889">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           x="71.557121"
+           y="109.6871"
+           id="text883"><tspan
+             sodipodi:role="line"
+             id="tspan881"
+             x="71.557121"
+             y="109.6871"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">trivial</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           x="91.281258"
+           y="128.13394"
+           id="text887"><tspan
+             sodipodi:role="line"
+             id="tspan885"
+             x="91.281258"
+             y="128.13394"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">trivia</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8241px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ababab;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         x="49.462654"
+         y="156.22926"
+         id="text865"
+         transform="scale(1.06077,0.94271143)"><tspan
+           sodipodi:role="line"
+           id="tspan863"
+           x="49.462654"
+           y="156.22926"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8241px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#ffffff;fill-opacity:1;stroke:#ababab;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">COLONY SURVIVAL</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.202406"
+         x="99.696144"
+         y="152.45775"
+         id="text869"><tspan
+           sodipodi:role="line"
+           id="tspan867"
+           x="99.696144"
+           y="152.45775"
+           style="stroke-width:0.202406" /></text>
+      <text
+         transform="scale(1.06077,0.94271143)"
+         id="text873"
+         y="144.74847"
+         x="140.8963"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.191;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#ffffff;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.191;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="144.74847"
+           x="140.8963"
+           id="tspan871"
+           sodipodi:role="line">0.8.1</tspan></text>
+    </g>
+  </g>
+</svg>

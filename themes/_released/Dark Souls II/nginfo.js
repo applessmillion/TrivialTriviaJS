@@ -1,6 +1,6 @@
 var ngAPI = {
 	"appid":"51335:MBKWFcZd",
-	"secret":"XZVVthg4x5im5bmQKvyixUPRhyjKEy46",
+	"secret":"x4AkJtG4Ze6DYB3srSQdJw==",
 	"scoreLB":"9879",
 	"scorehardLB":"9880",
 	"attemptsLB":"9878",

@@ -1,0 +1,19 @@
+button{
+	border:#efefef 4px solid;
+	background-color:#9E521F;
+	color:white;
+}
+button:hover{
+	border:#444444 4px solid!important;
+	background-color:#703A16!important;
+	color:white;
+}
+.start-body{
+	margin:auto;
+	width:100%;
+	overflow:hidden;
+	background: linear-gradient(0deg, #7F3300ab 5%, rgba(205,205,200,.55) 75%);
+}
+.quiz-body{
+	background: linear-gradient(0deg, #7F3300ab 5%, rgba(205,205,200,.55) 75%);
+}

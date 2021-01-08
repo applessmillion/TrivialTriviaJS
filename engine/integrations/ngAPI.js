@@ -13,7 +13,7 @@ function postScoreboardScores(){
 			/* Handle hard mode */
 			if(localStorage.triviadifficulty == 1){
 				/* Unlock 2nd medal if conditions are met. This medal should only be used if our quiz has 35 questions. */
-				if(localStorage.latestscore >= 30 && secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.secondmedal)}); }
+				if(localStorage.latestscore >= 30 && ngio.secondmedal != "none"){ ngio.callComponent('Medal.unlock', {id:Number(ngAPI.secondmedal)}); }
 				
 				/* Submit score to hard mode leaderboard */
 				ngio.callComponent('ScoreBoard.postScore', {id:Number(ngAPI.scorehardLB), value:Number(localStorage.latestscore)});
