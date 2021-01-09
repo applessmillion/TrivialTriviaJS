@@ -1,16 +1,15 @@
 html{
-	background: url('../images/background.jpg'), 
-	linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,54,82,1) 60%);
+	background: url('../images/background.jpg');
 	background-size:cover;
 }
 button{
-	border:#635737 4px solid;
-	background-color:#968554;
+	border:#ffffff00 4px solid;
+	background-color:#AD0000;
 	color:white;
 }
 button:hover{
-	border:#332C1C 4px solid!important;
-	background-color:#635737!important;
+	border:black 4px solid!important;
+	background-color:#E20000!important;
 	color:white;
 }
 
@@ -19,9 +18,9 @@ button:hover{
 	width:100%;
 	overflow:hidden;
 	background:#ffffffe3;
-	background: linear-gradient(0deg, rgba(150,133,87,.80) 5%, rgba(205,205,200,.65) 55%)
+	background: linear-gradient(0deg, rgba(0,0,0,.30) 5%, rgba(255,255,200,.30) 55%)
 }
 .quiz-body{
 	background:#ffffffe3;
-	background: linear-gradient(0deg, rgba(0,18,45,.85) 6%, rgba(255,255,255,.55) 65%);
+	background: linear-gradient(0deg, rgba(0,0,0,.45) 6%, rgba(255,255,205,.39) 65%);
 }

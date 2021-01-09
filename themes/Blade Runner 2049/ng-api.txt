@@ -1,7 +1,0 @@
-AppID: 51305:NfsbPhER
-Base64: nwCIPLoGypIvuIKagXnsXQ==
-
-Attempts Scoreboard: 9862
-Trivia Score Scoreboard: 9863
-
-15pt Medal: 61737

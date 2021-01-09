@@ -4,3 +4,5 @@ function tossStuff(){
 	'Normal mode has 21 questions, while Hard mode has 36!</br>'+
 	'Thanks to KamenRiderStick for suggesting the theme of Dark Souls and Dark Souls II.';
 }
+
+var modes = 1;

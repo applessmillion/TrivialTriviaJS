@@ -1,330 +1,342 @@
 var questions = {
 	"0":{
-		"Phrase":"Which developer produced Dark Souls II?",
-		"CorrectAnswer":"From Software",
+		"Phrase":"In what year did the PS3 version of Yakuza 0 release in Japan?",
+		"CorrectAnswer":"2015",
 		"IncorrectAnswer": [
-			"CD Projekt Red",
-			"Namco Bandai Games",
-			"Bethesda"
+			"2014",
+			"2016",
+			"2017",
+			"2013"
 		]	
 	},"1":{
-		"Phrase":"What is the tagline of Dark Souls II?",
-		"CorrectAnswer":"Go Beyond Death",
+		"Phrase":"Yakuza 0 released to a worldwide audience on the PlayStation 4 in what year?",
+		"CorrectAnswer":"2017",
 		"IncorrectAnswer": [
-			"Beyond Death",
-			"Go Beyond Souls",
-			"Go Above Death"
+			"2015",
+			"2016",
+			"2018",
+			"2019",
+			"2020"
 		]	
 	},"2":{
-		"Phrase":"When did the game release for consoles globally?",
-		"CorrectAnswer":"October 2011",
+		"Phrase":"In what area in Tokyo is the game centrally focused in while playing as Kazuma Kiryu?",
+		"CorrectAnswer":"Kamurocho",
 		"IncorrectAnswer": [
-			"September 2011",
-			"June 2011",
-			"December 2011",
-			"October 2010",
-			"December 2010"
+			"Kabukicho",
+			"Okinawa",
+			"Isezaki Ijincho",
+			"Onomichi."
 		]	
 	},"3":{
-		"Phrase":"What is the protagonist often referred as in-game?",
-		"CorrectAnswer":"Bearer of the Curse",
+		"Phrase":"What is the name of Kazuma's best friend and sworn brother?",
+		"CorrectAnswer":"Akira Nishikiyama",
 		"IncorrectAnswer": [
-			"The Undead Bearer",
-			"Great One",
-			"Cursed Slayer",
-			"Lost Soul"
+			"Shintaro Kazama",
+			"Diasaku Kuze",
+			"Hiroki Awano",
+			"Sohei Dojima"
 		]	
 	},"4":{
-		"Phrase":"The game had two special box editions. One of these editions was the Collector's edition. What was the name of the other edition?",
-		"CorrectAnswer":"Black Armor",
+		"Phrase":"In which year do the events of Chaper 1 take place?",
+		"CorrectAnswer":"1988",
 		"IncorrectAnswer":[
-			"Premium ",
-			"Deluxe",
-			"Faraam",
-			"Black Soul"
+			"1992",
+			"1999",
+			"2000",
+			"1984",
+			"1979"
 		]	
 	},"5":{
-		"Phrase":"What affliction does the player's character have?",
-		"CorrectAnswer":"Curse of the Undead",
+		"Phrase":"What location start the events of Yakuza 0 in Chapter 1?",
+		"CorrectAnswer":"The Empty Lot",
 		"IncorrectAnswer": [
-			"Curse of the Living",
-			"Curse of Sorrow",
-			"Curse of Hollow",
-			"Mark of the Dead"
+			"Cabaret Grand",
+			"Tojo Clan Headquarters",
+			"Tachibana Real Estate Agency",
+			"West Park"
 		]	
 	},"6":{
-		"Phrase":"Which class starts at level 1 with all base stats of 6?",
-		"CorrectAnswer":"Deprived",
+		"Phrase":"How many substories are in Yakuza 0?",
+		"CorrectAnswer":"100",
 		"IncorrectAnswer": [
-			"Explorer",
-			"Cleric",
-			"Bandit",
-			"Hollow"
+			"90",
+			"125",
+			"72",
+			"108",
+			"51"
 		]	
 	},"7":{
-		"Phrase":"Which boss does the player normally encounter first in the game?",
-		"CorrectAnswer":"The Last Giant",
+		"Phrase":"Goro Majima runs which establishment in Yakuza 0?",
+		"CorrectAnswer":"Cabaret Grand",
 		"IncorrectAnswer": [
-			"Dragonrider",
-			"Ruin Sentinels",
-			"Flexile Sentry",
-			"Lost Sinner"
+			"Tachibana Real Estate Agency",
+			"Pocket Circuit Stadium",
+			"Maharaja",
+			"Sky Finance"
 		]	
 	},"8":{
-		"Phrase":"Which location is exclusively populated by Old Knights, and houses the boss Dragonrider?",
-		"CorrectAnswer":"Heide's Tower of Flame",
+		"Phrase":"What is the name of the bar, owned by the character Reina, Nishikiyama and Kiryu frequent?",
+		"CorrectAnswer":"Serena",
 		"IncorrectAnswer": [
-			"Cathedral of Blue",
-			"No-man's Wharf",
-			"Belfry Luna",
-			"Sinners' Rise"
+			"Stardust",
+			"Shangri-La",
+			"Bar Tender",
+			"Little Asia"
 		]	
 	},"9":{
-		"Phrase":"Which of the following characters can be found in No-man's Wharf?",
-		"CorrectAnswer":"Lucatiel of Mirrah",
+		"Phrase":"What is the name of the woman Majima is told to assassinate for the Shimano Family?",
+		"CorrectAnswer":"Makoto Makimura",
 		"IncorrectAnswer": [
-			"Cale the Cartographer",
-			"Mild-Mannered Pate",
-			"Lonesome Gavlan",
-			"Devotee Scarlett"
+			"Wen Hai Lee",
+			"Kazuma Kiryu",
+			"Jun Oda"
 		]	
 	},"10":{
-		"Phrase":"The Lost Bastille is a large, aged prison. Which of the following bosses can be found at this location?",
-		"CorrectAnswer":"Ruin Sentinels",
+		"Phrase":"In Chapter 8, who confronts Majima in the Cabaret Grand after buying out the place?",
+		"CorrectAnswer":"Homare Nishitani",
 		"IncorrectAnswer": [
-			"Old Dragonslayer",
-			"Executioner's Chariot",
-			"Belfry Gargoyles",
-			"Iron Golem",
-			"Skeleton Lords"
+			"Wen Hai Lee",
+			"Makoto Makimura",
+			"Tojo Clan Thugs",
+			"Tetsu Tachibana",
+			"Kijin Clan Thugs"
 		]	
 	},"11":{
-		"Phrase":"The Skeleton Lords are a collective boss that compose of multiple enemies. How many lords make up the Skeleton Lords?",
-		"CorrectAnswer":"3",
+		"Phrase":"In 'Calling the Future', what piece of technoloy is featured in the substory?",
+		"CorrectAnswer":"Mobile Phone",
 		"IncorrectAnswer": [
-			"2",
-			"5",
-			"4",
-			"8"
+			"Phone Booth",
+			"Handheld Camera",
+			"New Car",
+			"New Truck",
+			"Landline Phone"
 		]	
 	},"12":{
-		"Phrase":"Which boss must be defeated in order to be introduced to the Brotherhood of Blood covenant?",
-		"CorrectAnswer":"Executioner's Chariot",
+		"Phrase":"In Chapter 10, Tetsu Tachibana reveals he was defending himself when he lost his arm. Who was he defending against?",
+		"CorrectAnswer":"Omi Alliance Thugs",
 		"IncorrectAnswer": [
-			"Lost Sinner",
-			"Old Iron King",
-			"Dragonrider",
-			"The Rotten"
+			"Tojo Clan Thugs",
+			"Kijin Clan Thugs",
+			"Goro Majima",
+			"Takashi Nihara"
 		]	
 	},"13":{
-		"Phrase":"Which boss can be found in Harvest Valley?",
-		"CorrectAnswer":"Covetous Demon",
+		"Phrase":"Which location does Tetsu Tachibana and Jun Oda find refuge after the events of Chapter 9?",
+		"CorrectAnswer":"Little Asia",
 		"IncorrectAnswer": [
-			"Old Dragonslayer",
-			"Old Iron King",
-			"Dragonrider",
-			"The Rotten"
+			"Serena",
+			"West Park",
+			"Club Sunshine",
+			"East Park",
+			"Tiny Tokyo"
 		]	
 	},"14":{
-		"Phrase":"A Crystal Lizard can be found in Harvest Valley. Which of the following items does it not drop?",
-		"CorrectAnswer":"Faintstone",
+		"Phrase":"What is the name of Goro Majima's oath brother?",
+		"CorrectAnswer":"Taiga Saejima",
 		"IncorrectAnswer": [
-			"Palestone",
-			"Large Titanite Shard",
-			"Titanite Shard"
+			"Kazuma Kiryu",
+			"Akira Nishikiyama",
+			"Shintaro Kazama"
 		]	
 	},"15":{
-		"Phrase":"Which area contains a large windmill that can be burnt and destroyed?",
-		"CorrectAnswer":"Earthen Peak",
+		"Phrase":"In 'The Visionary Fortune-teller', who does Kazuma bump into at the end of the substory?",
+		"CorrectAnswer":"Ryuji Goda",
 		"IncorrectAnswer": [
-			"Undead Purgatory",
-			"Harvest Valley",
-			"Shaded Woods",
-			"Black Gulch"
+			"Akira Nishikiyama",
+			"Goro Majima",
+			"Shintaro Kazama"
 		]	
 	},"16":{
-		"Phrase":"Which of the following covenants is not a real covenant in Dark Souls II?",
-		"CorrectAnswer":"Dragon Keepers",
+		"Phrase":"What is the nickname of the infamous Chinese assassin that kidnaps Tachibana?",
+		"CorrectAnswer":"Lao Gui",
 		"IncorrectAnswer": [
-			"Bell Keepers",
-			"Blue Sentinels",
-			"Way of Blue",
-			"Heirs of the Sun",
-			"Brotherhood of Blood",
-			"Rat King"
+			"Jo Amon",
+			"Florist of Sai",
+			"Tokoyami",
+			"Taiga Saejima"
 		]	
 	},"17":{
-		"Phrase":"Below Majula, an area featuring a decrepit cavern can be found. What is the name of this location?",
-		"CorrectAnswer":"Black Gulch",
+		"Phrase":"Which of the following minigames are not featured in Yakuza 0?",
+		"CorrectAnswer":"Golf",
 		"IncorrectAnswer": [
-			"Iron Keep",
-			"Undead Crypt",
-			"Aldia's Keep",
-			"Dragon Shrine",
-			"Brightstone Cove"
+			"Bowling",
+			"Fishing",
+			"Telephone Club",
+			"Poker",
+			"Darts",
+			"Pocket Racing",
+			"Karaoke"
 		]	
 	},"18":{
-		"Phrase":"What is the name of the area where Scorpioness Najka can be found?",
-		"CorrectAnswer":"Shaded Woods",
+		"Phrase":"What is the name of the 100th substory in Yakuza 0?",
+		"CorrectAnswer":"Sotenbori in Peril",
 		"IncorrectAnswer": [
-			"Doors of Pharros",
-			"Black Gulch",
-			"Drangleic Castle",
-			"Dark Chasm of Old"
+			"The Ultimate Plan",
+			"The Doll Girl",
+			"Apex Predator",
+			"The Head of the Clan",
+			"From the Heart"
 		]	
 	},"19":{
-		"Phrase":"Which area can be described as a large, waterlogged cavern with ruined pillars and archways throughout?",
-		"CorrectAnswer":"Shrine of Amana",
+		"Phrase":"How many chapters (excluding the epilogue) are in Yakuza 0?",
+		"CorrectAnswer":"17",
 		"IncorrectAnswer": [
-			"Undead Crypt",
-			"Aldia's Keep",
-			"Dragon Shrine",
-			"Memory of Jeigh",
-			"Throne of Want"
+			"12",
+			"14",
+			"21",
+			"18"
 		]	
 	},"20":{
-		"Phrase":"Dark Souls II featured three DLC expansions. Which of the following was not one of the three?",
-		"CorrectAnswer":"Crown of the Burned King",
+		"Phrase":"The Empty Lot is part of the land of what building featured in future Yakuza games?",
+		"CorrectAnswer":"Mellennium Tower",
 		"IncorrectAnswer": [
-			"Crown of the Sunken King",
-			"Crown of the Old Iron King",
-			"Crown of the Ivory King"
+			"New Serena",
+			"Ichiban Holdings",
+			"Club Sunshine",
+			"Stardust"
 		]	
 	},"21":{
-		"Phrase":"The Looking Glass Knight boss was known by a different name in the Dark Souls II beta. What was his beta name?",
-		"CorrectAnswer":"Mirror Knight",
+		"Phrase":"Which of the following karaoke songs are not available in Yakuza 0?",
+		"CorrectAnswer":"Bakamitai -sorrow-",
 		"IncorrectAnswer": [
-			"Steel Knight",
-			"Spear Glass Knight",
-			"Drangleic Knight",
-			"Demon Knight"
-		]
+			"x3 SHINE",
+			"24-hour Cinderella",
+			"Bakamitai",
+			"Judgement -Shinpan-",
+			"Rogue of Love",
+			"Heartbreak Mermaid"
+		]	
 	},"22":{
-		"Phrase":"When exploring the Undead Crypt, the player will be invaded. What enemy invades the player?",
-		"CorrectAnswer":"Nameless Usurper",
+		"Phrase":"What is the name of the group that rivals Kazuma Kiryu in the Real Estate Royale minigame?",
+		"CorrectAnswer":"Five Billionares",
 		"IncorrectAnswer": [
-			"Dark Spirit",
-			"Armorer Dennis",
-			"Hollow Soldier",
-			"Bowman Guthry"
-		]
+			"Five Millionares",
+			"Five Elites",
+			"Five Stars",
+			"Five Moneymen"
+		]	
 	},"23":{
-		"Phrase":"What is the name of the area that acts as a tutorial to the player?",
-		"CorrectAnswer":"Things Betwixt",
+		"Phrase":"Which of the following SEGA games are not found in one of the SEGA HI-TECH LAND locations in Yakuza 0?",
+		"CorrectAnswer":"Print Club",
 		"IncorrectAnswer": [
-			"Dragon Shrine",
-			"Shaded Woods",
-			"Black Gulch",
-			"Grave of Saints"
-		]
+			"Super Hang-On",
+			"Fantasy Zone",
+			"Space Harrier",
+			"Out Run"
+		]	
 	},"24":{
-		"Phrase":"How many bonfires can be found in the Forest of Fallen Giants?",
-		"CorrectAnswer":"4",
+		"Phrase":"In order of date released, which number installment is Yakuza 0 for the main series?",
+		"CorrectAnswer":"Sixth",
 		"IncorrectAnswer": [
-			"3",
-			"2",
-			"5",
-			"6"
-		]
+			"Seventh",
+			"Fourth",
+			"First",
+			"Tenth"
+		]	
 	},"25":{
-		"Phrase":"What bonfire in the Forest of Fallen Giants can be used to access the Memory of Jeigh?",
-		"CorrectAnswer":"The Place Unbeknownst",
+		"Phrase":"Which spot in Sotenbori can Goro Majima fish?",
+		"CorrectAnswer":"Sotenbori Footpath",
 		"IncorrectAnswer": [
-			"Cardinal Tower",
-			"Soldiers' Rest",
-			"Heide's Ruin",
-			"Tower of Flame"
-		]
+			"West Shofukucho",
+			"Shofukucho",
+			"East Sotenbori St.",
+			"West Sotenbori St."
+		]	
 	},"26":{
-		"Phrase":"In the DLC Crown of the Old Iron King, which area does the Fume Knight reside?",
-		"CorrectAnswer":"Brume Tower",
+		"Phrase":"Who is the owner of the Empty Lot?",
+		"CorrectAnswer":"Makoto Makimura",
 		"IncorrectAnswer": [
-			"Iron Passage",
-			"Dragon's Sanctum",
-			"Dragon's Rest",
-			"Grand Cathedral"
-		]
+			"Patriarch Dojima",
+			"Tsukasa Sagawa",
+			"Diasaku Kuze",
+			"Hiroki Awano",
+			"Tetsu Tachibana",
+			"Keiji Shibusawa",
+			"Shintaro Kazama"
+		]	
 	},"27":{
-		"Phrase":"Which of the below bosses drop a Smelter Wedge?",
-		"CorrectAnswer":"Sir Alonne",
+		"Phrase":"How many different race tracks are available in the Pocket Circuit minigame?",
+		"CorrectAnswer":"7",
 		"IncorrectAnswer": [
-			"Fume Knight",
-			"Smelter Dragon",
-			"Burnt Ivory King",
-			"Nashandra"
-		]
+			"8",
+			"4",
+			"5",
+			"9"
+		]	
 	},"28":{
-		"Phrase":"When was the first DLC episode released?",
-		"CorrectAnswer":"July 22, 2014",
+		"Phrase":"What is the name of the group that rivals Goro Majima in the Cabaret Club Czar minigame?",
+		"CorrectAnswer":"Five Stars",
 		"IncorrectAnswer": [
-			"August 22, 2014",
-			"August 26, 2014",
-			"September 30, 2014",
-			"July 21, 2014"
-		]
+			"Five Fames",
+			"Five Elites",
+			"Five Billionares",
+			"Five Clubs"
+		]	
 	},"29":{
-		"Phrase":"Which item must be used to access the Throne of Want?",
-		"CorrectAnswer":"King's Ring",
+		"Phrase":"What is the name of the bowling alley located in Kamurocho?",
+		"CorrectAnswer":"Mach Bowl",
 		"IncorrectAnswer": [
-			"Ancient Dragon Seal",
-			"Abyss Seal",
-			"Crest of Blood",
-			"Pharros' Lockstone"
-		]
+			"RYZAP Bowl",
+			"Death Bowler",
+			"Northern Lanes",
+			"Northern Frames"
+		]	
 	},"30":{
-		"Phrase":"Which boss must be defeated before Nashandra to make Lord Aldia appear?",
-		"CorrectAnswer":"Vendrick",
+		"Phrase":"What is the name of Chapter 16?",
+		"CorrectAnswer":"Proof of Love",
 		"IncorrectAnswer": [
-			"Giant Lord",
-			"Guardian Dragon",
-			"Demon of Song",
-			"Darklurker"
-		]
+			"Den of Desires",
+			"Scattered Light",
+			"Black and White",
+			"Tug of War",
+			"An Honest Living"
+		]	
 	},"31":{
-		"Phrase":"Which location is the Singer's Dress found in?",
-		"CorrectAnswer":"Shrine of Amana",
+		"Phrase":"In the last chapter, who is the last enemy that Goro Majima has to fight?",
+		"CorrectAnswer":"Lao Gui",
 		"IncorrectAnswer": [
-			"Sinners' Rise",
-			"Harvest Valley",
-			"Undead Crypt",
-			"Throne of Want"
-		]
+			"Patriarch Dojima",
+			"Tsukasa Sagawa",
+			"Tetsu Tachibana",
+			"Keiji Shibusawa",
+			"Shintaro Kazama"
+		]	
 	},"32":{
-		"Phrase":"Which of the following is not a gift that can be chosen from the character creation?",
-		"CorrectAnswer":"Divine Blessing",
+		"Phrase":"In the last chapter, who is the last enemy that Kazuma Kiryu has to fight?",
+		"CorrectAnswer":"Keiji Shibusawa",
 		"IncorrectAnswer": [
-			"Life Ring",
-			"Healing Wares",
-			"Bonfire Ascetic",
-			"Nothing",
-			"Petrified Something"
-		]
+			"Patriarch Dojima",
+			"Tsukasa Sagawa",
+			"Lao Gui",
+			"Tetsu Tachibana",
+			"Shintaro Kazama"
+		]	
 	},"33":{
-		"Phrase":"The Minotaur Helm is a unique helmet dropped by Iron Warriors. What is true about the helmet?",
-		"CorrectAnswer":"Heaviest in game",
+		"Phrase":"Which minigame is a varient of chess, commonly known as Japanese Chess?",
+		"CorrectAnswer":"Shogi",
 		"IncorrectAnswer": [
-			"90 Physical Defense",
-			"Upgradable 12 times",
-			"Lowest Poise in game",
-			"45 Bleed Resist"
-		]
+			"Mahjong",
+			"Oicho-kabu",
+			"Cho-han",
+			"Koi-koi"
+		]	
 	},"34":{
-		"Phrase":"Which of the following locations are added in the Crown of the Ivory King expansion?",
-		"CorrectAnswer":"Grand Cathedral",
+		"Phrase":"In the Epilogue, what does Makoto Makimura find in the Empty Lot?",
+		"CorrectAnswer":"Brother's Old Watch",
 		"IncorrectAnswer": [
-			"Brume Tower",
-			"Iron Passage",
-			"Cave of the Dead",
-			"Dragon's Rest"
-		]
+			"Flowers",
+			"Old Wristband",
+			"An Old Letter",
+			"Brother's Old Crest"
+		]	
 	},"35":{
-		"Phrase":"What is the name of the special PC edition released in April 2015?",
-		"CorrectAnswer":"Scholar of the First Sin",
+		"Phrase":"What is the yen reward for successfully completing Chapter 17?",
+		"CorrectAnswer":"300000000",
 		"IncorrectAnswer": [
-			"Crown of the Ivory King",
-			"The Ringed City",
-			"Ashes of Ariandel",
-			"Artorias of the Abyss"
-		]
+			"200000000",
+			"100000000",
+			"500000000",
+			"400000000"
+		]	
 	}
 }

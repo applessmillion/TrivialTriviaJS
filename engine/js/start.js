@@ -1,8 +1,13 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'Many questions, only 12 seconds to answer! This trivia covers game elements and locations of the second Dark Souls game. '+
-	'Normal mode has 21 questions, while Hard mode has 36!</br>'+
-	'Thanks to KamenRiderStick for suggesting the theme of Dark Souls and Dark Souls II.';
+	'21 questions, 12 seconds to answer! This trivia quizzes you on the features and changes of the 1.16 update for Minecraft. '+
+	'Questions and answers will not detail any differences between Bedrock and Java editions of the game.'+
+	// '</br></br>Special thanks to USERNAME for the music used in this game! Additional thanks for USERNAME suggesting the theme!'+
+	'';
+	
 }
 
+/* 	0 for 1 mode (normal)
+	1 for 2 modes (normal & extended)
+*/
 var modes = 1;

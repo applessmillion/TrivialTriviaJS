@@ -64,7 +64,8 @@
 	position:absolute;
 	left:0;
 	overflow:hidden;
-	transition-duration:0.75s;
+	transition-duration:1.065s;
+	transition-timing-function: linear;
 	width:100%;
 }
 #TimeBorderDisplayBehind{
