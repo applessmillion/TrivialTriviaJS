@@ -1,342 +1,200 @@
 var questions = {
 	"0":{
-		"Phrase":"In what year did the PS3 version of Yakuza 0 release in Japan?",
-		"CorrectAnswer":"2015",
-		"IncorrectAnswer": [
-			"2014",
-			"2016",
-			"2017",
-			"2013"
-		]	
-	},"1":{
-		"Phrase":"Yakuza 0 released to a worldwide audience on the PlayStation 4 in what year?",
+		"Phrase":"In what year was the film Blade Runner 2049 released to theaters?",
 		"CorrectAnswer":"2017",
 		"IncorrectAnswer": [
 			"2015",
+			"2000",
+			"2007",
 			"2016",
-			"2018",
-			"2019",
-			"2020"
+			"2019"
+		]	
+	},"1":{
+		"Phrase":"In what year do the events of Blade Runner 2049 take place?",
+		"CorrectAnswer":"2049",
+		"IncorrectAnswer": [
+			"2020",
+			"2077",
+			"2050",
+			"2048",
+			"2040",
+			"2000"
 		]	
 	},"2":{
-		"Phrase":"In what area in Tokyo is the game centrally focused in while playing as Kazuma Kiryu?",
-		"CorrectAnswer":"Kamurocho",
+		"Phrase":"Officer K is a replicant working as a Blade Runner. What model of replicant is he?",
+		"CorrectAnswer":"Nexus-9",
 		"IncorrectAnswer": [
-			"Kabukicho",
-			"Okinawa",
-			"Isezaki Ijincho",
-			"Onomichi."
+			"Nexus-8",
+			"Nexus-4",
+			"Nexus-PD",
+			"Nexus-8s",
+			"Nexus-7s"
 		]	
 	},"3":{
-		"Phrase":"What is the name of Kazuma's best friend and sworn brother?",
-		"CorrectAnswer":"Akira Nishikiyama",
+		"Phrase":"A test was created for Nexus-9 models to detect emotional deviance. What is the name of this test?",
+		"CorrectAnswer":"Baseline test",
 		"IncorrectAnswer": [
-			"Shintaro Kazama",
-			"Diasaku Kuze",
-			"Hiroki Awano",
-			"Sohei Dojima"
+			"Emotional Stability",
+			"Psychopsych test",
+			"Voight-Kampff test",
+			"Deviance test"
 		]	
 	},"4":{
-		"Phrase":"In which year do the events of Chaper 1 take place?",
-		"CorrectAnswer":"1988",
-		"IncorrectAnswer":[
-			"1992",
-			"1999",
-			"2000",
-			"1984",
-			"1979"
+		"Phrase":"What is the name of the main character in the film?",
+		"CorrectAnswer":"K",
+		"IncorrectAnswer": [
+			"V",
+			"Deckard",
+			"Lee",
+			"Joi"
 		]	
 	},"5":{
-		"Phrase":"What location start the events of Yakuza 0 in Chapter 1?",
-		"CorrectAnswer":"The Empty Lot",
+		"Phrase":"Over what period of time does the story take place?",
+		"CorrectAnswer":"7 Days",
 		"IncorrectAnswer": [
-			"Cabaret Grand",
-			"Tojo Clan Headquarters",
-			"Tachibana Real Estate Agency",
-			"West Park"
+			"3 Days",
+			"1 Month",
+			"2 Days",
+			"14 Days",
+			"10 Days"
 		]	
 	},"6":{
-		"Phrase":"How many substories are in Yakuza 0?",
-		"CorrectAnswer":"100",
+		"Phrase":"What model of replicant has an open-ended lifespan due to a rushed production?",
+		"CorrectAnswer":"Nexus-8",
 		"IncorrectAnswer": [
-			"90",
-			"125",
-			"72",
-			"108",
-			"51"
+			"Nexus-4",
+			"Nexus-7s",
+			"Nexus-5",
+			"Nexus-6"
 		]	
 	},"7":{
-		"Phrase":"Goro Majima runs which establishment in Yakuza 0?",
-		"CorrectAnswer":"Cabaret Grand",
+		"Phrase":"What is the name of the digital companion K has in his apartment?",
+		"CorrectAnswer":"Joi",
 		"IncorrectAnswer": [
-			"Tachibana Real Estate Agency",
-			"Pocket Circuit Stadium",
-			"Maharaja",
-			"Sky Finance"
+			"DiJi",
+			"Digi",
+			"Joy",
+			"Rose",
+			"Jade"
 		]	
 	},"8":{
-		"Phrase":"What is the name of the bar, owned by the character Reina, Nishikiyama and Kiryu frequent?",
-		"CorrectAnswer":"Serena",
+		"Phrase":"What does K notice while visiting the protein farm that leads him to discover a buried crate?",
+		"CorrectAnswer":"A Flower",
 		"IncorrectAnswer": [
-			"Stardust",
-			"Shangri-La",
-			"Bar Tender",
-			"Little Asia"
+			"A Leaf",
+			"A Headstone",
+			"Bugs",
+			"Fresh Dirt"
 		]	
 	},"9":{
-		"Phrase":"What is the name of the woman Majima is told to assassinate for the Shimano Family?",
-		"CorrectAnswer":"Makoto Makimura",
+		"Phrase":"From the forensic analysis of the replicant remains found, what was the cause of death?",
+		"CorrectAnswer":"Caesarian Section",
 		"IncorrectAnswer": [
-			"Wen Hai Lee",
-			"Kazuma Kiryu",
-			"Jun Oda"
+			"Gunshot Wound",
+			"Blood Loss",
+			"Head Trauma",
+			"Expiration"
 		]	
 	},"10":{
-		"Phrase":"In Chapter 8, who confronts Majima in the Cabaret Grand after buying out the place?",
-		"CorrectAnswer":"Homare Nishitani",
+		"Phrase":"When K revisits the protein farm, he finds a photograph with a date written on the back. What was the date?",
+		"CorrectAnswer":"6.10.21",
 		"IncorrectAnswer": [
-			"Wen Hai Lee",
-			"Makoto Makimura",
-			"Tojo Clan Thugs",
-			"Tetsu Tachibana",
-			"Kijin Clan Thugs"
+			"4.15.20",
+			"6.10.20",
+			"6.10.31",
+			"12.5.21",
+			"12.5.19",
+			"5.28.31"
 		]	
 	},"11":{
-		"Phrase":"In 'Calling the Future', what piece of technoloy is featured in the substory?",
-		"CorrectAnswer":"Mobile Phone",
+		"Phrase":"What date were the remains of the replicant stolen from LAPD?",
+		"CorrectAnswer":"July 2, 2049",
 		"IncorrectAnswer": [
-			"Phone Booth",
-			"Handheld Camera",
-			"New Car",
-			"New Truck",
-			"Landline Phone"
+			"July 3, 2049",
+			"July 1, 2049",
+			"June 30, 2049",
+			"June 29, 2049",
+			"June 26, 2049"
 		]	
 	},"12":{
-		"Phrase":"In Chapter 10, Tetsu Tachibana reveals he was defending himself when he lost his arm. Who was he defending against?",
-		"CorrectAnswer":"Omi Alliance Thugs",
+		"Phrase":"Who does K recount his orphanage memory to at his apartment?",
+		"CorrectAnswer":"Joshi",
 		"IncorrectAnswer": [
-			"Tojo Clan Thugs",
-			"Kijin Clan Thugs",
-			"Goro Majima",
-			"Takashi Nihara"
+			"Coco",
+			"Joni",
+			"Mariette",
+			"Gaff"
 		]	
 	},"13":{
-		"Phrase":"Which location does Tetsu Tachibana and Jun Oda find refuge after the events of Chapter 9?",
-		"CorrectAnswer":"Little Asia",
+		"Phrase":"Where is the Morrillcole Orphanage located?",
+		"CorrectAnswer":"San Diego",
 		"IncorrectAnswer": [
-			"Serena",
-			"West Park",
-			"Club Sunshine",
-			"East Park",
-			"Tiny Tokyo"
+			"San Fransisco",
+			"Tampa",
+			"San Jose",
+			"Badlands",
+			"Los Angeles"
 		]	
 	},"14":{
-		"Phrase":"What is the name of Goro Majima's oath brother?",
-		"CorrectAnswer":"Taiga Saejima",
+		"Phrase":"When searching the orphanage, what does K find that he had hid in his memory?",
+		"CorrectAnswer":"Wooden Horse",
 		"IncorrectAnswer": [
-			"Kazuma Kiryu",
-			"Akira Nishikiyama",
-			"Shintaro Kazama"
+			"Toy Soldier",
+			"Locket",
+			"Gold Coin",
+			"Necklace"
 		]	
 	},"15":{
-		"Phrase":"In 'The Visionary Fortune-teller', who does Kazuma bump into at the end of the substory?",
-		"CorrectAnswer":"Ryuji Goda",
+		"Phrase":"When arrested by the LAPD, and after failing a baseline examination, how does K leave?",
+		"CorrectAnswer":"Lying about the child",
 		"IncorrectAnswer": [
-			"Akira Nishikiyama",
-			"Goro Majima",
-			"Shintaro Kazama"
+			"Jumping out a window",
+			"Running away",
+			"Being retired"
 		]	
 	},"16":{
-		"Phrase":"What is the nickname of the infamous Chinese assassin that kidnaps Tachibana?",
-		"CorrectAnswer":"Lao Gui",
+		"Phrase":"Who does K visit in order to examine the wooden toy horse after his run-in with the LAPD?",
+		"CorrectAnswer":"Doc Badger",
 		"IncorrectAnswer": [
-			"Jo Amon",
-			"Florist of Sai",
-			"Tokoyami",
-			"Taiga Saejima"
+			"Dr. Ana Stelline",
+			"Joi",
+			"Mariette",
+			"Luv"
 		]	
 	},"17":{
-		"Phrase":"Which of the following minigames are not featured in Yakuza 0?",
-		"CorrectAnswer":"Golf",
+		"Phrase":"After examination of the wooden toy horse, where do Joi and K travel to?",
+		"CorrectAnswer":"Las Vegas",
 		"IncorrectAnswer": [
-			"Bowling",
-			"Fishing",
-			"Telephone Club",
-			"Poker",
-			"Darts",
-			"Pocket Racing",
-			"Karaoke"
-		]	
+			"San Jose",
+			"Tampa",
+			"Springfield",
+			"New York"
+		]		
 	},"18":{
-		"Phrase":"What is the name of the 100th substory in Yakuza 0?",
-		"CorrectAnswer":"Sotenbori in Peril",
+		"Phrase":"Whose forces attack and kidnap Deckard, leaving Joi destroyed in the process?",
+		"CorrectAnswer":"Luv's",
 		"IncorrectAnswer": [
-			"The Ultimate Plan",
-			"The Doll Girl",
-			"Apex Predator",
-			"The Head of the Clan",
-			"From the Heart"
+			"LAPD's",
+			"Nomads",
+			"Deckard's",
+			"K's"
 		]	
 	},"19":{
-		"Phrase":"How many chapters (excluding the epilogue) are in Yakuza 0?",
-		"CorrectAnswer":"17",
+		"Phrase":"Who suggests Rachael's feelings for Decker were manufactured by her creator?",
+		"CorrectAnswer":"Wallace",
 		"IncorrectAnswer": [
-			"12",
-			"14",
-			"21",
-			"18"
+			"Tyrell",
+			"K",
+			"Joi",
+			"Freysa"
 		]	
 	},"20":{
-		"Phrase":"The Empty Lot is part of the land of what building featured in future Yakuza games?",
-		"CorrectAnswer":"Mellennium Tower",
+		"Phrase":"What is the name of both Deckard and Rachael's child?",
+		"CorrectAnswer":"Ana Stelline",
 		"IncorrectAnswer": [
-			"New Serena",
-			"Ichiban Holdings",
-			"Club Sunshine",
-			"Stardust"
-		]	
-	},"21":{
-		"Phrase":"Which of the following karaoke songs are not available in Yakuza 0?",
-		"CorrectAnswer":"Bakamitai -sorrow-",
-		"IncorrectAnswer": [
-			"x3 SHINE",
-			"24-hour Cinderella",
-			"Bakamitai",
-			"Judgement -Shinpan-",
-			"Rogue of Love",
-			"Heartbreak Mermaid"
-		]	
-	},"22":{
-		"Phrase":"What is the name of the group that rivals Kazuma Kiryu in the Real Estate Royale minigame?",
-		"CorrectAnswer":"Five Billionares",
-		"IncorrectAnswer": [
-			"Five Millionares",
-			"Five Elites",
-			"Five Stars",
-			"Five Moneymen"
-		]	
-	},"23":{
-		"Phrase":"Which of the following SEGA games are not found in one of the SEGA HI-TECH LAND locations in Yakuza 0?",
-		"CorrectAnswer":"Print Club",
-		"IncorrectAnswer": [
-			"Super Hang-On",
-			"Fantasy Zone",
-			"Space Harrier",
-			"Out Run"
-		]	
-	},"24":{
-		"Phrase":"In order of date released, which number installment is Yakuza 0 for the main series?",
-		"CorrectAnswer":"Sixth",
-		"IncorrectAnswer": [
-			"Seventh",
-			"Fourth",
-			"First",
-			"Tenth"
-		]	
-	},"25":{
-		"Phrase":"Which spot in Sotenbori can Goro Majima fish?",
-		"CorrectAnswer":"Sotenbori Footpath",
-		"IncorrectAnswer": [
-			"West Shofukucho",
-			"Shofukucho",
-			"East Sotenbori St.",
-			"West Sotenbori St."
-		]	
-	},"26":{
-		"Phrase":"Who is the owner of the Empty Lot?",
-		"CorrectAnswer":"Makoto Makimura",
-		"IncorrectAnswer": [
-			"Patriarch Dojima",
-			"Tsukasa Sagawa",
-			"Diasaku Kuze",
-			"Hiroki Awano",
-			"Tetsu Tachibana",
-			"Keiji Shibusawa",
-			"Shintaro Kazama"
-		]	
-	},"27":{
-		"Phrase":"How many different race tracks are available in the Pocket Circuit minigame?",
-		"CorrectAnswer":"7",
-		"IncorrectAnswer": [
-			"8",
-			"4",
-			"5",
-			"9"
-		]	
-	},"28":{
-		"Phrase":"What is the name of the group that rivals Goro Majima in the Cabaret Club Czar minigame?",
-		"CorrectAnswer":"Five Stars",
-		"IncorrectAnswer": [
-			"Five Fames",
-			"Five Elites",
-			"Five Billionares",
-			"Five Clubs"
-		]	
-	},"29":{
-		"Phrase":"What is the name of the bowling alley located in Kamurocho?",
-		"CorrectAnswer":"Mach Bowl",
-		"IncorrectAnswer": [
-			"RYZAP Bowl",
-			"Death Bowler",
-			"Northern Lanes",
-			"Northern Frames"
-		]	
-	},"30":{
-		"Phrase":"What is the name of Chapter 16?",
-		"CorrectAnswer":"Proof of Love",
-		"IncorrectAnswer": [
-			"Den of Desires",
-			"Scattered Light",
-			"Black and White",
-			"Tug of War",
-			"An Honest Living"
-		]	
-	},"31":{
-		"Phrase":"In the last chapter, who is the last enemy that Goro Majima has to fight?",
-		"CorrectAnswer":"Lao Gui",
-		"IncorrectAnswer": [
-			"Patriarch Dojima",
-			"Tsukasa Sagawa",
-			"Tetsu Tachibana",
-			"Keiji Shibusawa",
-			"Shintaro Kazama"
-		]	
-	},"32":{
-		"Phrase":"In the last chapter, who is the last enemy that Kazuma Kiryu has to fight?",
-		"CorrectAnswer":"Keiji Shibusawa",
-		"IncorrectAnswer": [
-			"Patriarch Dojima",
-			"Tsukasa Sagawa",
-			"Lao Gui",
-			"Tetsu Tachibana",
-			"Shintaro Kazama"
-		]	
-	},"33":{
-		"Phrase":"Which minigame is a varient of chess, commonly known as Japanese Chess?",
-		"CorrectAnswer":"Shogi",
-		"IncorrectAnswer": [
-			"Mahjong",
-			"Oicho-kabu",
-			"Cho-han",
-			"Koi-koi"
-		]	
-	},"34":{
-		"Phrase":"In the Epilogue, what does Makoto Makimura find in the Empty Lot?",
-		"CorrectAnswer":"Brother's Old Watch",
-		"IncorrectAnswer": [
-			"Flowers",
-			"Old Wristband",
-			"An Old Letter",
-			"Brother's Old Crest"
-		]	
-	},"35":{
-		"Phrase":"What is the yen reward for successfully completing Chapter 17?",
-		"CorrectAnswer":"300000000",
-		"IncorrectAnswer": [
-			"200000000",
-			"100000000",
-			"500000000",
-			"400000000"
+			"Niander Wallace",
+			"K",
+			"Sapper Morton"
 		]	
 	}
 }

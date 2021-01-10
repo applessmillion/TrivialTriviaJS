@@ -53,14 +53,12 @@
 }
 #timeDisplay{
 	position:absolute;
-	left:48%;
-	right:48%;
-	top:10px;
+	top:12px;
 	text-align:center;
-	min-width:10vw;
+	min-width:100%;
 }
 #TimeBorderDisplay{
-	border-bottom:5px red solid;
+	border-bottom:6px red solid;
 	position:absolute;
 	left:0;
 	overflow:hidden;
@@ -69,7 +67,7 @@
 	width:100%;
 }
 #TimeBorderDisplayBehind{
-	border-bottom:5px #00002d solid;
+	border-bottom:7px #00002d solid;
 	position:absolute;
 	left:0;
 	overflow:hidden;
