@@ -5,6 +5,7 @@ button:hover{border:#371749 4px solid!important;background-color:#6F2D91!importa
 h1,h2,h3,h4,h5{ font-family:Title; }
 img{ transition-duration:1s;}
 .quiz-button{font-weight:600;margin:1vw;}
+.start-body{height:100%;}
 
 @media (orientation: landscape) {
 	.mobilewrap{ display:none; }

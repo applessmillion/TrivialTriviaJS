@@ -4,7 +4,6 @@
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta charset="utf-8"/>
 		<meta name="description" content="Trivia game with 21 questions.">
-		<script src="integrations/require.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="css/styles-start.css">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/ngapi.css">
@@ -13,6 +12,7 @@
 		<script src="js/start.js" type="text/javascript"></script>
 		<script src="js/starting.js" type="text/javascript"></script>
 		<script src="integrations/newgrounds/bin/newgroundsio.js" type="text/javascript"></script>
+		<script src="nginfo.js" type="text/javascript"></script>
 		<script src="integrations/ngAPI.js" type="text/javascript"></script>
 	</head>
 		<!-- Newgrounds user information integration. This element will display the user's profile image and username. -->
@@ -27,7 +27,9 @@
 			</div>
 		</div>
 		<!-- End Newgrounds user information integration. -->
-	<div id="EnterAnimation" style="" class="hidden"></div>
+	<div id="EnterAnimation" style="" class="hidden">
+		<h1 style="padding-top:59vh;"id="browsermessage"></h1>
+	</div>
 	<body class="start-body" onload="tossStuff();doLoad();">
 		<div id="TriviaLogoDiv" style="z-index:1">
 			<img src="images/logo.png" class="title-image" id="TriviaLogo" style="width:55w;max-width:55vw;" alt="Logo of Trivia">
@@ -39,10 +41,29 @@
 			</br>
 			<button id="musicbutton" onclick="openMusicLink()" style="display:none;" class="quiz-button">Visit Music Page</button>
 		</main>
+		
+		<!-- Remove loader via transition. -->
 		<script>
-			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;"; }, 10);
-			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 1680);
-			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 200);
+			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;"; }, 90);
+			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 1100);
+			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 230);
+		</script>
+		
+		<!-- Test for browser compatability -->
+		<script> 
+			/* Test for browser compatability. If we detect Internet Explorer, show a mean message. */
+			var isIE = false;
+			var ua = window.navigator.userAgent;
+			var old_ie = ua.indexOf('MSIE ');
+			var new_ie = ua.indexOf('Trident/');
+
+			if ((old_ie > -1) || (new_ie > -1)) {
+				isIE = true;
+			}
+
+			if (isIE) {
+				document.getElementById("browsermessage").innerHTML = "Your web browser is not supported!</br>Please update your web browser or switch to Google Chrome or Microsoft Edge."; 
+			}
 		</script>
 	</body>
 </html>

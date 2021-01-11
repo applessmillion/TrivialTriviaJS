@@ -1,5 +1,3 @@
-require(['./nginfo'], function (ngAPI) {});
-
 function postScoreboardScores(){
 	if (!ngio.user){ initSession(); }else{
 		/* 'Trivia Score' submit. Change for each variation of the trivia. */
@@ -81,4 +79,8 @@ function doRewardPopup(){
 	else{ document.getElementById("RewardDesc").innerHTML = 'Scores added successfully!'; }
 }
 
-
+/* Initialize session for active user.
+If we do not have a logged in user, activate notLoggedIn().
+If we have a logged in user, activate onLoggedIn(). */
+var ngio = new Newgrounds.io.core(ngAPI.appid, ngAPI.secret);
+ngio.getValidSession(function() { if (ngio.user) { onLoggedIn(); }else{ notLoggedIn();}}); 

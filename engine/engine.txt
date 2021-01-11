@@ -1,3 +1,8 @@
+===== Version 9 / 10.11.21
++ Add compatibility css transitions in case of older browsers.
++ Work on removing need for require.js. It seems to be very iffy.
++ Display compatibility error on users running IE.
+
 ===== Version 8 / 1.10.21
 + Added music button to link to music used.
 + Made the start text a little more uniform. Added new start.js file to default theme.

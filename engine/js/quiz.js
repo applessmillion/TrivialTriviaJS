@@ -1,5 +1,3 @@
-require(['./js/questions'], function (questions) {});
-
 /* Init global variables */
 var currentQuestion = 0;
 var incorrectAnswer = [];

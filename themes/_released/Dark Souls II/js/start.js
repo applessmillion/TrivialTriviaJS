@@ -6,3 +6,4 @@ function tossStuff(){
 }
 
 var modes = 1;
+var externalMusic = "https://www.newgrounds.com/audio/listen/994093";

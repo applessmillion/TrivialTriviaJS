@@ -10,10 +10,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="427.89999"
    inkscape:export-xdpi="427.89999"
-   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\Minecraft 1.16\logo.png"
-   width="82.337608mm"
-   height="26.273731mm"
-   viewBox="0 0 82.3376 26.273733"
+   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\_finished\Dark Souls II\images\logo.png"
+   width="115.61957mm"
+   height="27.257463mm"
+   viewBox="0 0 115.61957 27.257465"
    version="1.1"
    id="svg8"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
@@ -63,9 +63,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="154.23344"
-     inkscape:cy="72.244001"
+     inkscape:zoom="1.979899"
+     inkscape:cx="214.17789"
+     inkscape:cy="58.659182"
      inkscape:document-units="mm"
      inkscape:current-layer="text835"
      inkscape:document-rotation="0"
@@ -95,14 +95,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-65.314441,-121.85538)">
+     transform="translate(-59.351864,-121.85538)">
     <g
        aria-label="Trivial Trivia!"
        id="text835"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <rect
+         y="141.76695"
+         x="61.101864"
+         height="1.3363476"
+         width="112.11957"
+         id="rect873"
+         style="opacity:0.999;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.596774;paint-order:stroke markers fill" />
       <g
          style="fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         transform="matrix(0.35984704,0,0,0.35984704,65.751909,87.746153)"
+         transform="matrix(0.35984704,0,0,0.35984704,76.430301,87.746153)"
          id="g926">
         <text
            xml:space="preserve"
@@ -129,7 +136,7 @@
       </g>
       <g
          id="g869"
-         transform="matrix(0.35984704,0,0,0.35984704,65.969319,87.582723)"
+         transform="matrix(0.35984704,0,0,0.35984704,76.647711,87.582723)"
          style="fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">
         <text
            id="text835-0"
@@ -159,11 +166,11 @@
          id="rect928"
          width="4.568367"
          height="5.0732918"
-         x="101.0155"
+         x="111.69389"
          y="124.95013" />
       <g
          id="g889"
-         transform="matrix(0.35984704,0,0,0.35984704,65.751909,87.746153)"
+         transform="matrix(0.35984704,0,0,0.35984704,76.430301,87.746153)"
          style="fill:#763cec;fill-opacity:1;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none">
         <text
            id="text883"
@@ -189,17 +196,29 @@
              sodipodi:role="line">trivia</tspan></text>
       </g>
       <text
-         transform="scale(1.06077,0.94271144)"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;opacity:0.999;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.942;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         x="63.982323"
+         y="143.16837"
+         id="text909"
+         transform="scale(0.96842985,1.0325993)"><tspan
+           sodipodi:role="line"
+           id="tspan907"
+           x="63.982323"
+           y="143.16837"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.8167px;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT Bold';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">DARK SOULS II</tspan></text>
+      <text
+         transform="scale(0.96842984,1.0325993)"
          id="text865"
-         y="156.22926"
-         x="62.343819"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2935px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:#292929;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="142.65591"
+         x="63.982319"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;opacity:0.999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.942;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2935px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#969696;fill-opacity:1;stroke:#292929;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-           y="156.22926"
-           x="62.343819"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.8167px;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT Bold';fill:#d9d9d9;fill-opacity:1;stroke:#000000;stroke-width:0.942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           y="142.65591"
+           x="63.982319"
            id="tspan863"
-           sodipodi:role="line">MINECRAFT</tspan></text>
+           sodipodi:role="line">DARK SOULS II</tspan></text>
       <text
          id="text869"
          y="152.45775"
@@ -210,19 +229,7 @@
            y="152.45775"
            x="99.696144"
            id="tspan867"
-           sodipodi:role="line"></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#646464;fill-opacity:1;stroke:#292929;stroke-width:0.191;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="126.25152"
-         y="143.04445"
-         id="text873"
-         transform="scale(1.06077,0.94271143)"><tspan
-           sodipodi:role="line"
-           id="tspan871"
-           x="126.25152"
-           y="143.04445"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#646464;fill-opacity:1;stroke:#292929;stroke-width:0.191;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">1.16</tspan></text>
+           sodipodi:role="line" /></text>
     </g>
   </g>
 </svg>

@@ -1,200 +1,330 @@
 var questions = {
 	"0":{
-		"Phrase":"In what year was the film Blade Runner 2049 released to theaters?",
-		"CorrectAnswer":"2017",
+		"Phrase":"Which developer produced Dark Souls II?",
+		"CorrectAnswer":"From Software",
 		"IncorrectAnswer": [
-			"2015",
-			"2000",
-			"2007",
-			"2016",
-			"2019"
+			"CD Projekt Red",
+			"Namco Bandai Games",
+			"Bethesda"
 		]	
 	},"1":{
-		"Phrase":"In what year do the events of Blade Runner 2049 take place?",
-		"CorrectAnswer":"2049",
+		"Phrase":"What is the tagline of Dark Souls II?",
+		"CorrectAnswer":"Go Beyond Death",
 		"IncorrectAnswer": [
-			"2020",
-			"2077",
-			"2050",
-			"2048",
-			"2040",
-			"2000"
+			"Beyond Death",
+			"Go Beyond Souls",
+			"Go Above Death"
 		]	
 	},"2":{
-		"Phrase":"Officer K is a replicant working as a Blade Runner. What model of replicant is he?",
-		"CorrectAnswer":"Nexus-9",
+		"Phrase":"When did the game release for consoles globally?",
+		"CorrectAnswer":"October 2011",
 		"IncorrectAnswer": [
-			"Nexus-8",
-			"Nexus-4",
-			"Nexus-PD",
-			"Nexus-8s",
-			"Nexus-7s"
+			"September 2011",
+			"June 2011",
+			"December 2011",
+			"October 2010",
+			"December 2010"
 		]	
 	},"3":{
-		"Phrase":"A test was created for Nexus-9 models to detect emotional deviance. What is the name of this test?",
-		"CorrectAnswer":"Baseline test",
+		"Phrase":"What is the protagonist often referred as in-game?",
+		"CorrectAnswer":"Bearer of the Curse",
 		"IncorrectAnswer": [
-			"Emotional Stability",
-			"Psychopsych test",
-			"Voight-Kampff test",
-			"Deviance test"
+			"The Undead Bearer",
+			"Great One",
+			"Cursed Slayer",
+			"Lost Soul"
 		]	
 	},"4":{
-		"Phrase":"What is the name of the main character in the film?",
-		"CorrectAnswer":"K",
-		"IncorrectAnswer": [
-			"V",
-			"Deckard",
-			"Lee",
-			"Joi"
+		"Phrase":"The game had two special box editions. One of these editions was the Collector's edition. What was the name of the other edition?",
+		"CorrectAnswer":"Black Armor",
+		"IncorrectAnswer":[
+			"Premium ",
+			"Deluxe",
+			"Faraam",
+			"Black Soul"
 		]	
 	},"5":{
-		"Phrase":"Over what period of time does the story take place?",
-		"CorrectAnswer":"7 Days",
+		"Phrase":"What affliction does the player's character have?",
+		"CorrectAnswer":"Curse of the Undead",
 		"IncorrectAnswer": [
-			"3 Days",
-			"1 Month",
-			"2 Days",
-			"14 Days",
-			"10 Days"
+			"Curse of the Living",
+			"Curse of Sorrow",
+			"Curse of Hollow",
+			"Mark of the Dead"
 		]	
 	},"6":{
-		"Phrase":"What model of replicant has an open-ended lifespan due to a rushed production?",
-		"CorrectAnswer":"Nexus-8",
+		"Phrase":"Which class starts at level 1 with all base stats of 6?",
+		"CorrectAnswer":"Deprived",
 		"IncorrectAnswer": [
-			"Nexus-4",
-			"Nexus-7s",
-			"Nexus-5",
-			"Nexus-6"
+			"Explorer",
+			"Cleric",
+			"Bandit",
+			"Hollow"
 		]	
 	},"7":{
-		"Phrase":"What is the name of the digital companion K has in his apartment?",
-		"CorrectAnswer":"Joi",
+		"Phrase":"Which boss does the player normally encounter first in the game?",
+		"CorrectAnswer":"The Last Giant",
 		"IncorrectAnswer": [
-			"DiJi",
-			"Digi",
-			"Joy",
-			"Rose",
-			"Jade"
+			"Dragonrider",
+			"Ruin Sentinels",
+			"Flexile Sentry",
+			"Lost Sinner"
 		]	
 	},"8":{
-		"Phrase":"What does K notice while visiting the protein farm that leads him to discover a buried crate?",
-		"CorrectAnswer":"A Flower",
+		"Phrase":"Which location is exclusively populated by Old Knights, and houses the boss Dragonrider?",
+		"CorrectAnswer":"Heide's Tower of Flame",
 		"IncorrectAnswer": [
-			"A Leaf",
-			"A Headstone",
-			"Bugs",
-			"Fresh Dirt"
+			"Cathedral of Blue",
+			"No-man's Wharf",
+			"Belfry Luna",
+			"Sinners' Rise"
 		]	
 	},"9":{
-		"Phrase":"From the forensic analysis of the replicant remains found, what was the cause of death?",
-		"CorrectAnswer":"Caesarian Section",
+		"Phrase":"Which of the following characters can be found in No-man's Wharf?",
+		"CorrectAnswer":"Lucatiel of Mirrah",
 		"IncorrectAnswer": [
-			"Gunshot Wound",
-			"Blood Loss",
-			"Head Trauma",
-			"Expiration"
+			"Cale the Cartographer",
+			"Mild-Mannered Pate",
+			"Lonesome Gavlan",
+			"Devotee Scarlett"
 		]	
 	},"10":{
-		"Phrase":"When K revisits the protein farm, he finds a photograph with a date written on the back. What was the date?",
-		"CorrectAnswer":"6.10.21",
+		"Phrase":"The Lost Bastille is a large, aged prison. Which of the following bosses can be found at this location?",
+		"CorrectAnswer":"Ruin Sentinels",
 		"IncorrectAnswer": [
-			"4.15.20",
-			"6.10.20",
-			"6.10.31",
-			"12.5.21",
-			"12.5.19",
-			"5.28.31"
+			"Old Dragonslayer",
+			"Executioner's Chariot",
+			"Belfry Gargoyles",
+			"Iron Golem",
+			"Skeleton Lords"
 		]	
 	},"11":{
-		"Phrase":"What date were the remains of the replicant stolen from LAPD?",
-		"CorrectAnswer":"July 2, 2049",
+		"Phrase":"The Skeleton Lords are a collective boss that compose of multiple enemies. How many lords make up the Skeleton Lords?",
+		"CorrectAnswer":"3",
 		"IncorrectAnswer": [
-			"July 3, 2049",
-			"July 1, 2049",
-			"June 30, 2049",
-			"June 29, 2049",
-			"June 26, 2049"
+			"2",
+			"5",
+			"4",
+			"8"
 		]	
 	},"12":{
-		"Phrase":"Who does K recount his orphanage memory to at his apartment?",
-		"CorrectAnswer":"Joshi",
+		"Phrase":"Which boss must be defeated in order to be introduced to the Brotherhood of Blood covenant?",
+		"CorrectAnswer":"Executioner's Chariot",
 		"IncorrectAnswer": [
-			"Coco",
-			"Joni",
-			"Mariette",
-			"Gaff"
+			"Lost Sinner",
+			"Old Iron King",
+			"Dragonrider",
+			"The Rotten"
 		]	
 	},"13":{
-		"Phrase":"Where is the Morrillcole Orphanage located?",
-		"CorrectAnswer":"San Diego",
+		"Phrase":"Which boss can be found in Harvest Valley?",
+		"CorrectAnswer":"Covetous Demon",
 		"IncorrectAnswer": [
-			"San Fransisco",
-			"Tampa",
-			"San Jose",
-			"Badlands",
-			"Los Angeles"
+			"Old Dragonslayer",
+			"Old Iron King",
+			"Dragonrider",
+			"The Rotten"
 		]	
 	},"14":{
-		"Phrase":"When searching the orphanage, what does K find that he had hid in his memory?",
-		"CorrectAnswer":"Wooden Horse",
+		"Phrase":"A Crystal Lizard can be found in Harvest Valley. Which of the following items does it not drop?",
+		"CorrectAnswer":"Faintstone",
 		"IncorrectAnswer": [
-			"Toy Soldier",
-			"Locket",
-			"Gold Coin",
-			"Necklace"
+			"Palestone",
+			"Large Titanite Shard",
+			"Titanite Shard"
 		]	
 	},"15":{
-		"Phrase":"When arrested by the LAPD, and after failing a baseline examination, how does K leave?",
-		"CorrectAnswer":"Lying about the child",
+		"Phrase":"Which area contains a large windmill that can be burnt and destroyed?",
+		"CorrectAnswer":"Earthen Peak",
 		"IncorrectAnswer": [
-			"Jumping out a window",
-			"Running away",
-			"Being retired"
+			"Undead Purgatory",
+			"Harvest Valley",
+			"Shaded Woods",
+			"Black Gulch"
 		]	
 	},"16":{
-		"Phrase":"Who does K visit in order to examine the wooden toy horse after his run-in with the LAPD?",
-		"CorrectAnswer":"Doc Badger",
+		"Phrase":"Which of the following covenants is not a real covenant in Dark Souls II?",
+		"CorrectAnswer":"Dragon Keepers",
 		"IncorrectAnswer": [
-			"Dr. Ana Stelline",
-			"Joi",
-			"Mariette",
-			"Luv"
+			"Bell Keepers",
+			"Blue Sentinels",
+			"Way of Blue",
+			"Heirs of the Sun",
+			"Brotherhood of Blood",
+			"Rat King"
 		]	
 	},"17":{
-		"Phrase":"After examination of the wooden toy horse, where do Joi and K travel to?",
-		"CorrectAnswer":"Las Vegas",
+		"Phrase":"Below Majula, an area featuring a decrepit cavern can be found. What is the name of this location?",
+		"CorrectAnswer":"Black Gulch",
 		"IncorrectAnswer": [
-			"San Jose",
-			"Tampa",
-			"Springfield",
-			"New York"
-		]		
+			"Iron Keep",
+			"Undead Crypt",
+			"Aldia's Keep",
+			"Dragon Shrine",
+			"Brightstone Cove"
+		]	
 	},"18":{
-		"Phrase":"Whose forces attack and kidnap Deckard, leaving Joi destroyed in the process?",
-		"CorrectAnswer":"Luv's",
+		"Phrase":"What is the name of the area where Scorpioness Najka can be found?",
+		"CorrectAnswer":"Shaded Woods",
 		"IncorrectAnswer": [
-			"LAPD's",
-			"Nomads",
-			"Deckard's",
-			"K's"
+			"Doors of Pharros",
+			"Black Gulch",
+			"Drangleic Castle",
+			"Dark Chasm of Old"
 		]	
 	},"19":{
-		"Phrase":"Who suggests Rachael's feelings for Decker were manufactured by her creator?",
-		"CorrectAnswer":"Wallace",
+		"Phrase":"Which area can be described as a large, waterlogged cavern with ruined pillars and archways throughout?",
+		"CorrectAnswer":"Shrine of Amana",
 		"IncorrectAnswer": [
-			"Tyrell",
-			"K",
-			"Joi",
-			"Freysa"
+			"Undead Crypt",
+			"Aldia's Keep",
+			"Dragon Shrine",
+			"Memory of Jeigh",
+			"Throne of Want"
 		]	
 	},"20":{
-		"Phrase":"What is the name of both Deckard and Rachael's child?",
-		"CorrectAnswer":"Ana Stelline",
+		"Phrase":"Dark Souls II featured three DLC expansions. Which of the following was not one of the three?",
+		"CorrectAnswer":"Crown of the Burned King",
 		"IncorrectAnswer": [
-			"Niander Wallace",
-			"K",
-			"Sapper Morton"
+			"Crown of the Sunken King",
+			"Crown of the Old Iron King",
+			"Crown of the Ivory King"
 		]	
+	},"21":{
+		"Phrase":"The Looking Glass Knight boss was known by a different name in the Dark Souls II beta. What was his beta name?",
+		"CorrectAnswer":"Mirror Knight",
+		"IncorrectAnswer": [
+			"Steel Knight",
+			"Spear Glass Knight",
+			"Drangleic Knight",
+			"Demon Knight"
+		]
+	},"22":{
+		"Phrase":"When exploring the Undead Crypt, the player will be invaded. What enemy invades the player?",
+		"CorrectAnswer":"Nameless Usurper",
+		"IncorrectAnswer": [
+			"Dark Spirit",
+			"Armorer Dennis",
+			"Hollow Soldier",
+			"Bowman Guthry"
+		]
+	},"23":{
+		"Phrase":"What is the name of the area that acts as a tutorial to the player?",
+		"CorrectAnswer":"Things Betwixt",
+		"IncorrectAnswer": [
+			"Dragon Shrine",
+			"Shaded Woods",
+			"Black Gulch",
+			"Grave of Saints"
+		]
+	},"24":{
+		"Phrase":"How many bonfires can be found in the Forest of Fallen Giants?",
+		"CorrectAnswer":"4",
+		"IncorrectAnswer": [
+			"3",
+			"2",
+			"5",
+			"6"
+		]
+	},"25":{
+		"Phrase":"What bonfire in the Forest of Fallen Giants can be used to access the Memory of Jeigh?",
+		"CorrectAnswer":"The Place Unbeknownst",
+		"IncorrectAnswer": [
+			"Cardinal Tower",
+			"Soldiers' Rest",
+			"Heide's Ruin",
+			"Tower of Flame"
+		]
+	},"26":{
+		"Phrase":"In the DLC Crown of the Old Iron King, which area does the Fume Knight reside?",
+		"CorrectAnswer":"Brume Tower",
+		"IncorrectAnswer": [
+			"Iron Passage",
+			"Dragon's Sanctum",
+			"Dragon's Rest",
+			"Grand Cathedral"
+		]
+	},"27":{
+		"Phrase":"Which of the below bosses drop a Smelter Wedge?",
+		"CorrectAnswer":"Sir Alonne",
+		"IncorrectAnswer": [
+			"Fume Knight",
+			"Smelter Dragon",
+			"Burnt Ivory King",
+			"Nashandra"
+		]
+	},"28":{
+		"Phrase":"When was the first DLC episode released?",
+		"CorrectAnswer":"July 22, 2014",
+		"IncorrectAnswer": [
+			"August 22, 2014",
+			"August 26, 2014",
+			"September 30, 2014",
+			"July 21, 2014"
+		]
+	},"29":{
+		"Phrase":"Which item must be used to access the Throne of Want?",
+		"CorrectAnswer":"King's Ring",
+		"IncorrectAnswer": [
+			"Ancient Dragon Seal",
+			"Abyss Seal",
+			"Crest of Blood",
+			"Pharros' Lockstone"
+		]
+	},"30":{
+		"Phrase":"Which boss must be defeated before Nashandra to make Lord Aldia appear?",
+		"CorrectAnswer":"Vendrick",
+		"IncorrectAnswer": [
+			"Giant Lord",
+			"Guardian Dragon",
+			"Demon of Song",
+			"Darklurker"
+		]
+	},"31":{
+		"Phrase":"Which location is the Singer's Dress found in?",
+		"CorrectAnswer":"Shrine of Amana",
+		"IncorrectAnswer": [
+			"Sinners' Rise",
+			"Harvest Valley",
+			"Undead Crypt",
+			"Throne of Want"
+		]
+	},"32":{
+		"Phrase":"Which of the following is not a gift that can be chosen from the character creation?",
+		"CorrectAnswer":"Divine Blessing",
+		"IncorrectAnswer": [
+			"Life Ring",
+			"Healing Wares",
+			"Bonfire Ascetic",
+			"Nothing",
+			"Petrified Something"
+		]
+	},"33":{
+		"Phrase":"The Minotaur Helm is a unique helmet dropped by Iron Warriors. What is true about the helmet?",
+		"CorrectAnswer":"Heaviest in game",
+		"IncorrectAnswer": [
+			"90 Physical Defense",
+			"Upgradable 12 times",
+			"Lowest Poise in game",
+			"45 Bleed Resist"
+		]
+	},"34":{
+		"Phrase":"Which of the following locations are added in the Crown of the Ivory King expansion?",
+		"CorrectAnswer":"Grand Cathedral",
+		"IncorrectAnswer": [
+			"Brume Tower",
+			"Iron Passage",
+			"Cave of the Dead",
+			"Dragon's Rest"
+		]
+	},"35":{
+		"Phrase":"What is the name of the special PC edition released in April 2015?",
+		"CorrectAnswer":"Scholar of the First Sin",
+		"IncorrectAnswer": [
+			"Crown of the Ivory King",
+			"The Ringed City",
+			"Ashes of Ariandel",
+			"Artorias of the Abyss"
+		]
 	}
 }
