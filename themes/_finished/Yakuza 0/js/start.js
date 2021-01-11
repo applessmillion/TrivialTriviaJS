@@ -1,9 +1,9 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'Many questions, 12 seconds to answer! This trivia covers the story, minigames, and other aspects of the Yakuza 0 game. '+
+	'Welcome to Trivial Trivia! Featuring two modes of questions, you have 12 questions to answer each one!</br>'+ // Intro sentence.
 	'Normal mode has 21 questions, while Extended mode has 36!</br>'+
 	'This trivia is best played if you have completed Yakuza 0. It contains spoilers of the main story and side stories.'+
-	// '</br></br>Special thanks to USERNAME for the music used in this game! Additional thanks for USERNAME suggesting the theme!'+
+	'</br></br>Special thanks to LyncanOfficial for the music used in this game!'+
 	'';
 	
 }
@@ -11,3 +11,4 @@ function tossStuff(){
 	1 for 2 modes (normal & extended)
 */
 var modes = 1;
+var externalMusic = "https://www.newgrounds.com/audio/listen/985070";

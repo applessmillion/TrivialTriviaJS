@@ -1,3 +1,11 @@
+===== Version 8 / 1.10.21
++ Added music button to link to music used.
++ Made the start text a little more uniform. Added new start.js file to default theme.
++ Properly centered the timer on the quiz page.
++ Added modes variable to determine when extended mode should be used.
+ # Our require.js sometimes failed on newgrounds, meaning the system would just give up trying to figure it out.
+ # Now it's just a small variable that can be changed with the music variable when we have new themes.
+
 ===== Version 7 / 1.3.21
 + Added NGapi file that allows me to swap themes a lot more quickly.
  # Once themes are updated with this file, they can be put into the engine without any editing.
@@ -23,7 +31,6 @@
 + Added comments to start and finish.
 + End 'Play Again' button brings you back to start page vs quiz page.
 + Modified css styling to make the game look better on taller screens.
-
 Things to work on:
 / NG+ mode. 35 questions, achievement for getting 30 correct.
 // Can be started from start page (which is why the new redir on finish page).
@@ -33,13 +40,11 @@ Things to work on:
 + Added css folder for all css files. Was getting up there in count.
 + Added theme css stylesheet for easy editing of theme colors on pages.
 + Misc backend work.
-
 Things to work on:
 / Animation between start->quiz, and a subtle animation for quiz->finish.
 / Newgrounds achivement banner?
 / Newgrounds embedded leaderboard?
 / Randomized question sets?
-
 
 ===== Version 4 / 12.29.20
 + Added basic anti-cheat. Will now deny scores higher than there are questions.
@@ -48,43 +53,35 @@ Things to work on:
   # Will need to see how this looks with black text. Looks fine for now. For now....
 + Added proper incorrect question randomizer. Will now use the full bank of incorrect answers.
 + Fixed timer bar not resetting immediately at the beginning of a new question.
-
 Things to work on:
 / Animation between start->quiz, and a subtle animation for quiz->finish.
 / Newgrounds achivement banner?
 / Newgrounds embedded leaderboard?
 / Randomized question sets?
 
-
 ===== Version 3 patch1 / 12.28.20
 + Fixed NG achievement issue. Was a dumb debug variable set.
-
 
 ===== Version 3 / 12.28.20
 + Added animations to loading screen, start page, finish page.
 + Added a splash screen to start and finish pages.
 + Made the header in the quiz nicer. Now has an animated timer bar too.
 + Cleaned up some styling in the pages. Still a bit to go, but looks nicer code-wise.
-
 Things to work on:
 / See Version 1 Things to work on
 / Animation between quiz and start page.
-
 
 ===== Version 2 / 12.27.20
 + Added loading screen.
 + Changed buttons on finish/start to quiz button css.
 + Optimized sizing for smaller displays. Mainly decreased logo size.
 + Added cute animation when images resize on page size change.
-
 Things to work on:
 / See Version 1 Things to work on
 / Make the quiz header prettier
 
-
 ===== Version 1 / 12.24.20
 + Initial release.
-
 Things to work on:
 / Incorrect answer randomizer.
 / Question randomizer (in case of a bank of more than x questions)

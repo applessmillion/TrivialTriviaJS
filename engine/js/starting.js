@@ -14,4 +14,15 @@ function doLoad(){
 		document.getElementById("starthard").style = 'display:none;';
 		console.log('Unhandled modes variable. Perhaps this theme is not updated?');
 	}
+	
+	/* if external music link is not specified, hide the button. */
+	if(externalMusic){
+		document.getElementById("musicbutton").style = 'display:unset;';
+	}
+}
+
+function openMusicLink(){
+	if(externalMusic == "none"){
+		document.getElementById("musicbutton").style = 'display:none;';
+	}else{ window.open(externalMusic);}
 }
