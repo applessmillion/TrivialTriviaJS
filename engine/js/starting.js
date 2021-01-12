@@ -1,7 +1,7 @@
 function doLoad(){
 	if(modes == 1){
-		document.getElementById("startnormal").innerHTML = 'Start Trivia (Easy)';
-		document.getElementById("starthard").innerHTML = 'Start Trivia (Extended)';
+		document.getElementById("startnormal").innerHTML = 'Start (Normal)';
+		document.getElementById("starthard").innerHTML = 'Start (Extended)';
 		console.log('We have Extended mode! Show both buttons.');
 	}else if(modes == 0){
 		document.getElementById("startnormal").innerHTML = 'Start Trivia!';

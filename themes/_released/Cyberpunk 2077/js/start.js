@@ -4,3 +4,6 @@ function tossStuff(){
 	'Questions and answers will not detail any differences between Bedrock and Java editions of the game.';
 	
 }
+
+var modes = 1;
+var externalMusic = "https://www.newgrounds.com/audio/listen/990600";

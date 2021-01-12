@@ -1,9 +1,9 @@
 var ngAPI = {
-	"appid":"51335:MBKWFcZd",
-	"secret":"x4AkJtG4Ze6DYB3srSQdJw==",
-	"scoreLB":"9879",
-	"scorehardLB":"9880",
-	"attemptsLB":"9878",
-	"firstmedal":"61793",
-	"secondmedal":"61795"
+	"appid":"51305:NfsbPhER",
+	"secret":"nwCIPLoGypIvuIKagXnsXQ==",
+	"scoreLB":"9863",
+	"attemptsLB":"9862",
+	"scorehardLB":"none",
+	"firstmedal":"61737",
+	"secondmedal":"none"
 }

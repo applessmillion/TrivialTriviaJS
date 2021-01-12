@@ -1,9 +1,13 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'Many questions, only 12 seconds to answer! This trivia covers game elements and locations of the second Dark Souls game. '+
-	'Normal mode has 21 questions, while Hard mode has 36!</br>'+
-	'Thanks to KamenRiderStick for suggesting the theme of Dark Souls and Dark Souls II.';
+	'Welcome to Trivial Trivia! Featuring 21 questions, you have 12 questions to answer each one!</br>'+ // Intro sentence.
+	'This trivia covers the plot, characters, and other elements from the film Blade Runner 2049. Questions will spoil certain plot elements, so beware! '+	// Specific information to the game.
+	// '</br></br>Special thanks to USERNAME for the music used in this game! Additional thanks for USERNAME suggesting the theme!'+
+	'';
+	
 }
-
-var modes = 1;
-var externalMusic = "https://www.newgrounds.com/audio/listen/994093";
+/* 	0 for 1 mode (normal)
+	1 for 2 modes (normal & extended)
+*/
+var modes = 0;
+var externalMusic = "https://www.newgrounds.com/audio/listen/990603";
