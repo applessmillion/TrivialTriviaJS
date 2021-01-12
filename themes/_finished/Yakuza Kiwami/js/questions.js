@@ -184,7 +184,7 @@ var questions = {
 			"Kazama"
 		]	
 	},"20":{
-		"Phrase":"Where does the final boss battle take place?",
+		"Phrase":"Where does the final main-story battle take place?",
 		"CorrectAnswer":"Ares",
 		"IncorrectAnswer": [
 			"Serena",
