@@ -1,7 +1,7 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'Welcome to Trivial Trivia! Featuring two modes of questions, you have 12 questions to answer each one!</br>'+ // Intro sentence.
-	'Normal mode has 21 questions, while Extended mode has 36!</br>'+
+	'Welcome to Trivial Trivia! Featuring two modes, you have 12 questions to answer each question! '+ // Intro sentence.
+	'Normal mode has 21 questions, while Extended mode has 36! '+
 	'This trivia is best played if you have completed Yakuza 0. It contains spoilers of the main story and side stories.'+
 	'</br></br>Special thanks to LyncanOfficial for the music used in this game!'+
 	'';

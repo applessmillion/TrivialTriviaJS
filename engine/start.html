@@ -30,7 +30,7 @@
 	<div id="EnterAnimation" style="" class="hidden">
 		<h1 style="padding-top:59vh;"id="browsermessage"></h1>
 	</div>
-	<body class="start-body" onload="tossStuff();doLoad();">
+	<body class="start-body" onload="tossStuff();doLoad();loadAway();">
 		<div id="TriviaLogoDiv" style="z-index:1">
 			<img src="images/logo.png" class="title-image" id="TriviaLogo" style="width:55w;max-width:55vw;" alt="Logo of Trivia">
 		</div>
@@ -44,9 +44,11 @@
 		
 		<!-- Remove loader via transition. -->
 		<script>
+		function loadAway(){
 			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;"; }, 90);
-			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 1100);
-			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 230);
+			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 1080);
+			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 200);
+		}
 		</script>
 		
 		<!-- Test for browser compatability -->

@@ -8,77 +8,77 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="427.89999"
-   inkscape:export-xdpi="427.89999"
-   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\Minecraft 1.16\logo.png"
-   width="82.337608mm"
-   height="26.273731mm"
-   viewBox="0 0 82.3376 26.273733"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="logo.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 77.928001 28.278717"
+   height="28.278715mm"
+   width="77.928009mm"
+   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\Yakuza 0\images\logo.png"
+   inkscape:export-xdpi="427.89999"
+   inkscape:export-ydpi="427.89999">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1169">
+       id="linearGradient1169"
+       inkscape:collect="always">
       <stop
-         style="stop-color:#7d7d7d;stop-opacity:1"
+         id="stop1165"
          offset="0"
-         id="stop1165" />
+         style="stop-color:#7d7d7d;stop-opacity:1" />
       <stop
-         style="stop-color:#e7e7e7;stop-opacity:1"
+         id="stop1167"
          offset="1"
-         id="stop1167" />
+         style="stop-color:#e7e7e7;stop-opacity:1" />
     </linearGradient>
     <marker
-       inkscape:stockid="Arrow1Lstart"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Lstart"
+       inkscape:isstock="true"
        style="overflow:visible"
-       inkscape:isstock="true">
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
       <path
-         id="path883"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path883" />
     </marker>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1169"
-       id="linearGradient1171"
-       x1="50.534504"
-       y1="145.94571"
-       x2="172.77846"
+       gradientUnits="userSpaceOnUse"
        y2="122.96053"
-       gradientUnits="userSpaceOnUse" />
+       x2="172.77846"
+       y1="145.94571"
+       x1="50.534504"
+       id="linearGradient1171"
+       xlink:href="#linearGradient1169"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="154.23344"
-     inkscape:cy="72.244001"
-     inkscape:document-units="mm"
-     inkscape:current-layer="text835"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     fit-margin-top="0.5"
-     fit-margin-left="1"
-     fit-margin-right="1"
-     fit-margin-bottom="0.5"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-maximized="1"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0.5"
+     fit-margin-right="9.5"
+     fit-margin-left="9.5"
+     fit-margin-top="0.5"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="text835"
+     inkscape:document-units="mm"
+     inkscape:cy="80.831595"
+     inkscape:cx="86.163256"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -92,137 +92,125 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     transform="translate(-67.519243,-121.85538)"
      id="layer1"
-     transform="translate(-65.314441,-121.85538)">
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <g
-       aria-label="Trivial Trivia!"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="text835"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+       aria-label="Trivial Trivia!">
       <g
-         style="fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         transform="matrix(0.35984704,0,0,0.35984704,65.751909,87.746153)"
-         id="g926">
+         id="g926"
+         transform="matrix(0.35984704,0,0,0.35984704,65.75191,87.746153)"
+         style="fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
         <text
-           xml:space="preserve"
+           id="text920"
+           y="109.6871"
+           x="71.557121"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           x="71.557121"
-           y="109.6871"
-           id="text920"><tspan
-             sodipodi:role="line"
-             id="tspan918"
-             x="71.557121"
-             y="109.6871"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">trivial</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           x="91.281258"
-           y="128.13394"
-           id="text924"><tspan
-             sodipodi:role="line"
-             id="tspan922"
-             x="91.281258"
-             y="128.13394"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">trivia</tspan></text>
-      </g>
-      <g
-         id="g869"
-         transform="matrix(0.35984704,0,0,0.35984704,65.969319,87.582723)"
-         style="fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">
-        <text
-           id="text835-0"
-           y="109.6871"
-           x="71.557121"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
              y="109.6871"
              x="71.557121"
-             id="tspan833"
+             id="tspan918"
              sodipodi:role="line">trivial</tspan></text>
         <text
-           id="text841"
+           id="text924"
            y="128.13394"
            x="91.281258"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#0d071b;fill-opacity:1;stroke:#1f0651;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
              y="128.13394"
              x="91.281258"
-             id="tspan839"
+             id="tspan922"
              sodipodi:role="line">trivia</tspan></text>
+      </g>
+      <g
+         style="fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         transform="matrix(0.35984704,0,0,0.35984704,65.96932,87.582723)"
+         id="g869">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="71.557121"
+           y="109.6871"
+           id="text835-0"><tspan
+             sodipodi:role="line"
+             id="tspan833"
+             x="71.557121"
+             y="109.6871"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">trivial</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="91.281258"
+           y="128.13394"
+           id="text841"><tspan
+             sodipodi:role="line"
+             id="tspan839"
+             x="91.281258"
+             y="128.13394"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#420daf;fill-opacity:1;stroke:#1f0651;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">trivia</tspan></text>
       </g>
       <rect
-         style="fill:#1f0651;fill-opacity:1;stroke:none;stroke-width:1.43939;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="rect928"
-         width="4.568367"
-         height="5.0732918"
+         y="124.95013"
          x="101.0155"
-         y="124.95013" />
+         height="5.0732918"
+         width="4.568367"
+         id="rect928"
+         style="fill:#1f0651;fill-opacity:1;stroke:none;stroke-width:1.43939;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
       <g
-         id="g889"
-         transform="matrix(0.35984704,0,0,0.35984704,65.751909,87.746153)"
-         style="fill:#763cec;fill-opacity:1;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none">
+         style="fill:#763cec;fill-opacity:1;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(0.35984704,0,0,0.35984704,65.75191,87.746153)"
+         id="g889">
         <text
-           id="text883"
-           y="109.6871"
-           x="71.557121"
+           xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-             y="109.6871"
-             x="71.557121"
+           x="71.557121"
+           y="109.6871"
+           id="text883"><tspan
+             sodipodi:role="line"
              id="tspan881"
-             sodipodi:role="line">trivial</tspan></text>
+             x="71.557121"
+             y="109.6871"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2975px;font-family:Valken;-inkscape-font-specification:Valken;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">trivial</tspan></text>
         <text
-           id="text887"
-           y="128.13394"
-           x="91.281258"
+           xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Valken;-inkscape-font-specification:Valken;letter-spacing:0px;word-spacing:0px;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-             y="128.13394"
-             x="91.281258"
+           x="91.281258"
+           y="128.13394"
+           id="text887"><tspan
+             sodipodi:role="line"
              id="tspan885"
-             sodipodi:role="line">trivia</tspan></text>
+             x="91.281258"
+             y="128.13394"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Valken;-inkscape-font-specification:Valken;fill:#763cec;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">trivia</tspan></text>
       </g>
       <text
-         transform="scale(1.06077,0.94271144)"
-         id="text865"
-         y="156.22926"
-         x="62.343819"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2935px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:#292929;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2935px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#969696;fill-opacity:1;stroke:#292929;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-           y="156.22926"
-           x="62.343819"
-           id="tspan863"
-           sodipodi:role="line">MINECRAFT</tspan></text>
-      <text
-         id="text869"
-         y="152.45775"
-         x="99.696144"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.202406"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.202406"
-           y="152.45775"
-           x="99.696144"
-           id="tspan867"
-           sodipodi:role="line"></tspan></text>
-      <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#646464;fill-opacity:1;stroke:#292929;stroke-width:0.191;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="126.25152"
-         y="143.04445"
-         id="text873"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:'BN Machine';-inkscape-font-specification:'BN Machine';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ebebeb;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="73.966614"
+         y="156.22926"
+         id="text865"
          transform="scale(1.06077,0.94271143)"><tspan
            sodipodi:role="line"
-           id="tspan871"
-           x="126.25152"
-           y="143.04445"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#646464;fill-opacity:1;stroke:#292929;stroke-width:0.191;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">1.16</tspan></text>
+           id="tspan863"
+           x="73.966614"
+           y="156.22926"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-size:19.7556px;font-family:Chiller;-inkscape-font-specification:'Chiller Semi-Expanded';fill:#ffffff;fill-opacity:1;stroke:#ebebeb;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">Yakuza 0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.202406"
+         x="99.696144"
+         y="152.45775"
+         id="text869"><tspan
+           sodipodi:role="line"
+           id="tspan867"
+           x="99.696144"
+           y="152.45775"
+           style="stroke-width:0.202406" /></text>
     </g>
   </g>
 </svg>
