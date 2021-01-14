@@ -10,7 +10,7 @@ var questions = {
 			"May 1, 2018"
 		]	
 	},"1":{
-		"Phrase":"Among Us originally released as a mobile game on June 15, 2018. WHich digital marketplace did it first arrive to on PC?",
+		"Phrase":"Among Us originally released as a mobile game on June 15, 2018. Which digital marketplace did it first arrive to on PC?",
 		"CorrectAnswer":"Steam",
 		"IncorrectAnswer": [
 			"Epic Games Store",
@@ -107,7 +107,7 @@ var questions = {
 			"Storage"
 		]	
 	},"12":{
-		"Phrase":"Which of the following is one of the player colors that used to be accessible, but is no longer selectable?",
+		"Phrase":"Which of the following is a player color that used to be accessible, but is no longer selectable?",
 		"CorrectAnswer":"Fortegreen",
 		"IncorrectAnswer": [
 			"Lime",

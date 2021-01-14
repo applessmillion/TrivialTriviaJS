@@ -1,197 +1,200 @@
 var questions = {
 	"0":{
-		"Phrase":"Yakuza Kiwami was initially released in Japan in what year?",
-		"CorrectAnswer":"2016",
+		"Phrase":"In what year was the film Blade Runner 2049 released to theaters?",
+		"CorrectAnswer":"2017",
 		"IncorrectAnswer": [
 			"2015",
-			"2005",
-			"2014",
-			"2017",
-			"2018"
+			"2000",
+			"2007",
+			"2016",
+			"2019"
 		]	
 	},"1":{
-		"Phrase":"Which of the following fighting styles is not available to Kazuma Kiryu?",
-		"CorrectAnswer":"Slugger",
+		"Phrase":"In what year do the events of Blade Runner 2049 take place?",
+		"CorrectAnswer":"2049",
 		"IncorrectAnswer": [
-			"Beast",
-			"Rush",
-			"Dragon",
-			"Dragon of Dojima"
+			"2020",
+			"2077",
+			"2050",
+			"2048",
+			"2040",
+			"2000"
 		]	
 	},"2":{
-		"Phrase":"Which Tojo subsidiary family kidnaps Yumi in the first chapter?",
-		"CorrectAnswer":"Dojima",
+		"Phrase":"Officer K is a replicant working as a Blade Runner. What model of replicant is he?",
+		"CorrectAnswer":"Nexus-9",
 		"IncorrectAnswer": [
-			"Kazama",
-			"Nikkyo",
-			"Aoyama",
-			"Arakawa",
-			"Shibata"
+			"Nexus-8",
+			"Nexus-4",
+			"Nexus-PD",
+			"Nexus-8s",
+			"Nexus-7s"
 		]	
 	},"3":{
-		"Phrase":"Chapter 2 begins how many years after the events of Chapter 1?",
-		"CorrectAnswer":"10 Years",
+		"Phrase":"A test was created for Nexus-9 models to detect emotional deviance. What is the name of this test?",
+		"CorrectAnswer":"Baseline test",
 		"IncorrectAnswer": [
-			"18 Years",
-			"12 Years",
-			"5 Years"
+			"Emotional Stability",
+			"Psychopsych test",
+			"Voight-Kampff test",
+			"Deviance test"
 		]	
 	},"4":{
-		"Phrase":"In Yakuza Kiwami, who is the proprietor of the host club Stardust?",
-		"CorrectAnswer":"Kazuki",
-		"IncorrectAnswer":[
-			"Yuya",
-			"Shinji",
-			"Tamura",
-			"Nishiki"
+		"Phrase":"What is the name of the main character in the film?",
+		"CorrectAnswer":"K",
+		"IncorrectAnswer": [
+			"V",
+			"Deckard",
+			"Lee",
+			"Joi"
 		]	
 	},"5":{
-		"Phrase":"Which minigame is exclusive to Yakuza Kiwami?",
-		"CorrectAnswer":"MesuKing",
+		"Phrase":"Over what period of time does the story take place?",
+		"CorrectAnswer":"7 Days",
 		"IncorrectAnswer": [
-			"UFO Catcher",
-			"Bowling",
-			"Batting Cages",
-			"Pool"
+			"3 Days",
+			"1 Month",
+			"2 Days",
+			"14 Days",
+			"10 Days"
 		]	
 	},"6":{
-		"Phrase":"How many substories are available in the game?",
-		"CorrectAnswer":"78",
+		"Phrase":"What model of replicant has an open-ended lifespan due to a rushed production?",
+		"CorrectAnswer":"Nexus-8",
 		"IncorrectAnswer": [
-			"98",
-			"100",
-			"70",
-			"55",
-			"50"
+			"Nexus-4",
+			"Nexus-7s",
+			"Nexus-5",
+			"Nexus-6"
 		]	
 	},"7":{
-		"Phrase":"In Chapter 4, who assists Kiryu Kazuma in escaping Tojo Clan Headquarters?",
-		"CorrectAnswer":"Makoto Date",
+		"Phrase":"What is the name of the digital companion K has in his apartment?",
+		"CorrectAnswer":"Joi",
 		"IncorrectAnswer": [
-			"Yumi",
-			"Majima",
-			"Shinji",
-			"Mizuki"
+			"DiJi",
+			"Digi",
+			"Joy",
+			"Rose",
+			"Jade"
 		]	
 	},"8":{
-		"Phrase":"What is the amount of yen that Yumi was rumored to have stolen from the Omni Alliance?",
-		"CorrectAnswer":"10 Billion",
+		"Phrase":"What does K notice while visiting the protein farm that leads him to discover a buried crate?",
+		"CorrectAnswer":"A Flower",
 		"IncorrectAnswer": [
-			"10 Trillion",
-			"10 Million",
-			"50 Billion",
-			"500 Million"
+			"A Leaf",
+			"A Headstone",
+			"Bugs",
+			"Fresh Dirt"
 		]	
 	},"9":{
-		"Phrase":"In Chapter 5, where does Kiryu Kazuma have to go in order find a legendary informant?",
-		"CorrectAnswer":"West Park",
+		"Phrase":"From the forensic analysis of the replicant remains found, what was the cause of death?",
+		"CorrectAnswer":"Caesarian Section",
 		"IncorrectAnswer": [
-			"East Park",
-			"Serena",
-			"Batting Center",
-			"Sewers"
+			"Gunshot Wound",
+			"Blood Loss",
+			"Head Trauma",
+			"Expiration"
 		]	
 	},"10":{
-		"Phrase":"Which of the following karaoke songs are not available in Yakuza Kiwami?",
-		"CorrectAnswer":"Shooting Star",
+		"Phrase":"When K revisits the protein farm, he finds a photograph with a date written on the back. What was the date?",
+		"CorrectAnswer":"6.10.21",
 		"IncorrectAnswer": [
-			"EURO de x3 SHINE",
-			"Ijisakura 2000",
-			"Bakamitai -sorrow-",
-			"Otometal MY LIFE"
+			"4.15.20",
+			"6.10.20",
+			"6.10.31",
+			"12.5.21",
+			"12.5.19",
+			"5.28.31"
 		]	
 	},"11":{
-		"Phrase":"In Chapter 5, who leads the charge in kidnapping Haruka and stops at the Yoshida Batting Center?",
-		"CorrectAnswer":"Majima",
+		"Phrase":"What date were the remains of the replicant stolen from LAPD?",
+		"CorrectAnswer":"July 2, 2049",
 		"IncorrectAnswer": [
-			"Shinji",
-			"Nishiki",
-			"Kazama",
-			"Mizuki"
+			"July 3, 2049",
+			"July 1, 2049",
+			"June 30, 2049",
+			"June 29, 2049",
+			"June 26, 2049"
 		]	
 	},"12":{
-		"Phrase":"What is the name of Chapter 7?",
-		"CorrectAnswer":"The Dragon and the Koi",
+		"Phrase":"Who does K recount his orphanage memory to at his apartment?",
+		"CorrectAnswer":"Joshi",
 		"IncorrectAnswer": [
-			"Father and Child",
-			"Purgatory",
-			"The Scheme",
-			"The Rescue"
+			"Coco",
+			"Joni",
+			"Mariette",
+			"Gaff"
 		]	
 	},"13":{
-		"Phrase":"In Chapter 8, three color-coordinated gangs are introduced. What is the name of the blue gang?",
-		"CorrectAnswer":"Blue Z",
+		"Phrase":"Where is the Morrillcole Orphanage located?",
+		"CorrectAnswer":"San Diego",
 		"IncorrectAnswer": [
-			"Bloody Eye",
-			"Blue B",
-			"Navy Night",
-			"Blue Edge"
+			"San Fransisco",
+			"Tampa",
+			"San Jose",
+			"Badlands",
+			"Los Angeles"
 		]	
 	},"14":{
-		"Phrase":"In Chapter 9, Date and Kiryu travel to whose headquarters?",
-		"CorrectAnswer":"Snake Flower Triad",
+		"Phrase":"When searching the orphanage, what does K find that he had hid in his memory?",
+		"CorrectAnswer":"Wooden Horse",
 		"IncorrectAnswer": [
-			"Omi Aliance",
-			"Amon Clan",
-			"Nishikiyama Family",
-			"Tojo Clan"
+			"Toy Soldier",
+			"Locket",
+			"Gold Coin",
+			"Necklace"
 		]	
 	},"15":{
-		"Phrase":"In the Majima Everywhere system, Goro Majima appears throughout the game in various disguises. Which of the following is not one of his disguises?",
-		"CorrectAnswer":"Construction Majima",
+		"Phrase":"When arrested by the LAPD, and after failing a baseline examination, how does K leave?",
+		"CorrectAnswer":"Lying about the child",
 		"IncorrectAnswer": [
-			"Goromi",
-			"Taxi Driver Majima",
-			"Hannya-Man",
-			"Bartender Majima",
-			"Zombie Majima"
+			"Jumping out a window",
+			"Running away",
+			"Being retired"
 		]	
 	},"16":{
-		"Phrase":"Who is revealed to be leaking information to the Nishikiyama Family in Chapter 10?",
-		"CorrectAnswer":"Reina",
+		"Phrase":"Who does K visit in order to examine the wooden toy horse after his run-in with the LAPD?",
+		"CorrectAnswer":"Doc Badger",
 		"IncorrectAnswer": [
-			"Date",
-			"Hakura",
-			"Shinji",
-			"Akemi"
+			"Dr. Ana Stelline",
+			"Joi",
+			"Mariette",
+			"Luv"
 		]	
 	},"17":{
-		"Phrase":"Which location does Kiryu need a membership card to enter in Chapter 11?",
-		"CorrectAnswer":"Shangri-La",
+		"Phrase":"After examination of the wooden toy horse, where do Joi and K travel to?",
+		"CorrectAnswer":"Las Vegas",
 		"IncorrectAnswer": [
-			"Club Shine",
-			"JeweL",
-			"Purgatory",
-			"Tojo Clan HQ"
-		]	
+			"San Jose",
+			"Tampa",
+			"Springfield",
+			"New York"
+		]		
 	},"18":{
-		"Phrase":"What is the name of the final (by numbering) substory in the game?",
-		"CorrectAnswer":"Battle for the MesuKing Throne",
+		"Phrase":"Whose forces attack and kidnap Deckard, leaving Joi destroyed in the process?",
+		"CorrectAnswer":"Luv's",
 		"IncorrectAnswer": [
-			"Enjoying it With Everyone",
-			"In Pursuit of Pleasure",
-			"A Goodbye Promise",
-			"The Truth About Beauty"
-		]	
+			"LAPD's",
+			"Nomads",
+			"Deckard's",
+			"K's"
+		]
 	},"19":{
-		"Phrase":"Who crashes into Shangri-La with a truck and must be defeated by Kiryu?",
-		"CorrectAnswer":"Majima",
+		"Phrase":"Who suggests Rachael's feelings for Decker were manufactured by her creator?",
+		"CorrectAnswer":"Wallace",
 		"IncorrectAnswer": [
-			"Shinji",
-			"Akemi",
-			"Nishiki",
-			"Ayaka",
-			"Kazama"
-		]	
+			"Tyrell",
+			"K",
+			"Joi",
+			"Freysa"
+		]
 	},"20":{
-		"Phrase":"Where does the final main-story battle take place?",
-		"CorrectAnswer":"Ares",
+		"Phrase":"What is the name of both Deckard and Rachael's child?",
+		"CorrectAnswer":"Ana Stelline",
 		"IncorrectAnswer": [
-			"Serena",
-			"Purgatory",
-			"Club Shine",
-			"Tojo Clan HQ",
-			"Omi Aliance HQ"
+			"Niander Wallace",
+			"K",
+			"Sapper Morton"
 		]	
 	}
 }
