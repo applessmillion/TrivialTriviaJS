@@ -43,7 +43,7 @@
 		</header>
 		<!-- End quiz page header -->
 		<main id="mainContent" class="main-content">
-			<img id = "flyer" src="images/flair.gif" class="flyby">
+			<img id = "flyer" src="images/flair-0.gif" class="flyby">
 			<h2 id="QuizNumber">Quiz Question Number</h2>
 			<p id="QuizPhrase"></p>
 			<div id="QuizButtons">
@@ -62,7 +62,7 @@
 			setTimeout(function(){ setQuestionState(13); }, 400);
 			var flyerpos = -8;
 			var flyercolor = 0;
-			setInterval(function(){ document.getElementById("flyer").style = "left:"+flyerpos+"vw";flyerpos += 7; if(flyerpos > 145){flyerpos = -5; if(flyercolor == 0){ document.getElementById("flyer").style = "transition-duration:0s;"; document.getElementById("flyer").src = "images/flair-1.gif"; }else{ document.getElementById("flyer").src = "images/flair-0.gif";document.getElementById("flyer").style = "transition-duration:0s;"; } }  }, 950);
+			setInterval(function(){ document.getElementById("flyer").style = "left:"+flyerpos+"vw";flyerpos += 7; if(flyerpos > 145){flyerpos = -5; if(flyercolor == 0){ document.getElementById("flyer").style = "transition-duration:0s;"; document.getElementById("flyer").src = "images/flair-1.gif"; flyercolor = 1; }else{ document.getElementById("flyer").src = "images/flair-0.gif";document.getElementById("flyer").style = "transition-duration:0s;"; flyercolor = 0; } }  }, 950);
 		</script>
 	</body>
 </html>

@@ -11,7 +11,7 @@ var triviamode = localStorage.triviadifficulty;
 function setQuestionState(timer=13){
 	ranX = Math.floor(Math.random()*4);
 	questionDetails = getQuestionDetails();
-	questionTimer = setInterval(timerCountdown, 1075);
+	questionTimer = setInterval(timerCountdown, 1090);
 	
 	/* Update question number and phrase */
 	document.getElementById("QuizNumber").innerHTML = 'Question '+Number(currentQuestion+1);
