@@ -1,25 +1,40 @@
 January
-JAN21 = Yakuza 0
-JAN26 = Yakuza 1 Kiwami
-JAN28 = Yakuza 2 Kiwami
+JAN21 # Yakuza 0
+JAN26 # Yakuza 1 Kiwami
+JAN28 # Yakuza 2 Kiwami
 
 February
-FEB04 = Colony Survival 0.8.1
-FEB11 = LEGO
-FEB18 = ???
-FEB23 = Minecraft 1.15
-FEB25 = Minecraft 1.16
+FEB04 # Colony Survival 0.8.1
+FEB11 # LEGO
+FEB18 = Phasmophobia
+FEB23 # Minecraft 1.15
+FEB25 # Minecraft 1.16
 
 March
-MAR04 = DOOM Eternal
-MAR09 = Animal Crossing GC
+MAR04 = Animal Crossing GC
+MAR09 * DOOM Eternal
 MAR11 = Animal Crossing New Leaf
 MAR18 = Animal Crossing New Horizons
-MAR25 = Phasmophobia
+MAR25 
 
 April
-APR01 = ???
-APR08 = ???
-APR15 = ???
-APR22 = ???
-APR29 = ???
+APR01 ???
+APR08 ???
+APR15 ???
+APR22 ???
+APR29 ???
+
+Want to do
+Yakuza 7 (After Y3-6)
+Yakuza 3-6 (After March)
+Legend of Zelda (TBD)
+Newgrounds History (TBD)
+Adobe Flash (TBD)
+Cryptocurrency (TBD)
+HTML/JS (TBD)
+
+
+# Completely finished and ready to package and publish.
+* Game questions and themeing not finished.
+= Questions finished, but no art or themeing has been done.
+! Will need to redo. Game probably made info obsolete.

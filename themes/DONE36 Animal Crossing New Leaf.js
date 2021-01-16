@@ -46,7 +46,7 @@ var questions = {
 			"2016"
 		]	
 	},"5":{
-		"Phrase":"What is the name of the 2016 update that added the Campsite?",
+		"Phrase":"What is the name of the 2016 update that added the Campground?",
 		"CorrectAnswer":"Welcome Amiibo",
 		"IncorrectAnswer": [
 			"Getaway",
@@ -73,7 +73,7 @@ var questions = {
 			"Shop Centre"
 		]	
 	},"8":{
-		"Phrase":"Club LOL is run by which returning character?",
+		"Phrase":"Club LOL is owned by which returning character?",
 		"CorrectAnswer":"Dr. Shrunk",
 		"IncorrectAnswer": [
 			"DJ Nook",
@@ -109,10 +109,10 @@ var questions = {
 			"Baby Owl"
 		]	
 	},"12":{
-		"Phrase":"What is the final form of the shop run by Timmy and Tommy Nook?",
-		"CorrectAnswer":"T&T Emporium",
+		"Phrase":"What is the first form of the shop run by Timmy and Tommy Nook?",
+		"CorrectAnswer":"Nookling Junction",
 		"IncorrectAnswer": [
-			"T&T",
+			"T&T Cranny",
 			"Nook's Cranny",
 			"Super T&T",
 			"Nookingtons"
@@ -136,12 +136,13 @@ var questions = {
 			"Snowboy"
 		]	
 	},"15":{
-		"Phrase":"Which building will act as a lost and found once built?",
-		"CorrectAnswer":"Police Station",
+		"Phrase":"What is the name of the building that allows the player to send mail to villagers and other players?",
+		"CorrectAnswer":"Post Office",
 		"IncorrectAnswer": [
-			"Dump",
-			"Fenced in area",
-			"Recycle Bin"
+			"Police Station",
+			"Mailbox",
+			"Mail Station",
+			"Dodo Airlines"
 		]	
 	},"16":{
 		"Phrase":"Which special character runs the bug catching tournaments on the island?",
@@ -253,76 +254,78 @@ var questions = {
 			"500 bags"
 		]	
 	},"28":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which building will act as a lost and found once built?",
+		"CorrectAnswer":"Police Station",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Dump",
+			"Fenced in area",
+			"Recycle Bin",
+			"Post Office"
 		]	
 	},"29":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which pelican can be found wandering the town weekdays from 9:00-9:30am and 5:00-5:30pm?",
+		"CorrectAnswer":"Pete",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Phyllis",
+			"Pelly",
+			"Zucker",
+			"Robin"
 		]	
 	},"30":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which public works project allows a non-resident villager to visit the town for a day?",
+		"CorrectAnswer":"Campsite",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Summer Camp",
+			"Igloo",
+			"Tenting Station",
+			"Visitor Lounge"
 		]	
 	},"31":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Lyle is a character that can be found in Nook's Homes. What organization does he work for?",
+		"CorrectAnswer":"Happy Home Academy",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Nook's Homes",
+			"Crazy Redd's",
+			"Faraway Museum",
+			"Happy Home Showcase"
 		]	
 	},"32":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What is the final form of the shop run by Timmy and Tommy Nook?",
+		"CorrectAnswer":"T&T Emporium",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"T.I.Y",
+			"Nook's Cranny",
+			"Super T&T",
+			"T&T Mart",
+			"Nookingtons"
 		]	
 	},"33":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the following plant was first introduced in New Leaf?",
+		"CorrectAnswer":"Bamboo",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Cherry Tree",
+			"Black Rose",
+			"Jacob's Ladder",
+			"Coconut Tree"
 		]	
 	},"34":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which special character is the host of the April Fool's Day events?",
+		"CorrectAnswer":"Blanca",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Pave",
+			"Gracie",
+			"Harriet",
+			"Harvey"
 		]	
 	},"35":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What is the name of the special character that will award the player with badges once they achieve certain milestones?",
+		"CorrectAnswer":"Phineas",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Pete",
+			"Porter",
+			"Pascal",
+			"Luna",
+			"Lloid"
 		]	
 	}
 }
