@@ -228,7 +228,7 @@ var questions = {
 		]	
 	},"25":{
 		"Phrase":"Which of the following items cannot be donated to the museum?",
-		"CorrectAnswer":"Minerals",
+		"CorrectAnswer":"Fruits",
 		"IncorrectAnswer": [
 			"Fossils",
 			"Bugs",
@@ -255,7 +255,7 @@ var questions = {
 		]	
 	},"28":{
 		"Phrase":"How many balloons must the player shoot down before the opportunity to obtain a Golden Slingshot?",
-		"CorrectAnswer":"300",
+		"CorrectAnswer":"300 Balloons",
 		"IncorrectAnswer": [
 			"500 Balloons",
 			"100 Balloons",

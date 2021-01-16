@@ -1,0 +1,25 @@
+January
+JAN21 = Yakuza 0
+JAN26 = Yakuza 1 Kiwami
+JAN28 = Yakuza 2 Kiwami
+
+February
+FEB04 = Colony Survival 0.8.1
+FEB11 = LEGO
+FEB18 = ???
+FEB23 = Minecraft 1.15
+FEB25 = Minecraft 1.16
+
+March
+MAR04 = DOOM Eternal
+MAR09 = Animal Crossing GC
+MAR11 = Animal Crossing New Leaf
+MAR18 = Animal Crossing New Horizons
+MAR25 = Phasmophobia
+
+April
+APR01 = ???
+APR08 = ???
+APR15 = ???
+APR22 = ???
+APR29 = ???
