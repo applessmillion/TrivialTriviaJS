@@ -1,12 +1,13 @@
+var reference = "https://terraria.gamepedia.com/Terraria_Wiki";
 var questions = {
 	"0":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Terraria is developed by which of the following developers?",
+		"CorrectAnswer":"Re-Logic",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Revive Studios",
+			"Mojang",
+			"Post-Logic",
+			"Jatex"
 		]	
 	},"1":{
 		"Phrase":"",
@@ -76,13 +77,13 @@ var questions = {
 			""
 		]	
 	},"8":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"In which month and year was Terraria first released to PC?",
+		"CorrectAnswer":"May 2011",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"September 2009",
+			"August 2010",
+			"May 2010",
+			"May 2012"
 		]	
 	},"9":{
 		"Phrase":"",
@@ -184,13 +185,13 @@ var questions = {
 			""
 		]	
 	},"20":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"The Bestiary, a catalog of characters and enemies, was introduced in which named update?",
+		"CorrectAnswer":"Journey's End",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			""
+			"Party Update",
+			"Wiring Update",
+			"Desert Update",
+			"Dungeon Defenders Crossover"
 		]	
 	}
 }
