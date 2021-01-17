@@ -36,6 +36,7 @@
 		</div>
 		<main id="mainContent" style="main-content">
 			<p id="body-description"></p>
+			<p id="extra-description"></p>
 			<button id="startnormal" onclick="window.location.href = 'quiz.html';localStorage.triviadifficulty = 0;" class="quiz-button">Start Trivia (Normal)</button>
 			<button id="starthard" onclick="window.location.href = 'quiz.html';localStorage.triviadifficulty = 1;" class="quiz-button">Start Trivia (Hard)</button>
 			</br>
@@ -49,6 +50,7 @@
 			setTimeout(function(){ document.getElementById("EnterAnimation").style = "opacity:0;display:none;"; }, 1080);
 			setTimeout(function(){ document.getElementById("TriviaLogo").style = ""; }, 200);
 		}
+		amIDev();
 		</script>
 		
 		<!-- Test for browser compatability -->

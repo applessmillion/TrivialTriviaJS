@@ -26,3 +26,13 @@ function openMusicLink(){
 		document.getElementById("musicbutton").style = 'display:none;';
 	}else{ window.open(externalMusic);}
 }
+
+function amIDev(){
+	var currentURL = window.location.href;
+	var result = currentURL.includes("jadefury.dev");
+	
+	if(result){
+		console.log('Game is being played on dev domain. If any bugs or issues are encountered, I will refer you play to the live game on Newgrounds!');
+		document.getElementById("extra-description").innerHTML = "</br></br><b>Note:</b> This is being played on a development domain! Everything should work, but there may be some experimental changes!"
+	}
+}

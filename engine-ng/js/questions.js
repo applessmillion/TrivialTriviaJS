@@ -1,189 +1,194 @@
 var questions = {
 	"0":{
-		"Phrase":"The first and primary map, 'The Skeld', released in Among Us on which date?",
-		"CorrectAnswer":"June 15, 2018",
+		"Phrase":"Which game studio developed the game Phasmophobia?",
+		"CorrectAnswer":"Kinetic Games",
 		"IncorrectAnswer": [
-			"June 15, 2019",
-			"July 21, 2018",
-			"July 21, 2017",
-			"August 10, 2018",
-			"May 1, 2018"
+			"Chainlink",
+			"Kinetic Studios",
+			"Hollow Games",
+			"Ghostly Games"
 		]	
 	},"1":{
-		"Phrase":"Among Us originally released as a mobile game on June 15, 2018. Which digital marketplace did it first arrive to on PC?",
-		"CorrectAnswer":"Steam",
+		"Phrase":"Which of the following is not one of the ghost types?",
+		"CorrectAnswer":"Angel",
 		"IncorrectAnswer": [
-			"Epic Games Store",
-			"Kartridge",
-			"Microsoft Store"
+			"Shade",
+			"Mare",
+			"Jinn",
+			"Revenant",
+			"Phantom",
+			"Oni"
 		]	
 	},"2":{
-		"Phrase":"What is the name of the video game development studio that created Among Us?",
-		"CorrectAnswer":"Innersloth",
+		"Phrase":"Which of the following is not a map in the game?",
+		"CorrectAnswer":"Grafton Road House",
 		"IncorrectAnswer": [
-			"Slothfigures",
-			"Nintendo",
-			"ACE Team",
-			"Arcane Kids",
-			"Alientrap"
+			"Edgefield Street House",
+			"Ridgeview Road House",
+			"Tanglewood Street House"
 		]	
 	},"3":{
-		"Phrase":"Which of the following is not a customizable feature in the game?",
-		"CorrectAnswer":"Shoes",
+		"Phrase":"On which day did Phasmophobia release to early access on Steam?",
+		"CorrectAnswer":"September 18 2020",
 		"IncorrectAnswer": [
-			"Colors",
-			"Pets",
-			"Skins",
-			"Hats"
+			"October 31 2020",
+			"October 20 2020",
+			"September 20 2020",
+			"August 18 2020"
 		]	
 	},"4":{
-		"Phrase":"Which of the following is not one of the maps in the game?",
-		"CorrectAnswer":"The Enterprise",
+		"Phrase":"Which type of item spawns on a map randomly and allows players to communicate to the ghost?",
+		"CorrectAnswer":"Ouija Board",
 		"IncorrectAnswer":[
-			"The Skeld",
-			"MIRA HQ",
-			"Polus",
-			"The Airship"
+			"Bone Evidence",
+			"Radio",
+			"Video Camera",
+			"Sound Sensor",
+			"Objective Board"
 		]	
 	},"5":{
-		"Phrase":"The room 'Specimen Room' is located on which map?",
-		"CorrectAnswer":"Polus",
+		"Phrase":"Which map has over 75 different rooms?",
+		"CorrectAnswer":"Asylum",
 		"IncorrectAnswer": [
-			"The Skeld",
-			"MIRA HQ",
-			"The Airship"
+			"Prison",
+			"Brownstone High School",
+			"Grafton Farmhouse",
+			"Mansion"
 		]	
 	},"6":{
-		"Phrase":"What is the name of the individual that attempts to kill other Crewmates?",
-		"CorrectAnswer":"Impostor",
+		"Phrase":"Salt is toxic to which type of ghost?",
+		"CorrectAnswer":"Wraith",
 		"IncorrectAnswer": [
-			"Murderer",
-			"Killer",
-			"Spy",
-			"Alien"
+			"Spirit",
+			"Banshee",
+			"Oni",
+			"Shade"
 		]	
 	},"7":{
-		"Phrase":"Of the three roles a player can have, which one does not allow you to be ejected?",
-		"CorrectAnswer":"Ghost",
+		"Phrase":"On small maps, how many light switches can be switched on before the fuse box turns off?",
+		"CorrectAnswer":"10 switches",
 		"IncorrectAnswer": [
-			"Crewmate",
-			"Imposter",
-			"None"
+			"11 switches",
+			"12 switches",
+			"7 switches",
+			"5 switches",
+			"4 switches"
 		]	
 	},"8":{
-		"Phrase":"How many rooms does The Skeld map have?",
-		"CorrectAnswer":"14",
+		"Phrase":"Which of the following keys cannot be found on a map?",
+		"CorrectAnswer":"Cell Key",
 		"IncorrectAnswer": [
-			"12",
-			"10",
-			"8",
-			"9"
+			"Basement Key",
+			"Car Key",
+			"Garage Key"
 		]	
 	},"9":{
-		"Phrase":"What is the name of the single-player mode featuring NPCs in Among Us?",
-		"CorrectAnswer":"Freeplay",
+		"Phrase":"Which type of ghost hunts the most?",
+		"CorrectAnswer":"Demon",
 		"IncorrectAnswer": [
-			"Solo",
-			"Repair the Ship",
-			"Creative",
-			"Sandbox"
+			"Shade",
+			"Phantom",
+			"Jinn",
+			"Weaith"
 		]	
 	},"10":{
-		"Phrase":"The Imposter can use the Oxygen Depletion sabotage in MIRA HQ and which other map?",
-		"CorrectAnswer":"The Skeld",
+		"Phrase":"What location do players start at in every map?",
+		"CorrectAnswer":"The Van",
 		"IncorrectAnswer": [
-			"Polus",
-			"The Airship",
-			"Polus HQ"
+			"Front Door",
+			"The Office",
+			"The Garage",
+			"The Street"
 		]	
 	},"11":{
-		"Phrase":"Where is the Emergency Button located on the map Polus?",
-		"CorrectAnswer":"Office",
+		"Phrase":"What is the difference between the player activating a sink and a ghost activating it?",
+		"CorrectAnswer":"Dirty Water",
 		"IncorrectAnswer": [
-			"Admin",
-			"Communications",
-			"MedBay",
-			"Security",
-			"Storage"
+			"Broken Faucet",
+			"Broken Mirror",
+			"Footsteps",
+			"Handprints"
 		]	
 	},"12":{
-		"Phrase":"Which of the following is a player color that used to be accessible, but is no longer selectable?",
-		"CorrectAnswer":"Fortegreen",
+		"Phrase":"What is the cost of Sanity Pills?",
+		"CorrectAnswer":"$45",
 		"IncorrectAnswer": [
-			"Lime",
-			"Purple",
-			"Black",
-			"Blue"
+			"$20",
+			"$50",
+			"$30",
+			"$35"
 		]	
 	},"13":{
-		"Phrase":"What date did the Polus map and related content release?",
-		"CorrectAnswer":"November 12, 2019",
+		"Phrase":"Freezing, Spirit Box, and Fingerprints are all evidence pointing to which type of ghost?",
+		"CorrectAnswer":"Wraith",
 		"IncorrectAnswer": [
-			"November 1, 2019",
-			"October 30, 2019",
-			"October 10, 2020",
-			"November 6, 2020"
+			"Mare",
+			"Spirit",
+			"Jinn",
+			"Phantom"
 		]	
 	},"14":{
-		"Phrase":"In the Cafeteria on The Skeld, which of the following is not a task that can be assigned to Crewmates?",
-		"CorrectAnswer":"Buy Beverage",
+		"Phrase":"What is the maximum number of successful uses the Crucifix has?",
+		"CorrectAnswer":"2",
 		"IncorrectAnswer": [
-			"Download Data",
-			"Empty Garbage",
-			"Fix Wiring"
+			"4",
+			"5",
+			"1",
+			"3"
 		]	
 	},"15":{
-		"Phrase":"Which sabotage allows an Imposter to reduce the vision of other Crewmates?",
-		"CorrectAnswer":"Fix Lights",
+		"Phrase":"Orbs, Writing, and the EMF are all evidence pointing to which type of ghost?",
+		"CorrectAnswer":"Shade",
 		"IncorrectAnswer": [
-			"Comms Sabotage",
-			"Door Sabotage",
-			"Oxygen Depletion",
-			"Reactor Meltdown"
+			"Mare",
+			"Banshee",
+			"Spirit",
+			"Jinn",
+			"Phantom"
 		]	
 	},"16":{
-		"Phrase":"If an impostor is ejected on Polus with the Confirm Ejects option enabled, what hand signal do they give in the lava?",
-		"CorrectAnswer":"Thumbs Up",
+		"Phrase":"Which map feature has a horn that a ghost can set off?",
+		"CorrectAnswer":"Car",
 		"IncorrectAnswer": [
-			"Thumbs Down",
-			"OK Symbol",
-			"Reach for Help",
-			"High-Five"
+			"Bicycle",
+			"Tricycle",
+			"Alarm System",
+			"Tornado Horn"
 		]	
 	},"17":{
-		"Phrase":"What is the name of the ability that allows players to watch the map through security cameras?",
-		"CorrectAnswer":"Security",
+		"Phrase":"What is the maximum number of Sanity Pills players can have on a run?",
+		"CorrectAnswer":"4 pills",
 		"IncorrectAnswer": [
-			"Vent",
-			"Spy",
-			"Vitals",
-			"Admin"
+			"5 pills",
+			"2 pills",
+			"6 pills",
+			"3 pills"
 		]	
 	},"18":{
-		"Phrase":"Which ability allows for Imposters to travel between rooms and hide?",
-		"CorrectAnswer":"Vent",
+		"Phrase":"Orbs, Freezing, and the Spirit Box are all evidence pointing to which type of ghost?",
+		"CorrectAnswer":"Mare",
 		"IncorrectAnswer": [
-			"Admin",
-			"Kill",
-			"Sabotage",
-			"Spy"
+			"Banshee",
+			"Spirit",
+			"Jinn",
+			"Phantom"
 		]	
 	},"19":{
-		"Phrase":"How many rooms does the map Polus have?",
-		"CorrectAnswer":"15",
+		"Phrase":"What is the cost of a Crucifix?",
+		"CorrectAnswer":"$30",
 		"IncorrectAnswer": [
-			"12",
-			"14",
-			"18",
-			"19"
+			"$25",
+			"$50",
+			"$45",
+			"$35"
 		]	
 	},"20":{
-		"Phrase":"Which sabotage, available on The Skeld and MIRA HQ, requires two players to disarm?",
-		"CorrectAnswer":"Reactor Meltdown",
+		"Phrase":"How can the player tell if a Smudge Stick has been used up?",
+		"CorrectAnswer":"Dissipating smoke",
 		"IncorrectAnswer": [
-			"Comms Sabotage",
-			"Door Sabotage",
-			"Oxygen Depletion"
+			"Flame burning out",
+			"Sticks drop",
+			"Sticks change color"
 		]	
 	}
 }
