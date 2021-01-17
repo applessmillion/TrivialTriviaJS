@@ -6,9 +6,10 @@ JAN28 # Yakuza 2 Kiwami
 February
 FEB04 # Colony Survival 0.8.1
 FEB11 # LEGO
-FEB18 * Cubeworld
-FEB23 # Minecraft 1.15
-FEB25 # Minecraft 1.16
+FEB16 # Minecraft 1.15
+FEB18 * Terraria
+FEB23 # Minecraft 1.16
+FEB25 * Starbound
 
 March
 MAR04 = Animal Crossing GC
