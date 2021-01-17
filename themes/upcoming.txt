@@ -6,16 +6,16 @@ JAN28 # Yakuza 2 Kiwami
 February
 FEB04 # Colony Survival 0.8.1
 FEB11 # LEGO
-FEB18 = Phasmophobia
+FEB18 * Cubeworld
 FEB23 # Minecraft 1.15
 FEB25 # Minecraft 1.16
 
 March
 MAR04 = Animal Crossing GC
-MAR09 * DOOM Eternal
+MAR09 * DOOM 4
 MAR11 = Animal Crossing New Leaf
 MAR18 = Animal Crossing New Horizons
-MAR25 
+MAR25 * DOOM Eternal
 
 April
 APR01 ???
@@ -23,6 +23,8 @@ APR08 ???
 APR15 ???
 APR22 ???
 APR29 ???
+
+????? = Phasmophobia
 
 Want to do
 Yakuza 7 (After Y3-6)
