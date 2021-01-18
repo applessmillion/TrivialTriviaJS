@@ -10,24 +10,26 @@ var questions = {
 			"Jatex"
 		]	
 	},"1":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which of the following platforms is Terraria NOT available?",
+		"CorrectAnswer":"Samsung Smart Oven",
 		"IncorrectAnswer": [
-			"",
-			"",
-			" ",
-			" ",
-			""
+			"Apple iOS",
+			"Nintendo Wii U",
+			"Linux",
+			"Sony PSVita",
+			"Sony PlayStation 3",
+			"Nintendo 3DS"
 		]	
 	},"2":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"What is the name of the NPC that appears to the player first and offers helpful tips?",
+		"CorrectAnswer":"Guide",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			"",
-			""
+			"Princess",
+			"Fairy",
+			"Dude",
+			"Angler",
+			"Dryad"
+			"Party Girl"
 		]	
 	},"3":{
 		"Phrase":"",
@@ -67,14 +69,14 @@ var questions = {
 			""
 		]	
 	},"7":{
-		"Phrase":"",
-		"CorrectAnswer":"",
+		"Phrase":"Which boss, when defeated, converts the world to Hardmode?",
+		"CorrectAnswer":"Wall of Flesh",
 		"IncorrectAnswer": [
-			"",
-			"",
-			"",
-			"",
-			""
+			"Moon Lord",
+			"Eater of Worlds",
+			"Brain of Cthulhu",
+			"Skeletron",
+			"Eye of Cthulhu"
 		]	
 	},"8":{
 		"Phrase":"In which month and year was Terraria first released to PC?",

@@ -9,7 +9,7 @@ FEB11 # LEGO
 FEB16 # Minecraft 1.15
 FEB18 * Terraria
 FEB23 # Minecraft 1.16
-FEB25 * Starbound
+FEB25 = Starbound
 
 March
 MAR04 = Animal Crossing GC
