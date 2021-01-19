@@ -1,3 +1,23 @@
+===== Version 10 / 10.19.21 !
+Major update!
++ Engine now supports images.
+ # Modified CSS properties to accomodate for this.
+ # Questions can now specify an image and it will appear.
++ Added better compatibility.
+ # Add failsafe font (sans-serif/serif) for when fonts don't load.
+ # Add special CSS styles for landscape/portrait.
+ # Add some styling that Firefox is more friendly with.
++ Keep buttons in a similar spot by positioning at bottom of page.
+ # Header does it, why not the buttons?
+ # Next Question button will properly appear under the button in question when needed.
++ Buttons, when clicked on, will now display through color if they are correct or not.
+ # Red for bad answer.
+ # Green for good answer.
++ Timer now uses ease-in-out instead of linear transition. Looks better imo.
++ Mild support for 'flair' feature.
+ # It's a moving element on the page.
+ # Since each theme uses a slightly different version, it varies per theme.
+
 ===== Version 9 / 10.11.21
 + Add compatibility css transitions in case of older browsers.
 + Work on removing need for require.js. It seems to be very iffy.

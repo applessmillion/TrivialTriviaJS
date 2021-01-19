@@ -2,6 +2,7 @@ var questions = {
 	"0":{
 		"Phrase":"Which game studio developed the game Phasmophobia?",
 		"CorrectAnswer":"Kinetic Games",
+		"Image":"images/logo.png",
 		"IncorrectAnswer": [
 			"Chainlink",
 			"Kinetic Studios",

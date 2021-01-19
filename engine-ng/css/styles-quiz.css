@@ -1,3 +1,23 @@
+@media (orientation: landscape) { 
+	#QuizButtons{
+		position:absolute;
+		left:0px;
+		bottom:calc(5vh + 25px);
+		width:100%;
+	}
+	#quizPhrase{ font-size:calc(0.28vw + 16pt); }
+	#QuizImage{max-height:256px;height:25vh;}
+}
+@media (orientation: portrait) {
+	#QuizButtons{
+		position:absolute;
+		bottom:calc(3vh + 55px);
+		width:100%;
+		left:0px;
+	}
+	#quizPhrase{font-size:calc(0.5vh + 16pt);}
+	#QuizImage{max-width:90vw;}
+}
 #TriviaLogoDiv{
 	color:#00002d;
 	font-size:24pt;
@@ -19,10 +39,15 @@
 #QuizNumber{
 	font-size:calc(2vh + 22pt);
 	margin-bottom:2px;
+	margin-top:1vh;
+}
+#QuizImage{
+	text-align:center;
+	margin-bottom:18px;
 }
 #mainContent{
 	padding: 2vh 5vw;
-	padding-top:14vh;
+	padding-top:12.5vh;
 	max-width:98vw;
 	margin:auto;
 	text-align:center;
@@ -38,12 +63,7 @@
 	margin-top:0px;
 }
 
-#quizPhrase{
-	padding: 2vh 3vw;
-	font-weight:600;
-	font-size:calc(0.28vw + 14pt);
-}
-
+#quizPhrase{ padding: 2vh 3vw; font-weight:600; }
 #scoreText{
 	font-size:calc(1.55vw + 1em);
 	padding-top:1vh;
@@ -63,7 +83,7 @@
 	left:0;
 	overflow:hidden;
 	transition-duration:1.065s;
-	transition-timing-function: linear;
+	transition-timing-function: ease-in-out;
 	width:100%;
 }
 #TimeBorderDisplayBehind{
@@ -90,4 +110,16 @@
 	height:100%;
 	overflow:hidden;
 	background:#00002d;
+}
+
+.button-correct{
+	background:#00AF11;
+	color:white;
+	border:4px #00AF11af solid;
+}
+
+.button-incorrect{
+	background:#D30000;
+	color:white;
+	border:4px #D30000af solid;
 }

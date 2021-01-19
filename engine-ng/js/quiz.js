@@ -16,6 +16,14 @@ function setQuestionState(timer=13){
 	/* Update question number and phrase */
 	document.getElementById("QuizNumber").innerHTML = 'Question '+Number(currentQuestion+1);
 	document.getElementById("QuizPhrase").innerHTML = questionPhrase;
+	if(questionImage != "none"){
+		document.getElementById("QuizImage").src = questionImage;
+		document.getElementById("QuizPhrase").style = 'padding:0px;';
+	}else{
+		document.getElementById("QuizImage").src = '';
+		document.getElementById("QuizImage").style = 'display:none';
+		document.getElementById("QuizPhrase").style = '';
+	}
 	
 	/* Set timer bar back to full-width and set the timer back up to 13 seconds. */
 	document.getElementById("TimeBorderDisplay").style = "width:100%";
@@ -61,12 +69,18 @@ function setQuestionState(timer=13){
 
 function getQuestionDetails(){
 	/* Clear variables from previous calls */
-	incorrectAnswer = [];
+	var incorrectAnswer = [];
 	
 	/* Establish correct answer and incorrect answer pool */
 	correctAnswer = questions[currentQuestion].CorrectAnswer;
 	incorrectAnswer = questions[currentQuestion].IncorrectAnswer.slice();
 	questionPhrase = questions[currentQuestion].Phrase;
+	
+	if(questions[currentQuestion].Image){
+		questionImage = questions[currentQuestion].Image;
+	}else{
+		questionImage = "none";
+	}
 }
 
 /* functions to handle button clicks. */
@@ -87,7 +101,7 @@ function correctAnswerClick(clickedAnswer){
 }
 function badAnswerClick(clickedAnswer){
 	/* Let the user know their answer was incorrect. Do not reward a point. */
-	reviewBeforeProceeding(clickedAnswer);
+	reviewBeforeProceeding(clickedAnswer, 1);
 	document.getElementById("QuizNumber").innerHTML = 'Incorrect Answer';
 	document.getElementById("QuizPhrase").innerHTML = 'Below is the answer you selected.';
 
@@ -126,31 +140,35 @@ function timerCountdown(){
 }
 
 /* Handle pausing the game when a question is answered */
-function reviewBeforeProceeding(clickedAnswer){
+function reviewBeforeProceeding(clickedAnswer, bad=0){
 	clearInterval(questionTimer);
 	if(clickedAnswer==1){
-		document.getElementById("QuizButton1").style = 'pointer-events:none;';
+		if(bad==0){ document.getElementById("QuizButton1").style = 'pointer-events:none;background:#00AF11;color:white;border:4px #00AF11af solid;'; }
+		else{ document.getElementById("QuizButton1").style = 'pointer-events:none;background:#D30000;color:white;border:4px #D30000af solid;'; }
 		document.getElementById("QuizButton2").style = 'display:none;';
 		document.getElementById("QuizButton3").style = 'display:none';
 		document.getElementById("QuizButton4").style = 'display:none';
 	}
 	if(clickedAnswer==2){
 		document.getElementById("QuizButton1").style = 'display:none';
-		document.getElementById("QuizButton2").style = 'pointer-events:none;';
+		if(bad==0){ document.getElementById("QuizButton2").style = 'pointer-events:none;background:#00AF11;color:white;border:4px #00AF11af solid;'; }
+		else{ document.getElementById("QuizButton2").style = 'pointer-events:none;background:#D30000;color:white;border:4px #D30000af solid;'; }
 		document.getElementById("QuizButton3").style = 'display:none';
 		document.getElementById("QuizButton4").style = 'display:none';
 	}
 	if(clickedAnswer==3){
 		document.getElementById("QuizButton2").style = 'display:none';
 		document.getElementById("QuizButton1").style = 'display:none';
-		document.getElementById("QuizButton3").style = 'pointer-events:none;';
+		if(bad==0){ document.getElementById("QuizButton3").style = 'pointer-events:none;background:#00AF11;color:white;border:4px #00AF11af solid;'; }
+		else{ document.getElementById("QuizButton3").style = 'pointer-events:none;background:#D30000;color:white;border:4px #D30000af solid;'; }
 		document.getElementById("QuizButton4").style = 'display:none';
 	}
 	if(clickedAnswer==4){
 		document.getElementById("QuizButton2").style = 'display:none';
 		document.getElementById("QuizButton3").style = 'display:none';
 		document.getElementById("QuizButton1").style = 'display:none';
-		document.getElementById("QuizButton4").style = 'pointer-events:none;';
+		if(bad==0){ document.getElementById("QuizButton4").style = 'pointer-events:none;background:#00AF11;color:white;border:4px #00AF11af solid;'; }
+		else{ document.getElementById("QuizButton4").style = 'pointer-events:none;background:#D30000;color:white;border:4px #D30000af solid;'; }
 	}
 	document.getElementById("QuizButtonNext").style = '';
 }
