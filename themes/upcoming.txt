@@ -7,9 +7,9 @@ February
 FEB04 # Colony Survival 0.8.1
 FEB11 # LEGO
 FEB16 # Minecraft 1.15
-FEB18 * Terraria
+FEB18 ^ Terraria
 FEB23 # Minecraft 1.16
-FEB25 = Starbound
+FEB25 ^ Starbound
 
 March
 MAR04 = Animal Crossing GC
@@ -38,6 +38,7 @@ HTML/JS (TBD)
 
 
 # Completely finished and ready to package and publish.
-* Game questions and themeing not finished.
+^ Questions & theme done. Need music only.
 = Questions finished, but no art or themeing has been done.
+* Game questions and themeing not finished.
 ! Will need to redo. Game probably made info obsolete.
