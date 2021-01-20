@@ -81,6 +81,11 @@ function getQuestionDetails(){
 	}else{
 		questionImage = "none";
 	}
+	
+	/* Preload the next image. */
+	if(questions[currentQuestion+1].Image && questions[currentQuestion+2].Image != "none"){
+		new Image().src = questions[currentQuestion+1].Image;
+	}
 }
 
 /* functions to handle button clicks. */
@@ -171,6 +176,11 @@ function reviewBeforeProceeding(clickedAnswer, bad=0){
 		else{ document.getElementById("QuizButton4").style = 'pointer-events:none;background:#D30000;color:white;border:4px #D30000af solid;'; }
 	}
 	document.getElementById("QuizButtonNext").style = '';
+	
+	/* Preload the next next image. */
+	if(questions[currentQuestion+2].Image && questions[currentQuestion+2].Image != "none"){
+		new Image().src = questions[currentQuestion+2].Image;
+	}
 }
 
 /* Grab the incorrectAnswers array from questions.js and pick 3 from the available list. */
