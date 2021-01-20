@@ -126,7 +126,7 @@ var questions = {
 		]	
 	},"12":{
 		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Iowa",
+		"CorrectAnswer":"Maryland",
 		"Image":"images/13.png",
 		"IncorrectAnswer": [
 			"Virginia",
@@ -266,7 +266,7 @@ var questions = {
 		]	
 	},"26":{
 		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Maryland",
+		"CorrectAnswer":"Kentucky",
 		"Image":"images/27.png",
 		"IncorrectAnswer": [
 			"Louisiana",

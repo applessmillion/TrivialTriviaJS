@@ -1,195 +1,368 @@
 var questions = {
 	"0":{
-		"Phrase":"Which game studio developed the game Phasmophobia?",
-		"CorrectAnswer":"Kinetic Games",
-		"Image":"images/logo.png",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Alabama",
+		"Image":"images/1.png",
 		"IncorrectAnswer": [
-			"Chainlink",
-			"Kinetic Studios",
-			"Hollow Games",
-			"Ghostly Games"
+			"Alaska",
+			"Colorado",
+			"New York",
+			"Vermont",
+			"Virginia"
 		]	
 	},"1":{
-		"Phrase":"Which of the following is not one of the ghost types?",
-		"CorrectAnswer":"Angel",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Colorado",
+		"Image":"images/2.png",
 		"IncorrectAnswer": [
-			"Shade",
-			"Mare",
-			"Jinn",
-			"Revenant",
-			"Phantom",
-			"Oni"
+			"Virginia",
+			"Utah",
+			"Pennsylvania",
+			"New Mexico",
+			"Nevada"
 		]	
 	},"2":{
-		"Phrase":"Which of the following is not a map in the game?",
-		"CorrectAnswer":"Grafton Road House",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Delaware",
+		"Image":"images/3.png",
 		"IncorrectAnswer": [
-			"Edgefield Street House",
-			"Ridgeview Road House",
-			"Tanglewood Street House"
+			"Texas",
+			"Rhode Island",
+			"Pennsylvania",
+			"Oregon",
+			"Nevada"
 		]	
 	},"3":{
-		"Phrase":"On which day did Phasmophobia release to early access on Steam?",
-		"CorrectAnswer":"September 18 2020",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Texas",
+		"Image":"images/4.png",
 		"IncorrectAnswer": [
-			"October 31 2020",
-			"October 20 2020",
-			"September 20 2020",
-			"August 18 2020"
+			"Oregon",
+			"Pennsylvania",
+			"Mississippi",
+			"Minnesota"
 		]	
 	},"4":{
-		"Phrase":"Which type of item spawns on a map randomly and allows players to communicate to the ghost?",
-		"CorrectAnswer":"Ouija Board",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Pennsylvania",
+		"Image":"images/5.png",
 		"IncorrectAnswer":[
-			"Bone Evidence",
-			"Radio",
-			"Video Camera",
-			"Sound Sensor",
-			"Objective Board"
+			"Michigan",
+			"Maine",
+			"South Dakota",
+			"Montana",
+			"Missouri"
 		]	
 	},"5":{
-		"Phrase":"Which map has over 75 different rooms?",
-		"CorrectAnswer":"Asylum",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"New Mexico",
+		"Image":"images/6.png",
 		"IncorrectAnswer": [
-			"Prison",
-			"Brownstone High School",
-			"Grafton Farmhouse",
-			"Mansion"
+			"New York",
+			"Washington",
+			"Virginia",
+			"Utah"
 		]	
 	},"6":{
-		"Phrase":"Salt is toxic to which type of ghost?",
-		"CorrectAnswer":"Wraith",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Missouri",
+		"Image":"images/7.png",
 		"IncorrectAnswer": [
-			"Spirit",
-			"Banshee",
-			"Oni",
-			"Shade"
+			"Mississippi",
+			"Vermont",
+			"Virginia",
+			"Texas"
 		]	
 	},"7":{
-		"Phrase":"On small maps, how many light switches can be switched on before the fuse box turns off?",
-		"CorrectAnswer":"10 switches",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Louisiana",
+		"Image":"images/8.png",
 		"IncorrectAnswer": [
-			"11 switches",
-			"12 switches",
-			"7 switches",
-			"5 switches",
-			"4 switches"
+			"Virginia",
+			"Tennessee",
+			"Texas",
+			"Wisconsin"
 		]	
 	},"8":{
-		"Phrase":"Which of the following keys cannot be found on a map?",
-		"CorrectAnswer":"Cell Key",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Georgia",
+		"Image":"images/9.png",
 		"IncorrectAnswer": [
-			"Basement Key",
-			"Car Key",
-			"Garage Key"
+			"Wisconsin",
+			"Hawaii",
+			"Mississippi",
+			"Massachusetts"
 		]	
 	},"9":{
-		"Phrase":"Which type of ghost hunts the most?",
-		"CorrectAnswer":"Demon",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Hawaii",
+		"Image":"images/10.png",
 		"IncorrectAnswer": [
-			"Shade",
-			"Phantom",
-			"Jinn",
-			"Weaith"
+			"Massachusetts",
+			"Mississippi",
+			"Vermont",
+			"Virginia"
 		]	
 	},"10":{
-		"Phrase":"What location do players start at in every map?",
-		"CorrectAnswer":"The Van",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Arizona",
+		"Image":"images/11.png",
 		"IncorrectAnswer": [
-			"Front Door",
-			"The Office",
-			"The Garage",
-			"The Street"
+			"South Dakota",
+			"Delaware",
+			"Hawaii",
+			"Kentucky"
 		]	
 	},"11":{
-		"Phrase":"What is the difference between the player activating a sink and a ghost activating it?",
-		"CorrectAnswer":"Dirty Water",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Alaska",
+		"Image":"images/12.png",
 		"IncorrectAnswer": [
-			"Broken Faucet",
-			"Broken Mirror",
-			"Footsteps",
-			"Handprints"
+			"Kentucky",
+			"Mississippi",
+			"Michigan",
+			"Oregon",
+			"Vermont"
 		]	
 	},"12":{
-		"Phrase":"What is the cost of Sanity Pills?",
-		"CorrectAnswer":"$45",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Maryland",
+		"Image":"images/13.png",
 		"IncorrectAnswer": [
-			"$20",
-			"$50",
-			"$30",
-			"$35"
+			"Virginia",
+			"Texas",
+			"Tennessee",
+			"Wyoming"
 		]	
 	},"13":{
-		"Phrase":"Freezing, Spirit Box, and Fingerprints are all evidence pointing to which type of ghost?",
-		"CorrectAnswer":"Wraith",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"New Jersey",
+		"Image":"images/14.png",
 		"IncorrectAnswer": [
-			"Mare",
-			"Spirit",
-			"Jinn",
-			"Phantom"
+			"New York",
+			"New Mexico",
+			"Oregon",
+			"Pennsylvania"
 		]	
 	},"14":{
-		"Phrase":"What is the maximum number of successful uses the Crucifix has?",
-		"CorrectAnswer":"2",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"New York",
+		"Image":"images/15.png",
 		"IncorrectAnswer": [
-			"4",
-			"5",
-			"1",
-			"3"
+			"Alaska",
+			"Iowa",
+			"Alabama",
+			"Nebraska"
 		]	
 	},"15":{
-		"Phrase":"Orbs, Writing, and the EMF are all evidence pointing to which type of ghost?",
-		"CorrectAnswer":"Shade",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Rhode Island",
+		"Image":"images/16.png",
 		"IncorrectAnswer": [
-			"Mare",
-			"Banshee",
-			"Spirit",
-			"Jinn",
-			"Phantom"
+			"Pennsylvania",
+			"New Jersey",
+			"New Hampshire",
+			"Ohio"
 		]	
 	},"16":{
-		"Phrase":"Which map feature has a horn that a ghost can set off?",
-		"CorrectAnswer":"Car",
+		"Phrase":"The reverse side of the flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Oregon",
+		"Image":"images/17.png",
 		"IncorrectAnswer": [
-			"Bicycle",
-			"Tricycle",
-			"Alarm System",
-			"Tornado Horn"
+			"Tennessee",
+			"Washington",
+			"Florida",
+			"Alabama"
 		]	
 	},"17":{
-		"Phrase":"What is the maximum number of Sanity Pills players can have on a run?",
-		"CorrectAnswer":"4 pills",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Tennessee",
+		"Image":"images/18.png",
 		"IncorrectAnswer": [
-			"5 pills",
-			"2 pills",
-			"6 pills",
-			"3 pills"
+			"Alabama",
+			"Florida",
+			"Oregon",
+			"Ohio"
 		]	
 	},"18":{
-		"Phrase":"Orbs, Freezing, and the Spirit Box are all evidence pointing to which type of ghost?",
-		"CorrectAnswer":"Mare",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"South Carolina",
+		"Image":"images/19.png",
 		"IncorrectAnswer": [
-			"Banshee",
-			"Spirit",
-			"Jinn",
-			"Phantom"
+			"North Carolina",
+			"California",
+			"Montana",
+			"Mississippi"
 		]	
 	},"19":{
-		"Phrase":"What is the cost of a Crucifix?",
-		"CorrectAnswer":"$30",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Ohio",
+		"Image":"images/20.png",
 		"IncorrectAnswer": [
-			"$25",
-			"$50",
-			"$45",
-			"$35"
+			"Alaska",
+			"Missouri",
+			"North Dakota",
+			"Louisiana"
 		]	
 	},"20":{
-		"Phrase":"How can the player tell if a Smudge Stick has been used up?",
-		"CorrectAnswer":"Dissipating smoke",
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Nevada",
+		"Image":"images/21.png",
 		"IncorrectAnswer": [
-			"Flame burning out",
-			"Sticks drop",
-			"Sticks change color"
+			"Nebraska",
+			"Tennessee",
+			"Florida",
+			"Alaska"
+		]	
+	},"21":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"North Carolina",
+		"Image":"images/22.png",
+		"IncorrectAnswer": [
+			"Louisiana",
+			"Maryland",
+			"New Mexico",
+			"California"
+		]	
+	},"22":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Michigan",
+		"Image":"images/23.png",
+		"IncorrectAnswer": [
+			"California",
+			"Ohio",
+			"Wyoming",
+			"Maryland"
+		]	
+	},"23":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Massachusetts",
+		"Image":"images/24.png",
+		"IncorrectAnswer": [
+			"Indiana",
+			"Maryland",
+			"Maine",
+			"New Hampshire"
+		]	
+	},"24":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Mississippi",
+		"Image":"images/25.png",
+		"IncorrectAnswer": [
+			"Missouri",
+			"Kansas",
+			"Iowa",
+			"Indiana"
+		]	
+	},"25":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"West Virginia",
+		"Image":"images/26.png",
+		"IncorrectAnswer": [
+			"Oregon",
+			"Michigan",
+			"Iowa",
+			"Indiana"
+		]	
+	},"26":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Kentucky",
+		"Image":"images/27.png",
+		"IncorrectAnswer": [
+			"Louisiana",
+			"New Hampshire",
+			"Rhode Island",
+			"South Carolina"
+		]	
+	},"27":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Connecticut",
+		"Image":"images/28.png",
+		"IncorrectAnswer": [
+			"Georgia",
+			"Kansas",
+			"Oklahoma",
+			"Alaska"
+		]	
+	},"28":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Wyoming",
+		"Image":"images/29.png",
+		"IncorrectAnswer": [
+			"California",
+			"Washington",
+			"Utah",
+			"Mississippi"
+		]	
+	},"29":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Florida",
+		"Image":"images/30.png",
+		"IncorrectAnswer": [
+			"Louisiana",
+			"Ohio",
+			"Oklahoma",
+			"Indiana"
+		]	
+	},"30":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Nebraska",
+		"Image":"images/31.png",
+		"IncorrectAnswer": [
+			"Minnesota",
+			"Mississippi",
+			"Georgia",
+			"Ohio"
+		]	
+	},"31":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Vermont",
+		"Image":"images/32.png",
+		"IncorrectAnswer": [
+			"Alabama",
+			"Oregon",
+			"Kansas",
+			"Hawaii"
+		]	
+	},"32":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Washington",
+		"Image":"images/33.png",
+		"IncorrectAnswer": [
+			"North Dakota",
+			"Mississippi",
+			"South Dakota",
+			"Rhode Island"
+		]	
+	},"33":{
+		"Phrase":"The flag below belongs to which United States state/territory?",
+		"CorrectAnswer":"Utah",
+		"Image":"images/34.png",
+		"IncorrectAnswer": [
+			"New Hampshire",
+			"Hawaii",
+			"Alaska",
+			"Arizona"
+		]	
+	},"34":{
+		"Phrase":"You made it this far! Have a freebie with one of the easiest flags!",
+		"CorrectAnswer":"Wisconsin",
+		"Image":"images/35.png",
+		"IncorrectAnswer": [
+			"Indiana",
+			"Kansas",
+			"Oklahoma",
+			"Minnesota"
+		]	
+	},"35":{
+		"Phrase":"You made it this far! Have a freebie with one of the easiest flags!",
+		"CorrectAnswer":"Oklahoma",
+		"Image":"images/36.png",
+		"IncorrectAnswer": [
+			"Indiana",
+			"Oklahoma",
+			"Pennsylvania",
+			"New Hampshire"
 		]	
 	}
 }
