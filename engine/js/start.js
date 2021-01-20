@@ -10,4 +10,4 @@ function tossStuff(){
 	1 for 2 modes (normal & extended)
 */
 var modes = 1;
-var externalMusic = "https://www.newgrounds.com/audio/listen/990603";
+var externalMusic = "";
