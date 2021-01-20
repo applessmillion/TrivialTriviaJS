@@ -81,10 +81,20 @@ function getQuestionDetails(){
 	}else{
 		questionImage = "none";
 	}
-	
-	/* Preload the next image. */
-	if(questions[currentQuestion+1].Image && questions[currentQuestion+2].Image != "none"){
-		new Image().src = questions[currentQuestion+1].Image;
+		
+	/* Stop preloading when we hit question 35 for extended mode */
+	if(currentQuestion < 34 && triviamode == 1){
+		/* Preload the next image. */
+		if(questions[currentQuestion+1].Image && questions[currentQuestion+1].Image != "none"){
+			new Image().src = questions[currentQuestion+1].Image;
+		}
+	}
+		
+	/* Stop preloading when we hit question 20 for normal mode */
+	if(currentQuestion < 19 && triviamode == 0){
+		if(questions[currentQuestion+1].Image && questions[currentQuestion+1].Image != "none"){
+			new Image().src = questions[currentQuestion+1].Image;
+		}
 	}
 }
 
@@ -177,9 +187,19 @@ function reviewBeforeProceeding(clickedAnswer, bad=0){
 	}
 	document.getElementById("QuizButtonNext").style = '';
 	
-	/* Preload the next next image. */
-	if(questions[currentQuestion+2].Image && questions[currentQuestion+2].Image != "none"){
-		new Image().src = questions[currentQuestion+2].Image;
+	/* Stop preloading when we hit question 34 for extended mode */
+	if(currentQuestion < 33 && triviamode == 1){
+		/* Preload the next image. */
+		if(questions[currentQuestion+2].Image && questions[currentQuestion+2].Image != "none"){
+			new Image().src = questions[currentQuestion+2].Image;
+		}
+	}
+		
+	/* Stop preloading when we hit question 19 for normal mode */
+	if(currentQuestion < 18 && triviamode == 0){
+		if(questions[currentQuestion+2].Image && questions[currentQuestion+2].Image != "none"){
+			new Image().src = questions[currentQuestion+2].Image;
+		}
 	}
 }
 

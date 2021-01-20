@@ -1,368 +1,342 @@
 var questions = {
 	"0":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Alabama",
-		"Image":"images/1.png",
+		"Phrase":"In what year did the PS3 version of Yakuza 0 release in Japan?",
+		"CorrectAnswer":"2015",
 		"IncorrectAnswer": [
-			"Alaska",
-			"Colorado",
-			"New York",
-			"Vermont",
-			"Virginia"
+			"2014",
+			"2016",
+			"2017",
+			"2013"
 		]	
 	},"1":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Colorado",
-		"Image":"images/2.png",
+		"Phrase":"Yakuza 0 released to a worldwide audience on the PlayStation 4 in what year?",
+		"CorrectAnswer":"2017",
 		"IncorrectAnswer": [
-			"Virginia",
-			"Utah",
-			"Pennsylvania",
-			"New Mexico",
-			"Nevada"
+			"2015",
+			"2016",
+			"2018",
+			"2019",
+			"2020"
 		]	
 	},"2":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Delaware",
-		"Image":"images/3.png",
+		"Phrase":"In what area in Tokyo is the game centrally focused in while playing as Kazuma Kiryu?",
+		"CorrectAnswer":"Kamurocho",
 		"IncorrectAnswer": [
-			"Texas",
-			"Rhode Island",
-			"Pennsylvania",
-			"Oregon",
-			"Nevada"
+			"Kabukicho",
+			"Okinawa",
+			"Isezaki Ijincho",
+			"Onomichi."
 		]	
 	},"3":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Texas",
-		"Image":"images/4.png",
+		"Phrase":"What is the name of Kazuma's best friend and sworn brother?",
+		"CorrectAnswer":"Akira Nishikiyama",
 		"IncorrectAnswer": [
-			"Oregon",
-			"Pennsylvania",
-			"Mississippi",
-			"Minnesota"
+			"Shintaro Kazama",
+			"Diasaku Kuze",
+			"Hiroki Awano",
+			"Sohei Dojima"
 		]	
 	},"4":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Pennsylvania",
-		"Image":"images/5.png",
+		"Phrase":"In which year do the events of Chaper 1 take place?",
+		"CorrectAnswer":"1988",
 		"IncorrectAnswer":[
-			"Michigan",
-			"Maine",
-			"South Dakota",
-			"Montana",
-			"Missouri"
+			"1992",
+			"1999",
+			"2000",
+			"1984",
+			"1979"
 		]	
 	},"5":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"New Mexico",
-		"Image":"images/6.png",
+		"Phrase":"What location start the events of Yakuza 0 in Chapter 1?",
+		"CorrectAnswer":"The Empty Lot",
 		"IncorrectAnswer": [
-			"New York",
-			"Washington",
-			"Virginia",
-			"Utah"
+			"Cabaret Grand",
+			"Tojo Clan Headquarters",
+			"Tachibana Real Estate Agency",
+			"West Park"
 		]	
 	},"6":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Missouri",
-		"Image":"images/7.png",
+		"Phrase":"How many substories are in Yakuza 0?",
+		"CorrectAnswer":"100",
 		"IncorrectAnswer": [
-			"Mississippi",
-			"Vermont",
-			"Virginia",
-			"Texas"
+			"90",
+			"125",
+			"72",
+			"108",
+			"51"
 		]	
 	},"7":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Louisiana",
-		"Image":"images/8.png",
+		"Phrase":"Goro Majima runs which establishment in Yakuza 0?",
+		"CorrectAnswer":"Cabaret Grand",
 		"IncorrectAnswer": [
-			"Virginia",
-			"Tennessee",
-			"Texas",
-			"Wisconsin"
+			"Tachibana Real Estate Agency",
+			"Pocket Circuit Stadium",
+			"Maharaja",
+			"Sky Finance"
 		]	
 	},"8":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Georgia",
-		"Image":"images/9.png",
+		"Phrase":"What is the name of the bar, owned by the character Reina, Nishikiyama and Kiryu frequent?",
+		"CorrectAnswer":"Serena",
 		"IncorrectAnswer": [
-			"Wisconsin",
-			"Hawaii",
-			"Mississippi",
-			"Massachusetts"
+			"Stardust",
+			"Shangri-La",
+			"Bar Tender",
+			"Little Asia"
 		]	
 	},"9":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Hawaii",
-		"Image":"images/10.png",
+		"Phrase":"What is the name of the woman Majima is told to assassinate for the Shimano Family?",
+		"CorrectAnswer":"Makoto Makimura",
 		"IncorrectAnswer": [
-			"Massachusetts",
-			"Mississippi",
-			"Vermont",
-			"Virginia"
+			"Wen Hai Lee",
+			"Kazuma Kiryu",
+			"Jun Oda"
 		]	
 	},"10":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Arizona",
-		"Image":"images/11.png",
+		"Phrase":"In Chapter 8, who confronts Majima in the Cabaret Grand after buying out the place?",
+		"CorrectAnswer":"Homare Nishitani",
 		"IncorrectAnswer": [
-			"South Dakota",
-			"Delaware",
-			"Hawaii",
-			"Kentucky"
+			"Wen Hai Lee",
+			"Makoto Makimura",
+			"Tojo Clan Thugs",
+			"Tetsu Tachibana",
+			"Kijin Clan Thugs"
 		]	
 	},"11":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Alaska",
-		"Image":"images/12.png",
+		"Phrase":"In 'Calling the Future', what piece of technoloy is featured in the substory?",
+		"CorrectAnswer":"Mobile Phone",
 		"IncorrectAnswer": [
-			"Kentucky",
-			"Mississippi",
-			"Michigan",
-			"Oregon",
-			"Vermont"
+			"Phone Booth",
+			"Handheld Camera",
+			"New Car",
+			"New Truck",
+			"Landline Phone"
 		]	
 	},"12":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Maryland",
-		"Image":"images/13.png",
+		"Phrase":"In Chapter 10, Tetsu Tachibana reveals he was defending himself when he lost his arm. Who was he defending against?",
+		"CorrectAnswer":"Omi Alliance Thugs",
 		"IncorrectAnswer": [
-			"Virginia",
-			"Texas",
-			"Tennessee",
-			"Wyoming"
+			"Tojo Clan Thugs",
+			"Kijin Clan Thugs",
+			"Goro Majima",
+			"Takashi Nihara"
 		]	
 	},"13":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"New Jersey",
-		"Image":"images/14.png",
+		"Phrase":"Which location does Tetsu Tachibana and Jun Oda find refuge after the events of Chapter 9?",
+		"CorrectAnswer":"Little Asia",
 		"IncorrectAnswer": [
-			"New York",
-			"New Mexico",
-			"Oregon",
-			"Pennsylvania"
+			"Serena",
+			"West Park",
+			"Club Sunshine",
+			"East Park",
+			"Tiny Tokyo"
 		]	
 	},"14":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"New York",
-		"Image":"images/15.png",
+		"Phrase":"What is the name of Goro Majima's oath brother?",
+		"CorrectAnswer":"Taiga Saejima",
 		"IncorrectAnswer": [
-			"Alaska",
-			"Iowa",
-			"Alabama",
-			"Nebraska"
+			"Kazuma Kiryu",
+			"Akira Nishikiyama",
+			"Shintaro Kazama"
 		]	
 	},"15":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Rhode Island",
-		"Image":"images/16.png",
+		"Phrase":"In 'The Visionary Fortune-teller', who does Kazuma bump into at the end of the substory?",
+		"CorrectAnswer":"Ryuji Goda",
 		"IncorrectAnswer": [
-			"Pennsylvania",
-			"New Jersey",
-			"New Hampshire",
-			"Ohio"
+			"Akira Nishikiyama",
+			"Goro Majima",
+			"Shintaro Kazama"
 		]	
 	},"16":{
-		"Phrase":"The reverse side of the flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Oregon",
-		"Image":"images/17.png",
+		"Phrase":"What is the nickname of the infamous Chinese assassin that kidnaps Tachibana?",
+		"CorrectAnswer":"Lao Gui",
 		"IncorrectAnswer": [
-			"Tennessee",
-			"Washington",
-			"Florida",
-			"Alabama"
+			"Jo Amon",
+			"Florist of Sai",
+			"Tokoyami",
+			"Taiga Saejima"
 		]	
 	},"17":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Tennessee",
-		"Image":"images/18.png",
+		"Phrase":"Which of the following minigames are not featured in Yakuza 0?",
+		"CorrectAnswer":"Golf",
 		"IncorrectAnswer": [
-			"Alabama",
-			"Florida",
-			"Oregon",
-			"Ohio"
+			"Bowling",
+			"Fishing",
+			"Telephone Club",
+			"Poker",
+			"Darts",
+			"Pocket Racing",
+			"Karaoke"
 		]	
 	},"18":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"South Carolina",
-		"Image":"images/19.png",
+		"Phrase":"What is the name of the 100th substory in Yakuza 0?",
+		"CorrectAnswer":"Sotenbori in Peril",
 		"IncorrectAnswer": [
-			"North Carolina",
-			"California",
-			"Montana",
-			"Mississippi"
+			"The Ultimate Plan",
+			"The Doll Girl",
+			"Apex Predator",
+			"The Head of the Clan",
+			"From the Heart"
 		]	
 	},"19":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Ohio",
-		"Image":"images/20.png",
+		"Phrase":"How many chapters (excluding the epilogue) are in Yakuza 0?",
+		"CorrectAnswer":"17",
 		"IncorrectAnswer": [
-			"Alaska",
-			"Missouri",
-			"North Dakota",
-			"Louisiana"
+			"12",
+			"14",
+			"21",
+			"18"
 		]	
 	},"20":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Nevada",
-		"Image":"images/21.png",
+		"Phrase":"The Empty Lot is part of the land of what building featured in future Yakuza games?",
+		"CorrectAnswer":"Mellennium Tower",
 		"IncorrectAnswer": [
-			"Nebraska",
-			"Tennessee",
-			"Florida",
-			"Alaska"
+			"New Serena",
+			"Ichiban Holdings",
+			"Club Sunshine",
+			"Stardust"
 		]	
 	},"21":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"North Carolina",
-		"Image":"images/22.png",
+		"Phrase":"Which of the following karaoke songs are not available in Yakuza 0?",
+		"CorrectAnswer":"Bakamitai -sorrow-",
 		"IncorrectAnswer": [
-			"Louisiana",
-			"Maryland",
-			"New Mexico",
-			"California"
+			"x3 SHINE",
+			"24-hour Cinderella",
+			"Bakamitai",
+			"Judgement -Shinpan-",
+			"Rogue of Love",
+			"Heartbreak Mermaid"
 		]	
 	},"22":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Michigan",
-		"Image":"images/23.png",
+		"Phrase":"What is the name of the group that rivals Kazuma Kiryu in the Real Estate Royale minigame?",
+		"CorrectAnswer":"Five Billionares",
 		"IncorrectAnswer": [
-			"California",
-			"Ohio",
-			"Wyoming",
-			"Maryland"
+			"Five Millionares",
+			"Five Elites",
+			"Five Stars",
+			"Five Moneymen"
 		]	
 	},"23":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Massachusetts",
-		"Image":"images/24.png",
+		"Phrase":"Which of the following SEGA games are not found in one of the SEGA HI-TECH LAND locations in Yakuza 0?",
+		"CorrectAnswer":"Print Club",
 		"IncorrectAnswer": [
-			"Indiana",
-			"Maryland",
-			"Maine",
-			"New Hampshire"
+			"Super Hang-On",
+			"Fantasy Zone",
+			"Space Harrier",
+			"Out Run"
 		]	
 	},"24":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Mississippi",
-		"Image":"images/25.png",
+		"Phrase":"In order of date released, which number installment is Yakuza 0 for the main series?",
+		"CorrectAnswer":"Sixth",
 		"IncorrectAnswer": [
-			"Missouri",
-			"Kansas",
-			"Iowa",
-			"Indiana"
+			"Seventh",
+			"Fourth",
+			"First",
+			"Tenth"
 		]	
 	},"25":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"West Virginia",
-		"Image":"images/26.png",
+		"Phrase":"Which spot in Sotenbori can Goro Majima fish?",
+		"CorrectAnswer":"Sotenbori Footpath",
 		"IncorrectAnswer": [
-			"Oregon",
-			"Michigan",
-			"Iowa",
-			"Indiana"
+			"West Shofukucho",
+			"Shofukucho",
+			"East Sotenbori St.",
+			"West Sotenbori St."
 		]	
 	},"26":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Kentucky",
-		"Image":"images/27.png",
+		"Phrase":"Who is the owner of the Empty Lot?",
+		"CorrectAnswer":"Makoto Makimura",
 		"IncorrectAnswer": [
-			"Louisiana",
-			"New Hampshire",
-			"Rhode Island",
-			"South Carolina"
+			"Patriarch Dojima",
+			"Tsukasa Sagawa",
+			"Diasaku Kuze",
+			"Hiroki Awano",
+			"Tetsu Tachibana",
+			"Keiji Shibusawa",
+			"Shintaro Kazama"
 		]	
 	},"27":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Connecticut",
-		"Image":"images/28.png",
+		"Phrase":"How many different race tracks are available in the Pocket Circuit minigame?",
+		"CorrectAnswer":"7",
 		"IncorrectAnswer": [
-			"Georgia",
-			"Kansas",
-			"Oklahoma",
-			"Alaska"
+			"8",
+			"4",
+			"5",
+			"9"
 		]	
 	},"28":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Wyoming",
-		"Image":"images/29.png",
+		"Phrase":"What is the name of the group that rivals Goro Majima in the Cabaret Club Czar minigame?",
+		"CorrectAnswer":"Five Stars",
 		"IncorrectAnswer": [
-			"California",
-			"Washington",
-			"Utah",
-			"Mississippi"
+			"Five Fames",
+			"Five Elites",
+			"Five Billionares",
+			"Five Clubs"
 		]	
 	},"29":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Florida",
-		"Image":"images/30.png",
+		"Phrase":"What is the name of the bowling alley located in Kamurocho?",
+		"CorrectAnswer":"Mach Bowl",
 		"IncorrectAnswer": [
-			"Louisiana",
-			"Ohio",
-			"Oklahoma",
-			"Indiana"
+			"RYZAP Bowl",
+			"Death Bowler",
+			"Northern Lanes",
+			"Northern Frames"
 		]	
 	},"30":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Nebraska",
-		"Image":"images/31.png",
+		"Phrase":"What is the name of Chapter 16?",
+		"CorrectAnswer":"Proof of Love",
 		"IncorrectAnswer": [
-			"Minnesota",
-			"Mississippi",
-			"Georgia",
-			"Ohio"
+			"Den of Desires",
+			"Scattered Light",
+			"Black and White",
+			"Tug of War",
+			"An Honest Living"
 		]	
 	},"31":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Vermont",
-		"Image":"images/32.png",
+		"Phrase":"In the last chapter, who is the last enemy that Goro Majima has to fight?",
+		"CorrectAnswer":"Lao Gui",
 		"IncorrectAnswer": [
-			"Alabama",
-			"Oregon",
-			"Kansas",
-			"Hawaii"
+			"Patriarch Dojima",
+			"Tsukasa Sagawa",
+			"Tetsu Tachibana",
+			"Keiji Shibusawa",
+			"Shintaro Kazama"
 		]	
 	},"32":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Washington",
-		"Image":"images/33.png",
+		"Phrase":"In the last chapter, who is the last enemy that Kazuma Kiryu has to fight?",
+		"CorrectAnswer":"Keiji Shibusawa",
 		"IncorrectAnswer": [
-			"North Dakota",
-			"Mississippi",
-			"South Dakota",
-			"Rhode Island"
+			"Patriarch Dojima",
+			"Tsukasa Sagawa",
+			"Lao Gui",
+			"Tetsu Tachibana",
+			"Shintaro Kazama"
 		]	
 	},"33":{
-		"Phrase":"The flag below belongs to which United States state/territory?",
-		"CorrectAnswer":"Utah",
-		"Image":"images/34.png",
+		"Phrase":"Which minigame is a varient of chess, commonly known as Japanese Chess?",
+		"CorrectAnswer":"Shogi",
 		"IncorrectAnswer": [
-			"New Hampshire",
-			"Hawaii",
-			"Alaska",
-			"Arizona"
+			"Mahjong",
+			"Oicho-kabu",
+			"Cho-han",
+			"Koi-koi"
 		]	
 	},"34":{
-		"Phrase":"You made it this far! Have a freebie with one of the easiest flags!",
-		"CorrectAnswer":"Wisconsin",
-		"Image":"images/35.png",
+		"Phrase":"In the Epilogue, what does Makoto Makimura find in the Empty Lot?",
+		"CorrectAnswer":"Brother's Old Watch",
 		"IncorrectAnswer": [
-			"Indiana",
-			"Kansas",
-			"Oklahoma",
-			"Minnesota"
+			"Flowers",
+			"Old Wristband",
+			"An Old Letter",
+			"Brother's Old Crest"
 		]	
 	},"35":{
-		"Phrase":"You made it this far! Have a freebie with one of the easiest flags!",
-		"CorrectAnswer":"Oklahoma",
-		"Image":"images/36.png",
+		"Phrase":"What is the yen reward for successfully completing Chapter 17?",
+		"CorrectAnswer":"300000000",
 		"IncorrectAnswer": [
-			"Indiana",
-			"Oklahoma",
-			"Pennsylvania",
-			"New Hampshire"
+			"200000000",
+			"100000000",
+			"500000000",
+			"400000000"
 		]	
 	}
 }
