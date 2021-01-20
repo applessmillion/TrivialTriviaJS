@@ -1,3 +1,8 @@
+===== Version 11 / 10.20.21
++ Added pre-loading for image(s).
+ # This fixes broken images. Images will be loaded 2 questions ahead.
++ Added border and shading to image(s).
+
 ===== Version 10 / 10.19.21 !
 Major update!
 + Engine now supports images.

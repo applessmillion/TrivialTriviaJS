@@ -1,11 +1,11 @@
 var ngAPI = {
-	"appid":"51368:ibxjGMQp",
-	"secret":"d8SewouMRJWSRXaO+uiezg==",
-	"scoreLB":"9883",
-	"attemptsLB":"9884",
-	"scorehardLB":"9885",
-	"firstmedal":"61813",
-	"secondmedal":"61814"
+	"appid":"51399:9QUEzlEc",
+	"secret":"DxPnAyf396zE8/ycOLcKVw==",
+	"scoreLB":"9919",
+	"attemptsLB":"9918",
+	"scorehardLB":"none",
+	"firstmedal":"61885",
+	"secondmedal":"none"
 }
 var ngio = new Newgrounds.io.core(ngAPI.appid, ngAPI.secret);
 ngio.getValidSession(function() { if (ngio.user) { onLoggedIn(); }else{ notLoggedIn();}}); 
