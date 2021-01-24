@@ -1,31 +1,24 @@
 January
-JAN21 # Yakuza 0
-JAN26 # Yakuza 1 Kiwami
-JAN28 # Yakuza 2 Kiwami
+JAN28 # Yakuza 1 Kiwami / Yakuza 2 Kiwami
 
 February
 FEB04 # Colony Survival 0.8.1
-FEB11 # LEGO
-FEB16 # Minecraft 1.15
-FEB18 ^ Terraria
-FEB23 # Minecraft 1.16
-FEB25 ^ Starbound
+FEB18 # Minecraft 1.15 / Minecraft 1.16
+FEB25 * European Country Flags
 
 March
-MAR04 = Animal Crossing GC
-MAR09 * DOOM 4
-MAR11 = Animal Crossing New Leaf
-MAR18 = Animal Crossing New Horizons
-MAR25 * DOOM Eternal
+MAR11 # LEGO
+MAR18 = Animal Crossing GC / New Leaf / New Horizons
 
 April
-APR01 ???
-APR08 ???
-APR15 ???
-APR22 ???
-APR29 ???
+APR01 ^ Terraria
+APR15 * Fast-Food / Restraunts
+APR29 ^ Starbound
 
-????? = Phasmophobia
+????? ^ Phasmophobia
+????? * South American Country Flags
+????? * African Country Flags
+????? * Doom 4 / Doom Eternal
 
 Want to do
 Yakuza 7 (After Y3-6)
@@ -40,5 +33,5 @@ HTML/JS (TBD)
 # Completely finished and ready to package and publish.
 ^ Questions & theme done. Need music only.
 = Questions finished, but no art or themeing has been done.
-* Game questions and themeing not finished.
+* Game questions and theme not finished.
 ! Will need to redo. Game probably made info obsolete.
