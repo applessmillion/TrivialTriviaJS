@@ -1,14 +1,14 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'Welcome to Trivial Trivia! Featuring two modes, you have 12 questions to answer each question! '+ // Intro sentence.
-	'Normal mode has 21 questions, while Extended mode has 36! '+
-	'This trivia is best played if you have completed Yakuza 0. It contains spoilers of the main story and side stories.'+
-	'</br></br>Special thanks to LyncanOfficial for the music used in this game!'+
+	'Welcome to Trivial Trivia!</br>'+
+	'Select a trivia to play from the list below. You can come back to this screen once you complete the selected trivia.'+
 	'';
 	
 }
-/* 	0 for 1 mode (normal)
-	1 for 2 modes (normal & extended)
+/* 
+Modes = number of bundled trivia.
 */
-var modes = 1;
-var externalMusic = "https://www.newgrounds.com/audio/listen/985070";
+var mode1Name = "Yakuza Kiwami 1";
+var mode2Name = "Yakuza Kiwami 2";
+var mode3Name = "none";
+var mode4Name = "none";

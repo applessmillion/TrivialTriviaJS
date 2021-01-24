@@ -1,30 +1,20 @@
 function doLoad(){
-	if(modes == 1){
-		document.getElementById("startnormal").innerHTML = 'Start (Normal)';
-		document.getElementById("starthard").innerHTML = 'Start (Extended)';
-		console.log('We have Extended mode! Show both buttons.');
-	}else if(modes == 0){
-		document.getElementById("startnormal").innerHTML = 'Start Trivia!';
-		document.getElementById("starthard").innerHTML = '';
-		document.getElementById("starthard").style = 'display:none;';
-		console.log('We don\'t have Extended mode! Swap to one button.');
-	}else{
-		document.getElementById("startnormal").innerHTML = 'Start Trivia!';
-		document.getElementById("starthard").innerHTML = '';
-		document.getElementById("starthard").style = 'display:none;';
-		console.log('Unhandled modes variable. Perhaps this theme is not updated?');
+	if(mode1Name != "none"){
+		document.getElementById("trivia1").innerHTML = mode1Name;
+		document.getElementById("trivia1").style = "display:unset;";
 	}
-	
-	/* if external music link is not specified, hide the button. */
-	if(externalMusic){
-		document.getElementById("musicbutton").style = 'display:unset;';
+	if(mode2Name != "none"){
+		document.getElementById("trivia2").innerHTML = mode2Name;
+		document.getElementById("trivia2").style = "display:unset;";
 	}
-}
-
-function openMusicLink(){
-	if(externalMusic == "none"){
-		document.getElementById("musicbutton").style = 'display:none;';
-	}else{ window.open(externalMusic);}
+	if(mode3Name != "none"){
+		document.getElementById("trivia3").innerHTML = mode3Name;
+		document.getElementById("trivia3").style = "display:unset;";
+	}
+	if(mode4Name != "none"){
+		document.getElementById("trivia4").innerHTML = mode4Name;
+		document.getElementById("trivia4").style = "display:unset;";
+	}
 }
 
 function amIDev(){
