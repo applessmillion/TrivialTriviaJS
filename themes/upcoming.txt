@@ -2,16 +2,16 @@ January
 JAN28 # Yakuza 1 Kiwami / Yakuza 2 Kiwami
 
 February
-FEB04 # Colony Survival 0.8.1
+FEB11 ^ Terraria
 FEB18 # Minecraft 1.15 / Minecraft 1.16
 FEB25 * European Country Flags
 
 March
-MAR11 # LEGO
+MAR11 # Colony Survival 0.8.1
 MAR18 = Animal Crossing GC / New Leaf / New Horizons
 
 April
-APR01 ^ Terraria
+APR04 # LEGO
 APR15 * Fast-Food / Restraunts
 APR29 ^ Starbound
 
