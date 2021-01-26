@@ -1,11 +1,11 @@
 button{
-	border:#ffffff00 4px solid;
-	background-color:#AD0000;
+	border:grey 4px solid;
+	background-color:#121212;
 	color:white;
 }
 button:hover{
 	border:black 4px solid!important;
-	background-color:#E20000!important;
+	background-color:black!important;
 	color:white;
 }
 
@@ -13,8 +13,9 @@ button:hover{
 	margin:auto;
 	width:100%;
 	overflow:hidden;
-	background:#ffffffe3;
+	background:#a9a9a9;
+	color:white;
 }
 .quiz-body{
-	background:#ffffffe3;
+	background:#efefefe3;
 }

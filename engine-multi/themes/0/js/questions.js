@@ -1,197 +1,198 @@
 var questions = {
 	"0":{
-		"Phrase":"Yakuza Kiwami was initially released in Japan in what year?",
-		"CorrectAnswer":"2016",
+		"Phrase":"Minecraft 1.15 was released on what date?",
+		"CorrectAnswer":"December 10, 2019",
 		"IncorrectAnswer": [
-			"2015",
-			"2005",
-			"2014",
-			"2017",
-			"2018"
+			"January 1, 2020",
+			"June 10, 2019",
+			"August 11, 2019",
+			"December 1, 2019",
+			"November 6, 2019"
 		]	
 	},"1":{
-		"Phrase":"Which of the following fighting styles is not available to Kazuma Kiryu?",
-		"CorrectAnswer":"Slugger",
+		"Phrase":"What is the official name of Minecraft's 1.15 update?",
+		"CorrectAnswer":"Buzzy Bees",
 		"IncorrectAnswer": [
-			"Beast",
-			"Rush",
-			"Dragon",
-			"Dragon of Dojima"
+			"Busy Bees",
+			"Buzzing Bees",
+			"Bit of Honey",
+			"Builder Bees",
+			"Save the Bees!"
 		]	
 	},"2":{
-		"Phrase":"Which Tojo subsidiary family kidnaps Yumi in the first chapter?",
-		"CorrectAnswer":"Dojima",
+		"Phrase":"Beehives can be crafted using two different materials. One of these materials is honeycomb. What is the other material?",
+		"CorrectAnswer":"Planks",
 		"IncorrectAnswer": [
-			"Kazama",
-			"Nikkyo",
-			"Aoyama",
-			"Arakawa",
-			"Shibata"
+			"Leaves",
+			"Logs",
+			"Honey",
+			"Bee Nest",
+			"Dirt"
 		]	
 	},"3":{
-		"Phrase":"Chapter 2 begins how many years after the events of Chapter 1?",
-		"CorrectAnswer":"10 Years",
+		"Phrase":"The player is awarded an achievement for jumping into a honey block to reduce fall damage. What is the name of this achievement?",
+		"CorrectAnswer":"Sticky Situation",
 		"IncorrectAnswer": [
-			"18 Years",
-			"12 Years",
-			"5 Years"
+			"Swimming in Honey",
+			"Sticky Step",
+			"Sweet Situation",
+			"Bee Our Guest"
 		]	
 	},"4":{
-		"Phrase":"In Yakuza Kiwami, who is the proprietor of the host club Stardust?",
-		"CorrectAnswer":"Kazuki",
-		"IncorrectAnswer":[
-			"Yuya",
-			"Shinji",
-			"Tamura",
-			"Nishiki"
+		"Phrase":"How many bees can a single beehive house at once?",
+		"CorrectAnswer":"3",
+		"IncorrectAnswer": [
+			"2",
+			"4",
+			"5",
+			"6",
+			"7"
 		]	
 	},"5":{
-		"Phrase":"Which minigame is exclusive to Yakuza Kiwami?",
-		"CorrectAnswer":"MesuKing",
+		"Phrase":"Which item can be used to breed bees?",
+		"CorrectAnswer":"Any flower",
 		"IncorrectAnswer": [
-			"UFO Catcher",
-			"Bowling",
-			"Batting Cages",
-			"Pool"
+			"Honey",
+			"Sugar",
+			"Any Dye",
+			"Sugar Cane"
 		]	
 	},"6":{
-		"Phrase":"How many substories are available in the game?",
-		"CorrectAnswer":"78",
+		"Phrase":"When angry, bees will attack the player and die shortly after attacking. What status effect is applied to the player when the bee attacks?",
+		"CorrectAnswer":"Poison",
 		"IncorrectAnswer": [
-			"98",
-			"100",
-			"70",
-			"55",
-			"50"
+			"Wither",
+			"Strength",
+			"Instant Damage",
+			"Hunger"
 		]	
 	},"7":{
-		"Phrase":"In Chapter 4, who assists Kiryu Kazuma in escaping Tojo Clan Headquarters?",
-		"CorrectAnswer":"Makoto Date",
+		"Phrase":"How many hunger points does a Honey Bottle restore when consumed?",
+		"CorrectAnswer":"3 Hunger Points",
 		"IncorrectAnswer": [
-			"Yumi",
-			"Majima",
-			"Shinji",
-			"Mizuki"
+			"6 Hunger Points",
+			"1 Hunger Point",
+			"4 Hunger Points",
+			"2 Hunger Points"
 		]	
 	},"8":{
-		"Phrase":"What is the amount of yen that Yumi was rumored to have stolen from the Omni Alliance?",
-		"CorrectAnswer":"10 Billion",
+		"Phrase":"How much health does a single bee have?",
+		"CorrectAnswer":"10 Health",
 		"IncorrectAnswer": [
-			"10 Trillion",
-			"10 Million",
-			"50 Billion",
-			"500 Million"
+			"5 Health",
+			"8 Health",
+			"12 Health",
+			"4 Health"
 		]	
 	},"9":{
-		"Phrase":"In Chapter 5, where does Kiryu Kazuma have to go in order find a legendary informant?",
-		"CorrectAnswer":"West Park",
+		"Phrase":"Which of the following blocks will pacify bees when in the nest?",
+		"CorrectAnswer":"Campfire",
 		"IncorrectAnswer": [
-			"East Park",
-			"Serena",
-			"Batting Center",
-			"Sewers"
+			"Glowstone",
+			"Torch",
+			"Redstone Torch",
+			"Jukebox"
 		]	
 	},"10":{
-		"Phrase":"Which of the following karaoke songs are not available in Yakuza Kiwami?",
-		"CorrectAnswer":"Shooting Star",
+		"Phrase":"1.15 Introduced new commands and game mechanics. One of these commands allows the player to spectate another player. What is this command?",
+		"CorrectAnswer":"/spectate",
 		"IncorrectAnswer": [
-			"EURO de x3 SHINE",
-			"Ijisakura 2000",
-			"Bakamitai -sorrow-",
-			"Otometal MY LIFE"
+			"/view",
+			"/seeplayer",
+			"/spec"
 		]	
 	},"11":{
-		"Phrase":"In Chapter 5, who leads the charge in kidnapping Haruka and stops at the Yoshida Batting Center?",
-		"CorrectAnswer":"Majima",
+		"Phrase":"What gamerule can be set to toggle the automatic spawning of Phantoms?",
+		"CorrectAnswer":"doInsomnia",
 		"IncorrectAnswer": [
-			"Shinji",
-			"Nishiki",
-			"Kazama",
-			"Mizuki"
+			"doPhantom",
+			"doSleepDeprivation",
+			"spawnPhantoms",
+			"needSleep"
 		]	
 	},"12":{
-		"Phrase":"What is the name of Chapter 7?",
-		"CorrectAnswer":"The Dragon and the Koi",
+		"Phrase":"1.15 Introduced new commands and game mechanics. One of these commands allows the player to execute another command as another player. What is this command?",
+		"CorrectAnswer":"/execute",
 		"IncorrectAnswer": [
-			"Father and Child",
-			"Purgatory",
-			"The Scheme",
-			"The Rescue"
+			"/sudo",
+			"/sudo-as",
+			"/exe",
+			"/cmdas"
 		]	
 	},"13":{
-		"Phrase":"In Chapter 8, three color-coordinated gangs are introduced. What is the name of the blue gang?",
-		"CorrectAnswer":"Blue Z",
+		"Phrase":"Which achievement is awarded on successfully harvesting honey from a beehive?",
+		"CorrectAnswer":"Bee Our Guest",
 		"IncorrectAnswer": [
-			"Bloody Eye",
-			"Blue B",
-			"Navy Night",
-			"Blue Edge"
+			"Beekeeper",
+			"Honey Harvesting",
+			"Bee Friend",
+			"Friend of Bees",
+			"Total Beelocation"
 		]	
 	},"14":{
-		"Phrase":"In Chapter 9, Date and Kiryu travel to whose headquarters?",
-		"CorrectAnswer":"Snake Flower Triad",
+		"Phrase":"Which of the following splash texts were added in 1.15?",
+		"CorrectAnswer":"Buzzy Bees!",
 		"IncorrectAnswer": [
-			"Omi Aliance",
-			"Amon Clan",
-			"Nishikiyama Family",
-			"Tojo Clan"
+			"Bee welcome!",
+			"Now with bees!",
+			"Introducing bugs!"
 		]	
 	},"15":{
-		"Phrase":"In the Majima Everywhere system, Goro Majima appears throughout the game in various disguises. Which of the following is not one of his disguises?",
-		"CorrectAnswer":"Construction Majima",
+		"Phrase":"Which achievement is awarded for sucessfully moving a bee nest with bees inside?",
+		"CorrectAnswer":"Total Beelocation",
 		"IncorrectAnswer": [
-			"Goromi",
-			"Taxi Driver Majima",
-			"Hannya-Man",
-			"Bartender Majima",
-			"Zombie Majima"
+			"Moving Day",
+			"Bee a Ride",
+			"Relocation",
+			"Bee Mover"
 		]	
 	},"16":{
-		"Phrase":"Who is revealed to be leaking information to the Nishikiyama Family in Chapter 10?",
-		"CorrectAnswer":"Reina",
+		"Phrase":"Which language option was added in 1.15?",
+		"CorrectAnswer":"Yiddish",
 		"IncorrectAnswer": [
-			"Date",
-			"Hakura",
-			"Shinji",
-			"Akemi"
+			"Pirate",
+			"Pig Latin",
+			"Traditional Chinese",
+			"Russian"
 		]	
 	},"17":{
-		"Phrase":"Which location does Kiryu need a membership card to enter in Chapter 11?",
-		"CorrectAnswer":"Shangri-La",
+		"Phrase":"Which item can extinguish campfires beginning in 1.15?",
+		"CorrectAnswer":"Shovel",
 		"IncorrectAnswer": [
-			"Club Shine",
-			"JeweL",
-			"Purgatory",
-			"Tojo Clan HQ"
+			"Hoe",
+			"Axe",
+			"Pickaxe",
+			"Sword"
 		]	
 	},"18":{
-		"Phrase":"What is the name of the final (by numbering) substory in the game?",
-		"CorrectAnswer":"Battle for the MesuKing Throne",
+		"Phrase":"Iron golems will crack whenever they take damage. After enough damage, they will be killed. What item can heal damaged iron golems?",
+		"CorrectAnswer":"Iron Ingots",
 		"IncorrectAnswer": [
-			"Enjoying it With Everyone",
-			"In Pursuit of Pleasure",
-			"A Goodbye Promise",
-			"The Truth About Beauty"
+			"Iron Blocks",
+			"Iron Armor",
+			"Potion of Damage",
+			"Gold Ingots",
+			"Iron Ore"
 		]	
 	},"19":{
-		"Phrase":"Who crashes into Shangri-La with a truck and must be defeated by Kiryu?",
-		"CorrectAnswer":"Majima",
+		"Phrase":"Which of the listed block tags were removed in 1.15?",
+		"CorrectAnswer":"dirt_like",
 		"IncorrectAnswer": [
-			"Shinji",
-			"Akemi",
-			"Nishiki",
-			"Ayaka",
-			"Kazama"
+			"beds",
+			"banners",
+			"dragon_immune",
+			"fire",
+			"logs_that_burn"
 		]	
 	},"20":{
-		"Phrase":"Where does the final main-story battle take place?",
-		"CorrectAnswer":"Ares",
+		"Phrase":"What item is used in the process of creating Stripped Wood?",
+		"CorrectAnswer":"Axe",
 		"IncorrectAnswer": [
-			"Serena",
-			"Purgatory",
-			"Club Shine",
-			"Tojo Clan HQ",
-			"Omi Aliance HQ"
+			"Sword",
+			"Pickaxe",
+			"Shears",
+			"Shovel",
+			"Hoe"
 		]	
 	}
 }

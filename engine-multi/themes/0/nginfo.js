@@ -1,10 +1,10 @@
 var ngAPI = {
-	"appid":"51399:9QUEzlEc",
-	"secret":"DxPnAyf396zE8/ycOLcKVw==",
-	"scoreLB":"9919",
-	"attemptsLB":"9918",
+	"appid":"51299:QsfZW64a",
+	"secret":"UZ4Sm8LUQIpUGNuaJQVo9A==",
+	"scoreLB":"9948",
 	"scorehardLB":"none",
-	"firstmedal":"61885",
+	"attemptsLB":"9827",
+	"firstmedal":"61939",
 	"secondmedal":"none"
 }
 var ngio = new Newgrounds.io.core(ngAPI.appid, ngAPI.secret);

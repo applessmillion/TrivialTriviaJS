@@ -1,8 +1,7 @@
 function tossStuff(){
 	document.getElementById("body-description").innerHTML = 
-	'Welcome to Trivial Trivia! Featuring 21 questions, you have 12 questions to answer each one!</br>'+ // Intro sentence.
-	'This trivia covers the plot, characters, and other elements from the film Blade Runner 2049. Questions will spoil certain plot elements, so beware! '+	// Specific information to the game.
-	// '</br></br>Special thanks to USERNAME for the music used in this game! Additional thanks for USERNAME suggesting the theme!'+
+	'Welcome to Trivial Trivia! Featuring two modes, you have 12 questions to answer each question!</br>'+ // Intro sentence.
+	'This trivia will quiz you on the different country flags found in Europe! '+	// Specific information to the game.
 	'';
 	
 }

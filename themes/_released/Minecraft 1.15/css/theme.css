@@ -1,0 +1,23 @@
+html{
+	background: url('../images/background.jpg'), 
+	linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,54,82,1) 60%);
+	background-size:cover;
+}
+button{
+	border:#777777 4px solid;
+	background-color:#ababab;
+	color:black;
+}
+button:hover{
+	border:#333333 4px solid!important;
+	background-color:#676767!important;
+	color:white;
+}
+
+.start-body{
+	margin:auto;
+	width:100%;
+	overflow:hidden;
+	background:#ffffffe3;
+	background: linear-gradient(0deg, rgba(0,18,45,.89) 3%, rgba(255,255,255,.65) 60%)
+}

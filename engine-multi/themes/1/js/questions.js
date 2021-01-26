@@ -1,335 +1,356 @@
 var questions = {
 	"0":{
-		"Phrase":"Yakuza Kiwami 2 takes place how many years after the events of Yakuza Kiwami?",
-		"CorrectAnswer":"1 Year",
+		"Phrase":"What date did the version 1.16 release? ",
+		"CorrectAnswer":"June 23, 2020",
 		"IncorrectAnswer": [
-			"2 Years",
-			"3 years",
-			"4 Years",
-			"5 Years"
+			"July 2, 2020",
+			"June 21, 2020",
+			"August 21, 2020",
+			"September 1, 2020",
+			"November 6, 2020"
 		]	
-	},"1":{
-		"Phrase":"In what year did Yakuza Kiwami 2 release in Japan?",
-		"CorrectAnswer":"2017",
+	},
+	"1":{
+		"Phrase":"1.16.2 introduced a new mob that wields a golden axe. What is the name of this mob?",
+		"CorrectAnswer":"Piglin Brute",
 		"IncorrectAnswer": [
-			"2019",
-			"2018",
-			"2016",
-			"2015"
+			"Piglin Warrior",
+			"Piglin Remnant",
+			"Pigman",
+			"Hoglin",
+			"Strider"
 		]	
-	},"2":{
-		"Phrase":"In Chapter 1, who shows up to the cemetery to speak with Kazuma Kiryu?",
-		"CorrectAnswer":"Yukio Terada",
+	},
+	"2":{
+		"Phrase":"1.16 Introduced many new blocks, mobs, and features. What was the official name of this update?",
+		"CorrectAnswer":"Nether Update",
 		"IncorrectAnswer": [
-			"Osamu Kashiwagi",
-			"Yayoi Dojima",
-			"Handa",
-			"Haruka"
+			"Down Under Update",
+			"Pigpeople Update",
+			"Ruin and Pork Update",
+			"Lava and Ruin Update",
+			"Porkpeople Update"
 		]	
-	},"3":{
-		"Phrase":"Yayoi Dojima, the acting chairwoman of the Tojo Clan, causes controversy with her plan of an alliance with who?",
-		"CorrectAnswer":"Omi Alliance",
+	},
+	"3":{
+		"Phrase":"A new armortype was introduced with the 1.16 update. What is the material of this armor?",
+		"CorrectAnswer":"Netherite",
 		"IncorrectAnswer": [
-			"Seiryu Clan",
-			"Yomei Alliance",
-			"Geomijul",
-			"Jingweon Mafia"
+			"Crystal",
+			"Obsidian",
+			"Stone",
+			"Basalt",
+			"Blackstone"
 		]	
-	},"4":{
-		"Phrase":"Where do Kazuma Kiryu and Ryuji Goda meet for the first time?",
-		"CorrectAnswer":"Cabaret Grand",
-		"IncorrectAnswer":[
-			"Kamuro Police Station",
-			"Millennium Tower",
-			"Omi Alliance HQ",
-			"Tojo Clan HQ"
-		]	
-	},"5":{
-		"Phrase":"At the end of Chapter 2, a large explosion is shown at what central building?",
-		"CorrectAnswer":"Millennium Tower",
+	},
+	
+	
+	"4":{
+		"Phrase":"Netherite Ingots require more than one material. One of these materials is Netherite Scrap. What else is required by the recipe?",
+		"CorrectAnswer":"Gold Ingot",
 		"IncorrectAnswer": [
-			"Cabaret Grand",
-			"Tojo Clan HQ",
-			"Omi Alliance HQ",
-			"West Park",
-			"Serena"
+			"Basalt",
+			"Obsidian",
+			"Diamond",
+			"Iron",
+			"Soulsand",
+			"Sand"
 		]	
-	},"6":{
-		"Phrase":"Which police officer arrests Kazuma Kiryu after his visit to Omi HQ?",
-		"CorrectAnswer":"Kaoru Sayama",
+	},
+	"5":{
+		"Phrase":"As of 1.16, two types of forests can be found in the Nether. What are the names of these two types?",
+		"CorrectAnswer":"Warped & Crimson",
 		"IncorrectAnswer": [
-			"Tsutomu Bessho",
-			"Makoto Date",
-			"Daigo Dojima"
+			"Crimson & Corruption",
+			"Nethersprout & Fungi",
+			"Ruin & Hellscape",
+			"Warped & Corruption",
+			"Netherest & Lava Rivers"
 		]	
-	},"7":{
-		"Phrase":"Which bar does Kazuma Kiryu visit at the beginning of Chapter 4?",
-		"CorrectAnswer":"Aoi",
+	},
+	"6":{
+		"Phrase":"Which two items can be used to craft wooden planks that do not burn?",
+		"CorrectAnswer":"Crimson & Warped Stems",
 		"IncorrectAnswer": [
-			"Serena",
-			"New Serena",
-			"Adam",
-			"Stardust",
-			"Shine Bar"
+			"Crimson & Warped Roots",
+			"Crimson & Corrupt Roots",
+			"Crimson & Warped Nylium",
+			"Warped & Wicked Stems"
 		]	
-	},"8":{
-		"Phrase":"In which chapter do Goro Majima and Kazuma Kiryu both meet?",
-		"CorrectAnswer":"Chapter 5",
+	},
+	"7":{
+		"Phrase":"Two new blocks in the Nether can be found and mined for golden nuggets. What is the name of one of these blocks?",
+		"CorrectAnswer":"Gilded Blackstone",
 		"IncorrectAnswer": [
-			"Chapter 4",
-			"Chapter 7",
-			"Chapter 6",
-			"Chapter 3"
+			"Crying Obsidian",
+			"Piglin Crate",
+			"Gilded Obsidian",
+			"Tinted Blackstone",
+			"Gilded Netherrite"
 		]	
-	},"9":{
-		"Phrase":"The Toylets minigame can be unlocked after Chapter 2. What item must Kazuma Kiryu have in order to play?",
-		"CorrectAnswer":"Toylet Sensor",
+	},
+	"8":{
+		"Phrase":"What new block can be placed to repel hostile Piglin?",
+		"CorrectAnswer":"Soul Campfire",
 		"IncorrectAnswer": [
-			"Pee Sensor",
-			"Liquid Meter",
-			"Milky Nose",
-			"Sensor of Wee"
+			"Battle Banner",
+			"Undead Marker",
+			"Undead Campfire",
+			"Raging Turret"
 		]	
-	},"10":{
-		"Phrase":"What is the name of the construction company Goro Majima heads?",
-		"CorrectAnswer":"Majima Construction",
+	},
+	"9":{
+		"Phrase":"Crying Obsidian can be used in the crafting of an item that allows players to respawn where this crafted block is placed. What is the name of the block?",
+		"CorrectAnswer":"Respawn Anchor",
 		"IncorrectAnswer": [
-			"Majima Builders",
-			"Goro Guys",
-			"Buster Construction",
-			"Shimano Builders"
+			"Activated Obsidian",
+			"Activated Grave",
+			"Sprit Anchor",
+			"Respawn Camp"
 		]	
-	},"11":{
-		"Phrase":"Majima's construction company is working on a project to develop what?",
-		"CorrectAnswer":"Kamurocho Hills",
+	},
+	"10":{
+		"Phrase":"Which of the following is not true about Netherite Armor?",
+		"CorrectAnswer":"Prevents fire damage",
 		"IncorrectAnswer": [
-			"Millennium Tower 2",
-			"Kamurocho Falls",
-			"Business Park",
-			"New Tojo Clan HQ"
+			"Floats in lava",
+			"Does not burn",
+			"Tougher than diamond"
 		]	
-	},"12":{
-		"Phrase":"What is the name of the gang Kazuma Kiryu deals with in Chapter 6?",
-		"CorrectAnswer":"16-Bit",
+	},
+	"11":{
+		"Phrase":"A new music disc was added with 1.16. This music disc can be found in bastion remnants in the Nether. What is the name of the song on this disc?",
+		"CorrectAnswer":"Pigstep",
 		"IncorrectAnswer": [
-			"32-Bit",
-			"Dragon Quest",
-			"Syntax Error",
-			"Synt@x Err0r"
+			"Reaper",
+			"Lava Hop",
+			"Gallop",
+			"Pigmen",
+			"Ol Wither"
 		]	
-	},"13":{
-		"Phrase":"At the Amano Building, Jiro Kawara is one of two people shot by an imposter during a meeting. Who is the other person shot?",
-		"CorrectAnswer":"Makoto Date",
+	},
+	"12":{
+		"Phrase":"Which of the following is not a type of item that can be crafted with Netherite?",
+		"CorrectAnswer":"Shears",
 		"IncorrectAnswer": [
-			"Daigo Dojima",
-			"Yuya",
-			"Kazuki",
-			"Kazuma Kiryu"
+			"Sword",
+			"Hoe",
+			"Axe",
+			"Shovel"
 		]	
-	},"14":{
-		"Phrase":"After the shooting in Chapter 6, where do Date and Kiryu visit to catch up?",
-		"CorrectAnswer":"Bantam",
+	},
+	"13":{
+		"Phrase":"A new achievement can be obtained by opening a chest in a bastion remnant. What is the name of this achievement?",
+		"CorrectAnswer":"War Pigs",
 		"IncorrectAnswer": [
-			"Serena",
-			"JeweL",
-			"Aoi",
-			"Club Sunshine"
+			"Those Were The Days",
+			"Oh Shiny",
+			"This Boat Has Legs",
+			"Going Under",
+			"Big Loot",
+			"Treasure Hunter"
 		]	
-	},"15":{
-		"Phrase":"The Cabaret Club Grand Prix minigame allows Kazuma Kiryu to host which cabaret club in Sotenbori?",
-		"CorrectAnswer":"Four Shine",
+	},
+	"14":{
+		"Phrase":"A new mob inhabits the Nether's plentyful lava oceans. What is the name of this mob?",
+		"CorrectAnswer":"Strider",
 		"IncorrectAnswer": [
-			"Club Shine",
-			"Club Sunshine",
-			"JeweL",
-			"Beyond",
-			"Golden Yatzan"
+			"Piglin",
+			"Hoglin",
+			"Zoglin",
+			"Ghast"
 		]	
-	},"16":{
-		"Phrase":"What is the name of the organization said to be seeking revenge on the Tojo Clan?",
-		"CorrectAnswer":"Jingweon Mafia",
+	},
+	"15":{
+		"Phrase":"Which of the following mobs can only be found in the Crimson Forests found in the Nether?",
+		"CorrectAnswer":"Hoglins",
 		"IncorrectAnswer": [
-			"Geomijul",
-			"Omi Alliance",
-			"Yomei Alliance",
-			"Seiryu Clan",
-			"White Edge"
+			"Piglins",
+			"Ghasts",
+			"Zoglins"
 		]	
-	},"17":{
-		"Phrase":"Who shows up and crashes the funeral of Yukio Terada?",
-		"CorrectAnswer":"Ryuji Goda",
+	},
+	"16":{
+		"Phrase":"When killed, what will drop from a Strider?",
+		"CorrectAnswer":"String",
 		"IncorrectAnswer": [
-			"Goro Majima",
-			"Ichiban Kasuga",
-			"Akinobu Uematsu",
-			"Florist of Sai"
+			"Golden Nuggets",
+			"Soulsand",
+			"Lava Buckets",
+			"Arrows"
 		]	
-	},"18":{
-		"Phrase":"What is the name of the minigame focusing around Majima's construction business?",
-		"CorrectAnswer":"Clan Creator",
+	},
+	"17":{
+		"Phrase":"Which of the following mobs inhabit the Nether Wastes and Crimson Forests found in the Nether?",
+		"CorrectAnswer":"Piglins",
 		"IncorrectAnswer": [
-			"Majima Construction",
-			"City Builders",
-			"Building Creator"
+			"Hoglins",
+			"Ghasts",
+			"Zoglins"
 		]	
-	},"19":{
-		"Phrase":"Kazuma Kiryu reveals to Kaoru Sayama that he had followed who to the Jingweon Mafia office in 1980?",
-		"CorrectAnswer":"Shintaro Kazama",
+	},
+	"18":{
+		"Phrase":"Which of the following events will damage a Strider?",
+		"CorrectAnswer":"Rain",
 		"IncorrectAnswer": [
-			"Ryuji Goda",
-			"Akira Nishikiyama",
-			"Keiji Shibusawa",
-			"Daisaku Kuze",
-			"Hiroki Awano"
+			"Walking on land",
+			"Walking in lava",
+			"Being ridden",
+		]	
+	},
+	"19":{
+		"Phrase":"When taken out of the Nether, a Hoglin will change. Which of the following mobs are the result of taking a Hoglin to the Overworld?",
+		"CorrectAnswer":"Zoglin",
+		"IncorrectAnswer": [
+			"Zombified Pigman",
+			"Hoglin",
+			"Piglin",
+			"Witch"
 		]	
 	},"20":{
-		"Phrase":"Which location must Kazuma Kiryu visit to rescue Haruka after she is kidnapped?",
-		"CorrectAnswer":"Osaka Castle",
+		"Phrase":"Which update added the social interactions features to Minecraft?",
+		"CorrectAnswer":"1.16.4",
 		"IncorrectAnswer": [
-			"Tojo Clan HQ",
-			"Yokobori Golf Center",
-			"Emoto Clinic",
-			"Purgatory"
+			"1.16.6",
+			"1.16.1",
+			"1.16.2",
+			"1.16.3"
 		]	
 	},"21":{
-		"Phrase":"Which of the following minigames is unique to Yakuza Kiwami 2?",
-		"CorrectAnswer":"Gravure Photoshoot",
+		"Phrase":"How many hearts (not health) do Zoglins have?",
+		"CorrectAnswer":"20",
 		"IncorrectAnswer": [
-			"Golf",
-			"Pool",
-			"Poker",
-			"Carabet Club Czar",
-			"Batting Cages"
+			"40",
+			"30",
+			"10",
+			"15"
 		]	
 	},"22":{
-		"Phrase":"How many substories does the game have?",
-		"CorrectAnswer":"76",
+		"Phrase":"Which Nether biome is filled with basalt, blackstone, and has grey particles in the air?",
+		"CorrectAnswer":"Basalt Delta",
 		"IncorrectAnswer": [
-			"73",
-			"70",
-			"50",
-			"85",
-			"80"
+			"Crimson Forest",
+			"Warped Forest",
+			"Soul sand Valley",
+			"Volcanic Valley"
 		]	
 	},"23":{
-		"Phrase":"What is the name of the event that killed 36 Jingweon mafia members in 1980?",
-		"CorrectAnswer":"Kamurocho Christmas Massacre",
+		"Phrase":"Which update added the ability for lanterns to be waterlogged?",
+		"CorrectAnswer":"1.16.2",
 		"IncorrectAnswer": [
-			"Christmas Massacre",
-			"The Kamurocho Event",
-			"Kamurocho Christmas Attack",
-			"Kamurocho Attack",
-			"Kamurocho Christmas Invasion"
+			"1.16.3",
+			"1.16.4",
+			"1.16",
+			"1.16.1"
 		]	
 	},"24":{
-		"Phrase":"Who owns the cabaret club featured in the minigame Cabaret Club Grant Prix?",
-		"CorrectAnswer":"Yuki",
+		"Phrase":"What is the name of the enchantment that allows the player to walk faster on soul sand and soul soil?",
+		"CorrectAnswer":"Soul Speed",
 		"IncorrectAnswer": [
-			"Kana",
-			"Aika",
-			"Yua",
-			"Koyuki"
+			"Soul Walker",
+			"Speed Walker",
+			"Soul Sugar",
+			"Speed of Soul"
 		]	
 	},"25":{
-		"Phrase":"What is the name of the yakuza that dresses as an adult baby, featured in the 'Be My Baby' substory?",
-		"CorrectAnswer":"Susumu Gondawara",
+		"Phrase":"Which of the following is not one of the new splash texts introduced in 1.16?",
+		"CorrectAnswer":"Fabulous Pigpeople!",
 		"IncorrectAnswer": [
-			"Cyclops Oba",
-			"Ryuji Goda",
-			"Il Yu-Jin",
-			"Morita"
+			"Aww man!",
+			"Find your claw!",
+			"Zoglin!?",
+			"Vanilla!"
 		]	
 	},"26":{
-		"Phrase":"While ascending Osaka Castle, what two animals must Kazuma Kiryu defeat to progress?",
-		"CorrectAnswer":"Tigers",
+		"Phrase":"The block Bamboo Saplings was renamed in 1.16. What is the new name of this block?",
+		"CorrectAnswer":"Bamboo Shoot",
 		"IncorrectAnswer": [
-			"Bears",
-			"Cougars",
-			"Lions",
-			"Elephants"
+			"Bamboo Shot",
+			"Bamboo Sling",
+			"Bamboo Start",
+			"Bamboo Starter"
 		]	
 	},"27":{
-		"Phrase":"How many chapters does the Majima Saga have?",
-		"CorrectAnswer":"3",
+		"Phrase":"The Clay item was renamed in 1.16. What is the new name of this item?",
+		"CorrectAnswer":"Clay Ball",
 		"IncorrectAnswer": [
-			"2 Chapters",
-			"4 Chapters",
-			"5 chapters",
-			"8 Chapters"
+			"Clay Block",
+			"Mud",
+			"Wet Clay",
+			"Clay Bit"
 		]	
 	},"28":{
-		"Phrase":"In Chapter 14, how many bombs do Date and Kiryu believe are hidden throughout the city by the Jingweon Mafia?",
-		"CorrectAnswer":"31",
+		"Phrase":"Which gamerule can be set to make neutral mobs automatically aggressive towards the player?",
+		"CorrectAnswer":"universalAnger",
 		"IncorrectAnswer": [
-			"29 bombs",
-			"50 bombs",
-			"5 bombs",
-			"14 bombs",
-			"10 bombs",
-			"6 bombs"
+			"forgiveDeadPlayers",
+			"neutralAnger",
+			"setDifficulty",
+			"alwaysAngry"
 		]	
 	},"29":{
-		"Phrase":"Which minigame was available in Yakuza Kiwami, but is missing in Yakuza Kiwami 2?",
-		"CorrectAnswer":"Bowling",
+		"Phrase":"A strider can be ridden and controlled when a player wields an item. What is the name of the item?",
+		"CorrectAnswer":"Warped fugus on a stick",
 		"IncorrectAnswer": [
-			"Poker",
-			"Pool",
-			"Darts",
-			"Mahjong",
-			"Karaoke"
+			"Carrot on a stick",
+			"Gold on a stick",
+			"Sword",
+			"Beef",
+			"Axe"
 		]	
 	},"30":{
-		"Phrase":"What is the tagline for Majima Construction?",
-		"CorrectAnswer":"We Build Shit!",
+		"Phrase":"In which biome can Soul Soil be found in?",
+		"CorrectAnswer":"Soul sand valleys",
 		"IncorrectAnswer": [
-			"We make the stuff!",
-			"Buildings and shit!",
-			"Majima builds!",
-			"Makers of stuff!"
+			"Basalt deltas",
+			"Soul forests",
+			"Crimson forests",
+			"Soul sand plains"
 		]	
 	},"31":{
-		"Phrase":"In Chapter 15, Goro Majima is working on disarming the last bomb. Where is the last bomb located?",
-		"CorrectAnswer":"Millennium Tower",
+		"Phrase":"What item is smelted in a furnace to create Netherite Scrap?",
+		"CorrectAnswer":"Ancient Debris",
 		"IncorrectAnswer": [
-			"Serena",
-			"Club Shine",
-			"Mahjong Parlor",
-			"Purgatory"
+			"Netherite Ore",
+			"Ancient Ore",
+			"Hyphae",
+			"Gilded Blackstone"
 		]	
 	},"32":{
-		"Phrase":"What is the reward for completing the substory 'Stolen'?",
-		"CorrectAnswer":"Locker Key J4",
+		"Phrase":"How many snapshots did 1.16 have before release (not including pre-releases)?",
+		"CorrectAnswer":"19",
 		"IncorrectAnswer": [
-			"Locker Key L7",
-			"Sacrifice Stone",
-			"AppStim RX",
-			"Berserker Charm"
+			"17",
+			"26",
+			"21",
+			"10"
 		]	
 	},"33":{
-		"Phrase":"What nickname is Ryuji Goda known by?",
-		"CorrectAnswer":"Dragon of Kansai",
+		"Phrase":"How many pre-releases did 1.16 have before the final release?",
+		"CorrectAnswer":"8",
 		"IncorrectAnswer": [
-			"Dragon of Dojima",
-			"Koi of Kansai",
-			"Dragon of Omi"
+			"7",
+			"6",
+			"9",
+			"5",
+			"10"
 		]	
 	},"34":{
-		"Phrase":"In the final showdown, which boss does Kiryu Kazuma fight first on the top of Kamurocho Hills?",
-		"CorrectAnswer":"Ryuji Goda",
+		"Phrase":"Which of the below particles were not added in 1.16?",
+		"CorrectAnswer":"camp_fire_flame",
 		"IncorrectAnswer": [
-			"Man in Black",
-			"Daejim Kim",
-			"Bodyguard in Black",
-			"Daigo Dojima"
+			"ash",
+			"crimson_spore",
+			"soul_fire_flame",
+			"warped_spore"
 		]	
 	},"35":{
-		"Phrase":"In the final showdown, who does Kiryu Kazuma fight after his first bossfight with Ryuji Goda?",
-		"CorrectAnswer":"Daejim Kim",
+		"Phrase":"Which of the following soundtracks was NOT added to the Nether?",
+		"CorrectAnswer":"Pigdub",
 		"IncorrectAnswer": [
-			"Man in Black",
-			"Ryuji Goda",
-			"Bodyguard in Black",
-			"Daigo Dojima"
+			"Rubedo",
+			"Chrysopoeia",
+			"So Below"
 		]	
 	}
 }
