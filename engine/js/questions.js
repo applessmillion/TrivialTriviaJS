@@ -1,342 +1,332 @@
+var reference = "https://terraria.gamepedia.com/Terraria_Wiki";
 var questions = {
 	"0":{
-		"Phrase":"In what year did the PS3 version of Yakuza 0 release in Japan?",
-		"CorrectAnswer":"2015",
+		"Phrase":"Terraria is developed by which of the following developers?",
+		"CorrectAnswer":"Re-Logic",
 		"IncorrectAnswer": [
-			"2014",
-			"2016",
-			"2017",
-			"2013"
+			"Revive Studios",
+			"Mojang",
+			"Post-Logic",
+			"Jatex"
 		]	
 	},"1":{
-		"Phrase":"Yakuza 0 released to a worldwide audience on the PlayStation 4 in what year?",
-		"CorrectAnswer":"2017",
+		"Phrase":"Which of the following platforms is Terraria NOT available?",
+		"CorrectAnswer":"LG WebOS",
 		"IncorrectAnswer": [
-			"2015",
-			"2016",
-			"2018",
-			"2019",
-			"2020"
+			"Apple iOS",
+			"Nintendo Wii U",
+			"Linux",
+			"Sony PSVita",
+			"Sony PlayStation 3",
+			"Nintendo 3DS"
 		]	
 	},"2":{
-		"Phrase":"In what area in Tokyo is the game centrally focused in while playing as Kazuma Kiryu?",
-		"CorrectAnswer":"Kamurocho",
+		"Phrase":"What is the name of the NPC that appears to the player first and offers helpful tips?",
+		"CorrectAnswer":"Guide",
 		"IncorrectAnswer": [
-			"Kabukicho",
-			"Okinawa",
-			"Isezaki Ijincho",
-			"Onomichi."
+			"Princess",
+			"Fairy",
+			"Dude",
+			"Angler",
+			"Dryad",
+			"Party Girl"
 		]	
 	},"3":{
-		"Phrase":"What is the name of Kazuma's best friend and sworn brother?",
-		"CorrectAnswer":"Akira Nishikiyama",
+		"Phrase":"Which of the following is not one of the selectable game difficulties?",
+		"CorrectAnswer":"Sandbox",
 		"IncorrectAnswer": [
-			"Shintaro Kazama",
-			"Diasaku Kuze",
-			"Hiroki Awano",
-			"Sohei Dojima"
+			"Journey",
+			"Expert",
+			"Master"
 		]	
 	},"4":{
-		"Phrase":"In which year do the events of Chaper 1 take place?",
-		"CorrectAnswer":"1988",
+		"Phrase":"Which boss is one of the first the player encounter and is summoned with a Suspicious Looking Eye?",
+		"CorrectAnswer":"Eye of Cthulhu",
 		"IncorrectAnswer":[
-			"1992",
-			"1999",
-			"2000",
-			"1984",
-			"1979"
+			"Eater of Worlds",
+			"Wall of Eyes",
+			"Skeletron",
+			"Wall of Flesh"
 		]	
 	},"5":{
-		"Phrase":"What location start the events of Yakuza 0 in Chapter 1?",
-		"CorrectAnswer":"The Empty Lot",
+		"Phrase":"Which NPC, once given a house, will heal the player for coins?",
+		"CorrectAnswer":"Nurse",
 		"IncorrectAnswer": [
-			"Cabaret Grand",
-			"Tojo Clan Headquarters",
-			"Tachibana Real Estate Agency",
-			"West Park"
+			"Merchant",
+			"Mechanic",
+			"Dryad",
+			"Tavernkeep"
 		]	
 	},"6":{
-		"Phrase":"How many substories are in Yakuza 0?",
-		"CorrectAnswer":"100",
+		"Phrase":"Which boss is found in the Corruption and can be summoned by breaking Shadow Orbs?",
+		"CorrectAnswer":"Eater of Worlds",
 		"IncorrectAnswer": [
-			"90",
-			"125",
-			"72",
-			"108",
-			"51"
+			"Brain of Cthulhu",
+			"Queen Bee",
+			"Skeletron",
+			"The Twins"
 		]	
 	},"7":{
-		"Phrase":"Goro Majima runs which establishment in Yakuza 0?",
-		"CorrectAnswer":"Cabaret Grand",
+		"Phrase":"Which boss, when defeated, converts the world to Hardmode?",
+		"CorrectAnswer":"Wall of Flesh",
 		"IncorrectAnswer": [
-			"Tachibana Real Estate Agency",
-			"Pocket Circuit Stadium",
-			"Maharaja",
-			"Sky Finance"
+			"Moon Lord",
+			"Eater of Worlds",
+			"Brain of Cthulhu",
+			"Skeletron",
+			"Eye of Cthulhu"
 		]	
 	},"8":{
-		"Phrase":"What is the name of the bar, owned by the character Reina, Nishikiyama and Kiryu frequent?",
-		"CorrectAnswer":"Serena",
+		"Phrase":"In which month and year was Terraria first released to PC?",
+		"CorrectAnswer":"May 2011",
 		"IncorrectAnswer": [
-			"Stardust",
-			"Shangri-La",
-			"Bar Tender",
-			"Little Asia"
+			"September 2009",
+			"August 2010",
+			"May 2010",
+			"May 2012"
 		]	
 	},"9":{
-		"Phrase":"What is the name of the woman Majima is told to assassinate for the Shimano Family?",
-		"CorrectAnswer":"Makoto Makimura",
+		"Phrase":"The Wall of Flesh is summoned by throwing a voodoo doll of which NPC into lava?",
+		"CorrectAnswer":"The Guide",
 		"IncorrectAnswer": [
-			"Wen Hai Lee",
-			"Kazuma Kiryu",
-			"Jun Oda"
+			"The Clothier",
+			"The Princess",
+			"The Pirate",
+			"Santa Claus"
 		]	
 	},"10":{
-		"Phrase":"In Chapter 8, who confronts Majima in the Cabaret Grand after buying out the place?",
-		"CorrectAnswer":"Homare Nishitani",
+		"Phrase":"Which of the following is not a biome found in Terraria?",
+		"CorrectAnswer":"Sky",
 		"IncorrectAnswer": [
-			"Wen Hai Lee",
-			"Makoto Makimura",
-			"Tojo Clan Thugs",
-			"Tetsu Tachibana",
-			"Kijin Clan Thugs"
+			"Jungle",
+			"Desert",
+			"Corruption",
+			"Hallow",
+			"Crimson"
 		]	
 	},"11":{
-		"Phrase":"In 'Calling the Future', what piece of technoloy is featured in the substory?",
-		"CorrectAnswer":"Mobile Phone",
+		"Phrase":"What type of item can be found from fishing containing random loot?",
+		"CorrectAnswer":"Crates",
 		"IncorrectAnswer": [
-			"Phone Booth",
-			"Handheld Camera",
-			"New Car",
-			"New Truck",
-			"Landline Phone"
+			"Lootboxes",
+			"Grab Bags",
+			"Barrels",
+			"Chests"
 		]	
 	},"12":{
-		"Phrase":"In Chapter 10, Tetsu Tachibana reveals he was defending himself when he lost his arm. Who was he defending against?",
-		"CorrectAnswer":"Omi Alliance Thugs",
+		"Phrase":"Which fishing NPC will give quests involving catching rare fish to the player?",
+		"CorrectAnswer":"Angler",
 		"IncorrectAnswer": [
-			"Tojo Clan Thugs",
-			"Kijin Clan Thugs",
-			"Goro Majima",
-			"Takashi Nihara"
+			"Guide",
+			"Fishmaster",
+			"Old Man",
+			"Dryad"
 		]	
 	},"13":{
-		"Phrase":"Which location does Tetsu Tachibana and Jun Oda find refuge after the events of Chapter 9?",
-		"CorrectAnswer":"Little Asia",
+		"Phrase":"The Queen Bee can be summoned by breaking Larva or by using which item in the Jungle?",
+		"CorrectAnswer":"Abeemination",
 		"IncorrectAnswer": [
-			"Serena",
-			"West Park",
-			"Club Sunshine",
-			"East Park",
-			"Tiny Tokyo"
+			"Buzzer",
+			"Buzzing Button",
+			"Bee Radio",
+			"Beefree"
 		]	
 	},"14":{
-		"Phrase":"What is the name of Goro Majima's oath brother?",
-		"CorrectAnswer":"Taiga Saejima",
+		"Phrase":"Which NPC vendor will report the percentage of Corruption, Crimson, and Hallow in the world when spoken to?",
+		"CorrectAnswer":"Dryad",
 		"IncorrectAnswer": [
-			"Kazuma Kiryu",
-			"Akira Nishikiyama",
-			"Shintaro Kazama"
+			"Nurse",
+			"Tavernkeep",
+			"Truffle",
+			"Witch Doctor",
+			"Zoologist"
 		]	
 	},"15":{
-		"Phrase":"In 'The Visionary Fortune-teller', who does Kazuma bump into at the end of the substory?",
-		"CorrectAnswer":"Ryuji Goda",
+		"Phrase":"Which boss is found in the Crimson and can be summoned by breaking Crimson Hearts?",
+		"CorrectAnswer":"Brain of Cthulhu",
 		"IncorrectAnswer": [
-			"Akira Nishikiyama",
-			"Goro Majima",
-			"Shintaro Kazama"
+			"Eater of Worlds",
+			"Plantera",
+			"Skeletron Prime",
+			"The Twins"
 		]	
 	},"16":{
-		"Phrase":"What is the nickname of the infamous Chinese assassin that kidnaps Tachibana?",
-		"CorrectAnswer":"Lao Gui",
+		"Phrase":"Which of the following NPCs can be encountered after defeating the Queen Bee?",
+		"CorrectAnswer":"Witch Doctor",
 		"IncorrectAnswer": [
-			"Jo Amon",
-			"Florist of Sai",
-			"Tokoyami",
-			"Taiga Saejima"
+			"The Guide",
+			"Beeboy",
+			"The Golfer",
+			"Demolitionist"
 		]	
 	},"17":{
-		"Phrase":"Which of the following minigames are not featured in Yakuza 0?",
-		"CorrectAnswer":"Golf",
+		"Phrase":"Which of the following is unique to the Master difficulty mode?",
+		"CorrectAnswer":"Relics",
 		"IncorrectAnswer": [
-			"Bowling",
-			"Fishing",
-			"Telephone Club",
-			"Poker",
-			"Darts",
-			"Pocket Racing",
-			"Karaoke"
+			"Plantera",
+			"Frost Legion",
+			"Pirate Invasion",
+			"Goblin Army"
 		]	
 	},"18":{
-		"Phrase":"What is the name of the 100th substory in Yakuza 0?",
-		"CorrectAnswer":"Sotenbori in Peril",
+		"Phrase":"The Twins can be summoned by using which item at night?",
+		"CorrectAnswer":"Mechanical eye",
 		"IncorrectAnswer": [
-			"The Ultimate Plan",
-			"The Doll Girl",
-			"Apex Predator",
-			"The Head of the Clan",
-			"From the Heart"
+			"Suspicious Eye",
+			"Double Eye",
+			"Eye Probe",
 		]	
 	},"19":{
-		"Phrase":"How many chapters (excluding the epilogue) are in Yakuza 0?",
-		"CorrectAnswer":"17",
+		"Phrase":"Which NPC will collect money for the player from other housed NPCs?",
+		"CorrectAnswer":"Tax Collector",
 		"IncorrectAnswer": [
-			"12",
-			"14",
-			"21",
-			"18"
+			"Banker",
+			"Robber",
+			"Pirate",
+			"Princess"
 		]	
 	},"20":{
-		"Phrase":"The Empty Lot is part of the land of what building featured in future Yakuza games?",
-		"CorrectAnswer":"Mellennium Tower",
+		"Phrase":"The Bestiary, a catalog of characters and enemies, was introduced in which named update?",
+		"CorrectAnswer":"Journey's End",
 		"IncorrectAnswer": [
-			"New Serena",
-			"Ichiban Holdings",
-			"Club Sunshine",
-			"Stardust"
+			"Party Update",
+			"Wiring Update",
+			"Desert Update",
+			"Dungeon Defenders Crossover"
 		]	
 	},"21":{
-		"Phrase":"Which of the following karaoke songs are not available in Yakuza 0?",
-		"CorrectAnswer":"Bakamitai -sorrow-",
+		"Phrase":"What does a Dungeon Guardian drop upon being defeated by the player?",
+		"CorrectAnswer":"Bone Key",
 		"IncorrectAnswer": [
-			"x3 SHINE",
-			"24-hour Cinderella",
-			"Bakamitai",
-			"Judgement -Shinpan-",
-			"Rogue of Love",
-			"Heartbreak Mermaid"
-		]	
+			"Dungeon Key",
+			"Guardian Figurine",
+			"Guardian Pet",
+			"Dragon Map"
+		]
 	},"22":{
-		"Phrase":"What is the name of the group that rivals Kazuma Kiryu in the Real Estate Royale minigame?",
-		"CorrectAnswer":"Five Billionares",
+		"Phrase":"The Queen Slime is the post-Hardmode counterpart to which boss?",
+		"CorrectAnswer":"King Slime",
 		"IncorrectAnswer": [
-			"Five Millionares",
-			"Five Elites",
-			"Five Stars",
-			"Five Moneymen"
-		]	
+			"Big Slime",
+			"Tall Slime",
+			"God Slime",
+			"Slime Boy"
+		]
 	},"23":{
-		"Phrase":"Which of the following SEGA games are not found in one of the SEGA HI-TECH LAND locations in Yakuza 0?",
-		"CorrectAnswer":"Print Club",
+		"Phrase":"The Tavernkeep NPC will sell items for which currency?",
+		"CorrectAnswer":"Defender Medals",
 		"IncorrectAnswer": [
-			"Super Hang-On",
-			"Fantasy Zone",
-			"Space Harrier",
-			"Out Run"
-		]	
+			"Silver Coins",
+			"Gold Coins",
+			"Combat Coins",
+			"Job Tokens"
+		]
 	},"24":{
-		"Phrase":"In order of date released, which number installment is Yakuza 0 for the main series?",
-		"CorrectAnswer":"Sixth",
+		"Phrase":"What is the name of seed that allows the player to grow Gem Trees?",
+		"CorrectAnswer":"Gemcorn",
 		"IncorrectAnswer": [
-			"Seventh",
-			"Fourth",
-			"First",
-			"Tenth"
-		]	
+			"Sparkling Sapling",
+			"Gemnut",
+			"Sparkle Seed",
+			"Gem Seed"
+		]
 	},"25":{
-		"Phrase":"Which spot in Sotenbori can Goro Majima fish?",
-		"CorrectAnswer":"Sotenbori Footpath",
+		"Phrase":"The tool 'Guide To Critter Companionship' is used to prevent damaging which creatures?",
+		"CorrectAnswer":"Critters",
 		"IncorrectAnswer": [
-			"West Shofukucho",
-			"Shofukucho",
-			"East Sotenbori St.",
-			"West Sotenbori St."
-		]	
+			"Enemies",
+			"NPCs",
+			"Bosses",
+			"Environment"
+		]
 	},"26":{
-		"Phrase":"Who is the owner of the Empty Lot?",
-		"CorrectAnswer":"Makoto Makimura",
+		"Phrase":"Which boss is the mechanical version of Skeletron?",
+		"CorrectAnswer":"Skeletron Prime",
 		"IncorrectAnswer": [
-			"Patriarch Dojima",
-			"Tsukasa Sagawa",
-			"Diasaku Kuze",
-			"Hiroki Awano",
-			"Tetsu Tachibana",
-			"Keiji Shibusawa",
-			"Shintaro Kazama"
-		]	
+			"Metal Skeletron",
+			"The Destroyer",
+			"Metal Skull",
+			"Skeletron Mecha"
+		]
 	},"27":{
-		"Phrase":"How many different race tracks are available in the Pocket Circuit minigame?",
-		"CorrectAnswer":"7",
+		"Phrase":"Which NPC can be obtained by throwing Purification Powder onto a Tortured Soul enemy?",
+		"CorrectAnswer":"Tax Collector",
 		"IncorrectAnswer": [
-			"8",
-			"4",
-			"5",
-			"9"
-		]	
+			"Fairy",
+			"Underworldling",
+			"Demon",
+			"Dryad",
+			"Party Girl"
+		]
 	},"28":{
-		"Phrase":"What is the name of the group that rivals Goro Majima in the Cabaret Club Czar minigame?",
-		"CorrectAnswer":"Five Stars",
+		"Phrase":"If the player has bad luck or fishes in a small enough pond, they will get junk. Which of the following is not one of these junk items?",
+		"CorrectAnswer":"Food Can",
 		"IncorrectAnswer": [
-			"Five Fames",
-			"Five Elites",
-			"Five Billionares",
-			"Five Clubs"
-		]	
+			"Old Shoe",
+			"Seaweed",
+			"Tin Can"
+		]
 	},"29":{
-		"Phrase":"What is the name of the bowling alley located in Kamurocho?",
-		"CorrectAnswer":"Mach Bowl",
+		"Phrase":"Which boss can be found in the Jungle Temple?",
+		"CorrectAnswer":"Golem",
 		"IncorrectAnswer": [
-			"RYZAP Bowl",
-			"Death Bowler",
-			"Northern Lanes",
-			"Northern Frames"
-		]	
+			"Forrester",
+			"Plantera",
+			"Jungle King",
+			"Big Ape"
+		]
 	},"30":{
-		"Phrase":"What is the name of Chapter 16?",
-		"CorrectAnswer":"Proof of Love",
+		"Phrase":"Which of the following items act as a teleporter between biomes?",
+		"CorrectAnswer":"Pylons",
 		"IncorrectAnswer": [
-			"Den of Desires",
-			"Scattered Light",
-			"Black and White",
-			"Tug of War",
-			"An Honest Living"
-		]	
+			"Teleport Pads",
+			"Fast Travel",
+			"Point of Interest"
+		]
 	},"31":{
-		"Phrase":"In the last chapter, who is the last enemy that Goro Majima has to fight?",
-		"CorrectAnswer":"Lao Gui",
+		"Phrase":"Which NPC sells animal-related items such as mounts, pets, and accessories?",
+		"CorrectAnswer":"Zoologist",
 		"IncorrectAnswer": [
-			"Patriarch Dojima",
-			"Tsukasa Sagawa",
-			"Tetsu Tachibana",
-			"Keiji Shibusawa",
-			"Shintaro Kazama"
-		]	
+			"Witch Doctor",
+			"Dryad",
+			"Old Man",
+			"Truffle"
+		]
 	},"32":{
-		"Phrase":"In the last chapter, who is the last enemy that Kazuma Kiryu has to fight?",
-		"CorrectAnswer":"Keiji Shibusawa",
+		"Phrase":"Which of the following seasonal bosses only appear in the 3DS version of the game?",
+		"CorrectAnswer":"Turkor the Ungrateful",
 		"IncorrectAnswer": [
-			"Patriarch Dojima",
-			"Tsukasa Sagawa",
-			"Lao Gui",
-			"Tetsu Tachibana",
-			"Shintaro Kazama"
-		]	
+			"Flying Dutchman",
+			"King Slime",
+			"Mrs. Claus",
+			"Queen Slime"
+		]
 	},"33":{
-		"Phrase":"Which minigame is a varient of chess, commonly known as Japanese Chess?",
-		"CorrectAnswer":"Shogi",
+		"Phrase":"Which of the following is not a type of town pet?",
+		"CorrectAnswer":"Wolf",
 		"IncorrectAnswer": [
-			"Mahjong",
-			"Oicho-kabu",
-			"Cho-han",
-			"Koi-koi"
-		]	
+			"Cat",
+			"Dog",
+			"Bunny"
+		]
 	},"34":{
-		"Phrase":"In the Epilogue, what does Makoto Makimura find in the Empty Lot?",
-		"CorrectAnswer":"Brother's Old Watch",
+		"Phrase":"The final boss, summoned by defeating four Celestial Pillars, is named what?",
+		"CorrectAnswer":"Moon Lord",
 		"IncorrectAnswer": [
-			"Flowers",
-			"Old Wristband",
-			"An Old Letter",
-			"Brother's Old Crest"
-		]	
+			"Empress of Light",
+			"Golem",
+			"Sun Lord",
+			"Plantera"
+		]
 	},"35":{
-		"Phrase":"What is the yen reward for successfully completing Chapter 17?",
-		"CorrectAnswer":"300000000",
+		"Phrase":"Which NPC will only appear after housing all other NPCs?",
+		"CorrectAnswer":"Princess",
 		"IncorrectAnswer": [
-			"200000000",
-			"100000000",
-			"500000000",
-			"400000000"
-		]	
+			"Fairy",
+			"Dude",
+			"Angler",
+			"Dryad",
+			"Party Girl"
+		]
 	}
 }
