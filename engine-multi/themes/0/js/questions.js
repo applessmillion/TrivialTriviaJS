@@ -1,198 +1,193 @@
 var questions = {
 	"0":{
-		"Phrase":"Minecraft 1.15 was released on what date?",
-		"CorrectAnswer":"December 10, 2019",
+		"Phrase":"Which character greets the player while initially riding into town on the train?",
+		"CorrectAnswer":"Rover",
 		"IncorrectAnswer": [
-			"January 1, 2020",
-			"June 10, 2019",
-			"August 11, 2019",
-			"December 1, 2019",
-			"November 6, 2019"
+			"Blathers",
+			"Tom Nook",
+			"Tortimer",
+			"Grover"
 		]	
 	},"1":{
-		"Phrase":"What is the official name of Minecraft's 1.15 update?",
-		"CorrectAnswer":"Buzzy Bees",
+		"Phrase":"How many bells does the player have when they get into town?",
+		"CorrectAnswer":"1000 Bells",
 		"IncorrectAnswer": [
-			"Busy Bees",
-			"Buzzing Bees",
-			"Bit of Honey",
-			"Builder Bees",
-			"Save the Bees!"
+			"5000 Bells",
+			"10000 Bells",
+			"0 Bells",
+			"100 Bells",
+			"500 Bells"
 		]	
 	},"2":{
-		"Phrase":"Beehives can be crafted using two different materials. One of these materials is honeycomb. What is the other material?",
-		"CorrectAnswer":"Planks",
+		"Phrase":"Which area allows the player to dispose of items, and is emptied at 6am on Mondays and Thursdays?",
+		"CorrectAnswer":"Dump",
 		"IncorrectAnswer": [
-			"Leaves",
-			"Logs",
-			"Honey",
-			"Bee Nest",
-			"Dirt"
+			"Trash Hole",
+			"Trash Can",
+			"Recycling Center",
+			"Recycling Bin"
 		]	
 	},"3":{
-		"Phrase":"The player is awarded an achievement for jumping into a honey block to reduce fall damage. What is the name of this achievement?",
-		"CorrectAnswer":"Sticky Situation",
+		"Phrase":"Which special character may visit the town and offer fortune-telling services?",
+		"CorrectAnswer":"Katrina",
 		"IncorrectAnswer": [
-			"Swimming in Honey",
-			"Sticky Step",
-			"Sweet Situation",
-			"Bee Our Guest"
+			"Sabrina",
+			"Redd",
+			"Timmy Nook",
+			"Rover"
 		]	
 	},"4":{
-		"Phrase":"How many bees can a single beehive house at once?",
-		"CorrectAnswer":"3",
-		"IncorrectAnswer": [
-			"2",
-			"4",
-			"5",
-			"6",
-			"7"
+		"Phrase":"Animal Crossing was released for which console in the United States and Europe?",
+		"CorrectAnswer":"GameCube",
+		"IncorrectAnswer":[
+			"Wii",
+			"PlayStation",
+			"PlayStation 2",
+			"Nintendo 64"
 		]	
 	},"5":{
-		"Phrase":"Which item can be used to breed bees?",
-		"CorrectAnswer":"Any flower",
+		"Phrase":"Who is the mayor in Animal Crossing?",
+		"CorrectAnswer":"Tortimer",
 		"IncorrectAnswer": [
-			"Honey",
-			"Sugar",
-			"Any Dye",
-			"Sugar Cane"
+			"Tom Nook",
+			"Isabelle",
+			"Rover"
 		]	
 	},"6":{
-		"Phrase":"When angry, bees will attack the player and die shortly after attacking. What status effect is applied to the player when the bee attacks?",
-		"CorrectAnswer":"Poison",
+		"Phrase":"What is the name of the event that takes place on July 4?",
+		"CorrectAnswer":"Fireworks Show",
 		"IncorrectAnswer": [
-			"Wither",
-			"Strength",
-			"Instant Damage",
-			"Hunger"
+			"July Fireworks",
+			"Light Day",
+			"Independence Day",
+			"Town Day"
 		]	
 	},"7":{
-		"Phrase":"How many hunger points does a Honey Bottle restore when consumed?",
-		"CorrectAnswer":"3 Hunger Points",
+		"Phrase":"Which characters punish the player after shutting the game down without saving?",
+		"CorrectAnswer":"Don & Mr. Resetti",
 		"IncorrectAnswer": [
-			"6 Hunger Points",
-			"1 Hunger Point",
-			"4 Hunger Points",
-			"2 Hunger Points"
+			"Tortimer & Tom Nook",
+			"Pete & Pelly",
+			"Mr. Resetti & Copper",
+			"Copper & Booker"
 		]	
 	},"8":{
-		"Phrase":"How much health does a single bee have?",
-		"CorrectAnswer":"10 Health",
+		"Phrase":"What species of animal is Tom Nook?",
+		"CorrectAnswer":"Raccoon",
 		"IncorrectAnswer": [
-			"5 Health",
-			"8 Health",
-			"12 Health",
-			"4 Health"
+			"Fox",
+			"bear",
+			"Panda",
+			"Owl"
 		]	
 	},"9":{
-		"Phrase":"Which of the following blocks will pacify bees when in the nest?",
-		"CorrectAnswer":"Campfire",
+		"Phrase":"How does the player identify fossils?",
+		"CorrectAnswer":"Faraway Museum",
 		"IncorrectAnswer": [
-			"Glowstone",
-			"Torch",
-			"Redstone Torch",
-			"Jukebox"
+			"Automatically",
+			"Blathers",
+			"Archaeology Kit",
+			"Fossilpedia"
 		]	
 	},"10":{
-		"Phrase":"1.15 Introduced new commands and game mechanics. One of these commands allows the player to spectate another player. What is this command?",
-		"CorrectAnswer":"/spectate",
+		"Phrase":"During late-summer mornings, villagers will participate in an event with Copper. What is this morning event?",
+		"CorrectAnswer":"Morning Aerobics",
 		"IncorrectAnswer": [
-			"/view",
-			"/seeplayer",
-			"/spec"
+			"Marathon Run",
+			"Morning Fishing",
+			"Morning Bug Hunt",
+			"Household Cleaning"
 		]	
 	},"11":{
-		"Phrase":"What gamerule can be set to toggle the automatic spawning of Phantoms?",
-		"CorrectAnswer":"doInsomnia",
+		"Phrase":"Which day does the Spring Cleaning event take place?",
+		"CorrectAnswer":"May 1",
 		"IncorrectAnswer": [
-			"doPhantom",
-			"doSleepDeprivation",
-			"spawnPhantoms",
-			"needSleep"
+			"March 1",
+			"February 1",
+			"March 15",
+			"May 15",
+			"April 2"
 		]	
 	},"12":{
-		"Phrase":"1.15 Introduced new commands and game mechanics. One of these commands allows the player to execute another command as another player. What is this command?",
-		"CorrectAnswer":"/execute",
+		"Phrase":"Whisp would sometimes vist the player's town early in the morning. Which of the following is one of his rewards for helping him?",
+		"CorrectAnswer":"Remove all weeds",
 		"IncorrectAnswer": [
-			"/sudo",
-			"/sudo-as",
-			"/exe",
-			"/cmdas"
+			"Water all flowers",
+			"30000 Bells",
+			"99999 Bells",
+			"Move into town",
+			"Sell all fruits"
 		]	
 	},"13":{
-		"Phrase":"Which achievement is awarded on successfully harvesting honey from a beehive?",
-		"CorrectAnswer":"Bee Our Guest",
+		"Phrase":"The sports fair takes place over multiple days twice a year. Which two seasons does this event occur in?",
+		"CorrectAnswer":"Spring and Autumn",
 		"IncorrectAnswer": [
-			"Beekeeper",
-			"Honey Harvesting",
-			"Bee Friend",
-			"Friend of Bees",
-			"Total Beelocation"
+			"Spring and Summer",
+			"Summer and Winter",
+			"Summer and Autumn",
+			"Winter and Spring"
 		]	
 	},"14":{
-		"Phrase":"Which of the following splash texts were added in 1.15?",
-		"CorrectAnswer":"Buzzy Bees!",
+		"Phrase":"After not playing for a week, what appears inside of the player home?",
+		"CorrectAnswer":"Cockroaches",
 		"IncorrectAnswer": [
-			"Bee welcome!",
-			"Now with bees!",
-			"Introducing bugs!"
+			"Dust",
+			"Spider webs",
+			"Spiders"
 		]	
 	},"15":{
-		"Phrase":"Which achievement is awarded for sucessfully moving a bee nest with bees inside?",
-		"CorrectAnswer":"Total Beelocation",
+		"Phrase":"Which of the following shells is not in the Animal Crossing game?",
+		"CorrectAnswer":"Cowrie",
 		"IncorrectAnswer": [
-			"Moving Day",
-			"Bee a Ride",
-			"Relocation",
-			"Bee Mover"
+			"Conch",
+			"Porceletta",
+			"Sand dollar",
+			"Wentletrap",
+			"Venus comb"
 		]	
 	},"16":{
-		"Phrase":"Which language option was added in 1.15?",
-		"CorrectAnswer":"Yiddish",
+		"Phrase":"How many unique bugs can be found in Animal Crossing?",
+		"CorrectAnswer":"40 Bugs",
 		"IncorrectAnswer": [
-			"Pirate",
-			"Pig Latin",
-			"Traditional Chinese",
-			"Russian"
+			"20 Bugs",
+			"24 Bugs",
+			"16 Bugs",
+			"42 Bugs"
 		]	
 	},"17":{
-		"Phrase":"Which item can extinguish campfires beginning in 1.15?",
-		"CorrectAnswer":"Shovel",
+		"Phrase":"This unique event takes place in November and celebrates the towns police officers. What is the name of this event?",
+		"CorrectAnswer":"Officer's Day",
 		"IncorrectAnswer": [
-			"Hoe",
-			"Axe",
-			"Pickaxe",
-			"Sword"
+			"Police Day",
+			"Rememberance Day",
+			"Labor Day",
+			"Honor Day"
 		]	
 	},"18":{
-		"Phrase":"Iron golems will crack whenever they take damage. After enough damage, they will be killed. What item can heal damaged iron golems?",
-		"CorrectAnswer":"Iron Ingots",
+		"Phrase":"What is the maximum amount of letters the player can hold at once?",
+		"CorrectAnswer":"10 letters",
 		"IncorrectAnswer": [
-			"Iron Blocks",
-			"Iron Armor",
-			"Potion of Damage",
-			"Gold Ingots",
-			"Iron Ore"
+			"14 letters",
+			"6 letters",
+			"8 letters"
 		]	
 	},"19":{
-		"Phrase":"Which of the listed block tags were removed in 1.15?",
-		"CorrectAnswer":"dirt_like",
+		"Phrase":"Which alligator villager has multiple references to the Nintendo character Mario?",
+		"CorrectAnswer":"Alfonso",
 		"IncorrectAnswer": [
-			"beds",
-			"banners",
-			"dragon_immune",
-			"fire",
-			"logs_that_burn"
+			"Ace",
+			"Anchovy",
+			"Ed",
+			"Dotty"
 		]	
 	},"20":{
-		"Phrase":"What item is used in the process of creating Stripped Wood?",
-		"CorrectAnswer":"Axe",
+		"Phrase":"Jow many acres make up each town?",
+		"CorrectAnswer":"30 acres",
 		"IncorrectAnswer": [
-			"Sword",
-			"Pickaxe",
-			"Shears",
-			"Shovel",
-			"Hoe"
+			"24 acres",
+			"60 acres",
+			"48 acres",
+			"16 acres"
 		]	
 	}
 }

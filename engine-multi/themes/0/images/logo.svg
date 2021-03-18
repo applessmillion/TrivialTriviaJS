@@ -12,10 +12,10 @@
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 82.3376 26.273733"
-   height="26.273731mm"
-   width="82.337608mm"
-   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\Minecraft 1.15\images\bitmap.png"
+   viewBox="0 0 91.643828 28.135487"
+   height="28.135485mm"
+   width="91.643837mm"
+   inkscape:export-filename="B:\apple\Documents\GitHub\TrivialTriviaJS\themes\Minecraft 1.16\logo.png"
    inkscape:export-xdpi="427.89999"
    inkscape:export-ydpi="427.89999">
   <defs
@@ -70,8 +70,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="text835"
      inkscape:document-units="mm"
-     inkscape:cy="72.244001"
-     inkscape:cx="154.23344"
+     inkscape:cy="72.243988"
+     inkscape:cx="195.55494"
      inkscape:zoom="2.8"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -92,7 +92,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-65.314441,-121.85538)"
+     transform="translate(-60.661325,-121.85538)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -190,16 +190,16 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2935px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:#292929;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-         x="62.343819"
-         y="156.22926"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#e2d540;fill-opacity:1;stroke:#8e7232;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         x="58.204784"
+         y="154.54529"
          id="text865"
-         transform="scale(1.06077,0.94271144)"><tspan
+         transform="scale(1.06077,0.94271143)"><tspan
            sodipodi:role="line"
            id="tspan863"
-           x="62.343819"
-           y="156.22926"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2935px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#969696;fill-opacity:1;stroke:#292929;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">MINECRAFT</tspan></text>
+           x="58.204784"
+           y="154.54529"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:FinkHeavy;-inkscape-font-specification:FinkHeavy;fill:#e2d540;fill-opacity:1;stroke:#8e7232;stroke-width:0.7;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">Animal Crossing</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.202406"
@@ -211,18 +211,6 @@
            x="99.696144"
            y="152.45775"
            style="stroke-width:0.202406" /></text>
-      <text
-         transform="scale(1.06077,0.94271143)"
-         id="text873"
-         y="143.01616"
-         x="122.89832"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.02612px;line-height:1.25;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';letter-spacing:0px;word-spacing:0px;fill:#d7d7d7;fill-opacity:1;stroke:#292929;stroke-width:0.244345;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.02612px;font-family:Autumn;-inkscape-font-specification:'Autumn weight=101';fill:#d7d7d7;fill-opacity:1;stroke:#292929;stroke-width:0.244345;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           y="143.01616"
-           x="122.89832"
-           id="tspan871"
-           sodipodi:role="line">1.15</tspan></text>
     </g>
   </g>
 </svg>

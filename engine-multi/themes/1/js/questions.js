@@ -1,356 +1,331 @@
 var questions = {
 	"0":{
-		"Phrase":"What date did the version 1.16 release? ",
-		"CorrectAnswer":"June 23, 2020",
+		"Phrase":"What role is given to the player when they first arrive to town?",
+		"CorrectAnswer":"Mayor",
 		"IncorrectAnswer": [
-			"July 2, 2020",
-			"June 21, 2020",
-			"August 21, 2020",
-			"September 1, 2020",
-			"November 6, 2020"
+			"Shopkeep",
+			"Builder",
+			"Resident Representative",
+			""
 		]	
-	},
-	"1":{
-		"Phrase":"1.16.2 introduced a new mob that wields a golden axe. What is the name of this mob?",
-		"CorrectAnswer":"Piglin Brute",
+	},"1":{
+		"Phrase":"Who is the town secretary?",
+		"CorrectAnswer":"Isabelle",
 		"IncorrectAnswer": [
-			"Piglin Warrior",
-			"Piglin Remnant",
-			"Pigman",
-			"Hoglin",
-			"Strider"
+			"Tom Nook",
+			"Blathers",
+			"Tortimer",
+			"Timmy Nook"
 		]	
-	},
-	"2":{
-		"Phrase":"1.16 Introduced many new blocks, mobs, and features. What was the official name of this update?",
-		"CorrectAnswer":"Nether Update",
+	},"2":{
+		"Phrase":"Kicks is the owner of which of the following unlockable shops?",
+		"CorrectAnswer":"Kicks",
 		"IncorrectAnswer": [
-			"Down Under Update",
-			"Pigpeople Update",
-			"Ruin and Pork Update",
-			"Lava and Ruin Update",
-			"Porkpeople Update"
+			"Shoes",
+			"Shoes n' Stuff",
+			"Foots",
+			"Able Sisters",
+			"Cafe"
 		]	
-	},
-	"3":{
-		"Phrase":"A new armortype was introduced with the 1.16 update. What is the material of this armor?",
-		"CorrectAnswer":"Netherite",
+	},"3":{
+		"Phrase":"The Gardening Store is owned by which special character?",
+		"CorrectAnswer":"Leif",
 		"IncorrectAnswer": [
-			"Crystal",
-			"Obsidian",
-			"Stone",
-			"Basalt",
-			"Blackstone"
+			"Kicks",
+			"Lyle",
+			"Kapp'n",
+			"Isabelle"
 		]	
-	},
-	
-	
-	"4":{
-		"Phrase":"Netherite Ingots require more than one material. One of these materials is Netherite Scrap. What else is required by the recipe?",
-		"CorrectAnswer":"Gold Ingot",
-		"IncorrectAnswer": [
-			"Basalt",
-			"Obsidian",
-			"Diamond",
-			"Iron",
-			"Soulsand",
-			"Sand"
+	},"4":{
+		"Phrase":"In which year was Animal Crossing: New Leaf released in the United States?",
+		"CorrectAnswer":"2013",
+		"IncorrectAnswer":[
+			"2011",
+			"2012",
+			"2014",
+			"2016"
 		]	
-	},
-	"5":{
-		"Phrase":"As of 1.16, two types of forests can be found in the Nether. What are the names of these two types?",
-		"CorrectAnswer":"Warped & Crimson",
+	},"5":{
+		"Phrase":"What is the name of the 2016 update that added the Campground?",
+		"CorrectAnswer":"Welcome Amiibo",
 		"IncorrectAnswer": [
-			"Crimson & Corruption",
-			"Nethersprout & Fungi",
-			"Ruin & Hellscape",
-			"Warped & Corruption",
-			"Netherest & Lava Rivers"
+			"Getaway",
+			"Getaway Package",
+			"Welcome Campers",
+			"Hello Campsite"
 		]	
-	},
-	"6":{
-		"Phrase":"Which two items can be used to craft wooden planks that do not burn?",
-		"CorrectAnswer":"Crimson & Warped Stems",
+	},"6":{
+		"Phrase":"What is the name of the business run by Reese and Cyrus?",
+		"CorrectAnswer":"Re-Tail",
 		"IncorrectAnswer": [
-			"Crimson & Warped Roots",
-			"Crimson & Corrupt Roots",
-			"Crimson & Warped Nylium",
-			"Warped & Wicked Stems"
+			"Re-cycle",
+			"Recycle",
+			"Reuse, Recycle, Retail",
+			"Re-tale"
 		]	
-	},
-	"7":{
-		"Phrase":"Two new blocks in the Nether can be found and mined for golden nuggets. What is the name of one of these blocks?",
-		"CorrectAnswer":"Gilded Blackstone",
+	},"7":{
+		"Phrase":"What is the name of the location that houses most shops in the game?",
+		"CorrectAnswer":"Main Street",
 		"IncorrectAnswer": [
-			"Crying Obsidian",
-			"Piglin Crate",
-			"Gilded Obsidian",
-			"Tinted Blackstone",
-			"Gilded Netherrite"
+			"City",
+			"Town Square",
+			"Shopping Center",
+			"Shop Centre"
 		]	
-	},
-	"8":{
-		"Phrase":"What new block can be placed to repel hostile Piglin?",
-		"CorrectAnswer":"Soul Campfire",
+	},"8":{
+		"Phrase":"Club LOL is owned by which returning character?",
+		"CorrectAnswer":"Dr. Shrunk",
 		"IncorrectAnswer": [
-			"Battle Banner",
-			"Undead Marker",
-			"Undead Campfire",
-			"Raging Turret"
+			"DJ Nook",
+			"DJ K.K.",
+			"Kapp'n",
+			"Tortimer"
 		]	
-	},
-	"9":{
-		"Phrase":"Crying Obsidian can be used in the crafting of an item that allows players to respawn where this crafted block is placed. What is the name of the block?",
-		"CorrectAnswer":"Respawn Anchor",
+	},"9":{
+		"Phrase":"Which of the following features were first introduced in New Leaf?",
+		"CorrectAnswer":"Diving",
 		"IncorrectAnswer": [
-			"Activated Obsidian",
-			"Activated Grave",
-			"Sprit Anchor",
-			"Respawn Camp"
+			"Catching bugs",
+			"Balloons",
+			"Kapp'n"
 		]	
-	},
-	"10":{
-		"Phrase":"Which of the following is not true about Netherite Armor?",
-		"CorrectAnswer":"Prevents fire damage",
+	},"10":{
+		"Phrase":"Which of the following items cannot be donated to the museum?",
+		"CorrectAnswer":"Minerals",
 		"IncorrectAnswer": [
-			"Floats in lava",
-			"Does not burn",
-			"Tougher than diamond"
+			"Fossils",
+			"Bugs",
+			"Paintings",
+			"Deep-sea Creatures"
 		]	
-	},
-	"11":{
-		"Phrase":"A new music disc was added with 1.16. This music disc can be found in bastion remnants in the Nether. What is the name of the song on this disc?",
-		"CorrectAnswer":"Pigstep",
+	},"11":{
+		"Phrase":"Two new villager species were introduced in New Leaf. One of these species was the hamster. What is the other species?",
+		"CorrectAnswer":"Deer",
 		"IncorrectAnswer": [
-			"Reaper",
-			"Lava Hop",
-			"Gallop",
-			"Pigmen",
-			"Ol Wither"
+			"Fox",
+			"Cow",
+			"Sheep",
+			"Mouse",
+			"Baby Owl"
 		]	
-	},
-	"12":{
-		"Phrase":"Which of the following is not a type of item that can be crafted with Netherite?",
-		"CorrectAnswer":"Shears",
+	},"12":{
+		"Phrase":"What is the first form of the shop run by Timmy and Tommy Nook?",
+		"CorrectAnswer":"Nookling Junction",
 		"IncorrectAnswer": [
-			"Sword",
-			"Hoe",
-			"Axe",
-			"Shovel"
+			"T&T Cranny",
+			"Nook's Cranny",
+			"Super T&T",
+			"Nookingtons"
 		]	
-	},
-	"13":{
-		"Phrase":"A new achievement can be obtained by opening a chest in a bastion remnant. What is the name of this achievement?",
-		"CorrectAnswer":"War Pigs",
+	},"13":{
+		"Phrase":"What is the name of the buildable cafe that Brewster runs?",
+		"CorrectAnswer":"The Roost",
 		"IncorrectAnswer": [
-			"Those Were The Days",
-			"Oh Shiny",
-			"This Boat Has Legs",
-			"Going Under",
-			"Big Loot",
-			"Treasure Hunter"
+			"The Nest",
+			"The Spot",
+			"Corner Joe",
+			"Corner Roost"
 		]	
-	},
-	"14":{
-		"Phrase":"A new mob inhabits the Nether's plentyful lava oceans. What is the name of this mob?",
-		"CorrectAnswer":"Strider",
+	},"14":{
+		"Phrase":"In New Leaf, there are four types of snowman. Which of the following are not one of those types?",
+		"CorrectAnswer":"Snowbaby",
 		"IncorrectAnswer": [
-			"Piglin",
-			"Hoglin",
-			"Zoglin",
-			"Ghast"
+			"Snowtyke",
+			"Snowmam",
+			"Snowman",
+			"Snowboy"
 		]	
-	},
-	"15":{
-		"Phrase":"Which of the following mobs can only be found in the Crimson Forests found in the Nether?",
-		"CorrectAnswer":"Hoglins",
+	},"15":{
+		"Phrase":"What is the name of the building that allows the player to send mail to villagers and other players?",
+		"CorrectAnswer":"Post Office",
 		"IncorrectAnswer": [
-			"Piglins",
-			"Ghasts",
-			"Zoglins"
+			"Police Station",
+			"Mailbox",
+			"Mail Station",
+			"Dodo Airlines"
 		]	
-	},
-	"16":{
-		"Phrase":"When killed, what will drop from a Strider?",
-		"CorrectAnswer":"String",
+	},"16":{
+		"Phrase":"Which special character runs the bug catching tournaments on the island?",
+		"CorrectAnswer":"Nat",
 		"IncorrectAnswer": [
-			"Golden Nuggets",
-			"Soulsand",
-			"Lava Buckets",
-			"Arrows"
+			"Tortimer",
+			"Chip",
+			"Flick",
+			"Isabelle",
+			"Tom Nook"
 		]	
-	},
-	"17":{
-		"Phrase":"Which of the following mobs inhabit the Nether Wastes and Crimson Forests found in the Nether?",
-		"CorrectAnswer":"Piglins",
+	},"17":{
+		"Phrase":"Joan will visit the town weekly to sell turnips to the player. On which day of the week does she visit?",
+		"CorrectAnswer":"Sunday",
 		"IncorrectAnswer": [
-			"Hoglins",
-			"Ghasts",
-			"Zoglins"
+			"Saturday",
+			"Friday",
+			"Wednesday",
+			"Monday"
 		]	
-	},
-	"18":{
-		"Phrase":"Which of the following events will damage a Strider?",
-		"CorrectAnswer":"Rain",
+	},"18":{
+		"Phrase":"Which of the following is not a legitimate Town Ordinance?",
+		"CorrectAnswer":"Expanded Ordinance",
 		"IncorrectAnswer": [
-			"Walking on land",
-			"Walking in lava",
-			"Being ridden",
+			"Beautiful Ordinance",
+			"Early Bird Ordinance",
+			"Wealthy Ordinance"
 		]	
-	},
-	"19":{
-		"Phrase":"When taken out of the Nether, a Hoglin will change. Which of the following mobs are the result of taking a Hoglin to the Overworld?",
-		"CorrectAnswer":"Zoglin",
+	},"19":{
+		"Phrase":"What 3DS feature allows other players to have their home appear in the Happy Home Showcase?",
+		"CorrectAnswer":"StreetPass",
 		"IncorrectAnswer": [
-			"Zombified Pigman",
-			"Hoglin",
-			"Piglin",
-			"Witch"
+			"NetPass", /* To be trademarked at some point... */
+			"GeoPass", /* To be trademarked at some point... */
+			"WePass",
+			"LetsPass",
+			"GamePass"
 		]	
 	},"20":{
-		"Phrase":"Which update added the social interactions features to Minecraft?",
-		"CorrectAnswer":"1.16.4",
+		"Phrase":"How many unique fish can be caught and donated in New Leaf?",
+		"CorrectAnswer":"72",
 		"IncorrectAnswer": [
-			"1.16.6",
-			"1.16.1",
-			"1.16.2",
-			"1.16.3"
+			"74",
+			"76",
+			"80",
+			"60"
 		]	
 	},"21":{
-		"Phrase":"How many hearts (not health) do Zoglins have?",
-		"CorrectAnswer":"20",
+		"Phrase":"Which visiting shop will sell the player sculptures and paintings?",
+		"CorrectAnswer":"Crazy Redd's",
 		"IncorrectAnswer": [
-			"40",
-			"30",
-			"10",
-			"15"
+			"Black Market",
+			"Art Exhibit",
+			"Crazy Art",
+			"Craz-e Art"
 		]	
 	},"22":{
-		"Phrase":"Which Nether biome is filled with basalt, blackstone, and has grey particles in the air?",
-		"CorrectAnswer":"Basalt Delta",
+		"Phrase":"How many hours in a day is Brewster's cafe open?",
+		"CorrectAnswer":"24 Hours",
 		"IncorrectAnswer": [
-			"Crimson Forest",
-			"Warped Forest",
-			"Soul sand Valley",
-			"Volcanic Valley"
+			"12 Hours",
+			"16 Hours",
+			"14 Hours",
+			"6 Hours"
 		]	
 	},"23":{
-		"Phrase":"Which update added the ability for lanterns to be waterlogged?",
-		"CorrectAnswer":"1.16.2",
+		"Phrase":"What is the name of the business that allows for character customization?",
+		"CorrectAnswer":"Shampoodle",
 		"IncorrectAnswer": [
-			"1.16.3",
-			"1.16.4",
-			"1.16",
-			"1.16.1"
+			"Ms. Nintendique",
+			"Harriet",
+			"Hairpoodle",
+			"Glam!"
 		]	
 	},"24":{
-		"Phrase":"What is the name of the enchantment that allows the player to walk faster on soul sand and soul soil?",
-		"CorrectAnswer":"Soul Speed",
+		"Phrase":"Which special character runs the fishing tournaments in the town?",
+		"CorrectAnswer":"Chip",
 		"IncorrectAnswer": [
-			"Soul Walker",
-			"Speed Walker",
-			"Soul Sugar",
-			"Speed of Soul"
+			"Kitty",
+			"Nat",
+			"C.J.",
+			"Isabelle",
+			"Tom Nook"
 		]	
 	},"25":{
-		"Phrase":"Which of the following is not one of the new splash texts introduced in 1.16?",
-		"CorrectAnswer":"Fabulous Pigpeople!",
+		"Phrase":"What is the name of the unlockable shop run by Gracie?",
+		"CorrectAnswer":"GracieGrace",
 		"IncorrectAnswer": [
-			"Aww man!",
-			"Find your claw!",
-			"Zoglin!?",
-			"Vanilla!"
+			"StyleGracie",
+			"Label",
+			"FashionNow",
+			"GracieGo"
 		]	
 	},"26":{
-		"Phrase":"The block Bamboo Saplings was renamed in 1.16. What is the new name of this block?",
-		"CorrectAnswer":"Bamboo Shoot",
+		"Phrase":"What type of object generates once a day and drops a mineral when broken?",
+		"CorrectAnswer":"Rock",
 		"IncorrectAnswer": [
-			"Bamboo Shot",
-			"Bamboo Sling",
-			"Bamboo Start",
-			"Bamboo Starter"
+			"Glowing Rock",
+			"Boulder",
+			"Jagged Stone"
 		]	
 	},"27":{
-		"Phrase":"The Clay item was renamed in 1.16. What is the new name of this item?",
-		"CorrectAnswer":"Clay Ball",
+		"Phrase":"The Gold Shovel can be obtained by purchasing how many bags of fertilizer?",
+		"CorrectAnswer":"50 bags",
 		"IncorrectAnswer": [
-			"Clay Block",
-			"Mud",
-			"Wet Clay",
-			"Clay Bit"
+			"25 bags",
+			"15 bags",
+			"100 bags",
+			"500 bags"
 		]	
 	},"28":{
-		"Phrase":"Which gamerule can be set to make neutral mobs automatically aggressive towards the player?",
-		"CorrectAnswer":"universalAnger",
+		"Phrase":"Which building will act as a lost and found once built?",
+		"CorrectAnswer":"Police Station",
 		"IncorrectAnswer": [
-			"forgiveDeadPlayers",
-			"neutralAnger",
-			"setDifficulty",
-			"alwaysAngry"
+			"Dump",
+			"Fenced in area",
+			"Recycle Bin",
+			"Post Office"
 		]	
 	},"29":{
-		"Phrase":"A strider can be ridden and controlled when a player wields an item. What is the name of the item?",
-		"CorrectAnswer":"Warped fugus on a stick",
+		"Phrase":"Which pelican can be found wandering the town weekdays from 9:00-9:30am and 5:00-5:30pm?",
+		"CorrectAnswer":"Pete",
 		"IncorrectAnswer": [
-			"Carrot on a stick",
-			"Gold on a stick",
-			"Sword",
-			"Beef",
-			"Axe"
+			"Phyllis",
+			"Pelly",
+			"Zucker",
+			"Robin"
 		]	
 	},"30":{
-		"Phrase":"In which biome can Soul Soil be found in?",
-		"CorrectAnswer":"Soul sand valleys",
+		"Phrase":"Which public works project allows a non-resident villager to visit the town for a day?",
+		"CorrectAnswer":"Campsite",
 		"IncorrectAnswer": [
-			"Basalt deltas",
-			"Soul forests",
-			"Crimson forests",
-			"Soul sand plains"
+			"Summer Camp",
+			"Igloo",
+			"Tenting Station",
+			"Visitor Lounge"
 		]	
 	},"31":{
-		"Phrase":"What item is smelted in a furnace to create Netherite Scrap?",
-		"CorrectAnswer":"Ancient Debris",
+		"Phrase":"Lyle is a character that can be found in Nook's Homes. What organization does he work for?",
+		"CorrectAnswer":"Happy Home Academy",
 		"IncorrectAnswer": [
-			"Netherite Ore",
-			"Ancient Ore",
-			"Hyphae",
-			"Gilded Blackstone"
+			"Nook's Homes",
+			"Crazy Redd's",
+			"Faraway Museum",
+			"Happy Home Showcase"
 		]	
 	},"32":{
-		"Phrase":"How many snapshots did 1.16 have before release (not including pre-releases)?",
-		"CorrectAnswer":"19",
+		"Phrase":"What is the final form of the shop run by Timmy and Tommy Nook?",
+		"CorrectAnswer":"T&T Emporium",
 		"IncorrectAnswer": [
-			"17",
-			"26",
-			"21",
-			"10"
+			"T.I.Y",
+			"Nook's Cranny",
+			"Super T&T",
+			"T&T Mart",
+			"Nookingtons"
 		]	
 	},"33":{
-		"Phrase":"How many pre-releases did 1.16 have before the final release?",
-		"CorrectAnswer":"8",
+		"Phrase":"Which of the following plant was first introduced in New Leaf?",
+		"CorrectAnswer":"Bamboo",
 		"IncorrectAnswer": [
-			"7",
-			"6",
-			"9",
-			"5",
-			"10"
+			"Cherry Tree",
+			"Black Rose",
+			"Jacob's Ladder",
+			"Coconut Tree"
 		]	
 	},"34":{
-		"Phrase":"Which of the below particles were not added in 1.16?",
-		"CorrectAnswer":"camp_fire_flame",
+		"Phrase":"Which special character is the host of the April Fool's Day events?",
+		"CorrectAnswer":"Blanca",
 		"IncorrectAnswer": [
-			"ash",
-			"crimson_spore",
-			"soul_fire_flame",
-			"warped_spore"
+			"Pave",
+			"Gracie",
+			"Harriet",
+			"Harvey"
 		]	
 	},"35":{
-		"Phrase":"Which of the following soundtracks was NOT added to the Nether?",
-		"CorrectAnswer":"Pigdub",
+		"Phrase":"What is the name of the special character that will award the player with badges once they achieve certain milestones?",
+		"CorrectAnswer":"Phineas",
 		"IncorrectAnswer": [
-			"Rubedo",
-			"Chrysopoeia",
-			"So Below"
+			"Pete",
+			"Porter",
+			"Pascal",
+			"Luna",
+			"Lloid"
 		]	
 	}
 }

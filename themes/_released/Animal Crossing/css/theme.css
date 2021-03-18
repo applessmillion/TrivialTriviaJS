@@ -1,0 +1,27 @@
+html{
+	background: url('../images/background.jpg'), 
+	linear-gradient(0deg, rgb(255 255 255 / 70%) 5%, rgba(205,205,200,.65) 55%)
+	background-size:cover;
+}
+button{
+	border:#8a8613 4px solid;
+	background-color:#f1bf2f;
+	color:white;
+}
+button:hover{
+	border:#332C1C 4px solid!important;
+	background-color:#635737!important;
+	color:white;
+}
+
+.start-body{
+	margin:auto;
+	width:100%;
+	overflow:hidden;
+	background:#ffffffe3;
+	linear-gradient(0deg, rgb(255 255 255 / 70%) 5%, rgba(205,205,200,.65) 55%)
+}
+.quiz-body{
+	background:#ffffffe3;
+	linear-gradient(0deg, rgb(255 255 255 / 70%) 5%, rgba(205,205,200,.65) 55%)
+}

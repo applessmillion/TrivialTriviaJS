@@ -8,7 +8,7 @@ function tossStuff(){
 /* 
 Modes = number of bundled trivia.
 */
-var mode1Name = "Minecraft 1.15";
-var mode2Name = "Minecraft 1.16";
-var mode3Name = "none";
+var mode1Name = "Animal Crossing";
+var mode2Name = "New Leaf";
+var mode3Name = "New Horizons";
 var mode4Name = "none";
