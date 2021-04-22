@@ -1,9 +1,9 @@
-===== Version 11 / 10.20.21
+===== Version 11 / 1.20.21
 + Added pre-loading for image(s).
  # This fixes broken images. Images will be loaded 2 questions ahead.
 + Added border and shading to image(s).
 
-===== Version 10 / 10.19.21 !
+===== Version 10 / 1.19.21 !
 Major update!
 + Engine now supports images.
  # Modified CSS properties to accomodate for this.
@@ -23,7 +23,7 @@ Major update!
  # It's a moving element on the page.
  # Since each theme uses a slightly different version, it varies per theme.
 
-===== Version 9 / 10.11.21
+===== Version 9 / 1.11.21
 + Add compatibility css transitions in case of older browsers.
 + Work on removing need for require.js. It seems to be very iffy.
 + Display compatibility error on users running IE.

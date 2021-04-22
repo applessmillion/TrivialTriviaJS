@@ -1,332 +1,196 @@
-var reference = "https://terraria.gamepedia.com/Terraria_Wiki";
 var questions = {
 	"0":{
-		"Phrase":"Terraria is developed by which of the following developers?",
-		"CorrectAnswer":"Re-Logic",
+		"Phrase":"What is the name of the company developing Colony Survival?",
+		"CorrectAnswer":"Pipliz",
 		"IncorrectAnswer": [
-			"Revive Studios",
-			"Mojang",
-			"Post-Logic",
-			"Jatex"
+			"Survivalists",
+			"Boltjes",
+			"CS",
+			"Mojang"
 		]	
 	},"1":{
-		"Phrase":"Which of the following platforms is Terraria NOT available?",
-		"CorrectAnswer":"LG WebOS",
+		"Phrase":"Which of the following platforms does the game not support?",
+		"CorrectAnswer":"Google Stadia",
 		"IncorrectAnswer": [
-			"Apple iOS",
-			"Nintendo Wii U",
+			"SteamOS",
+			"macOS",
 			"Linux",
-			"Sony PSVita",
-			"Sony PlayStation 3",
-			"Nintendo 3DS"
+			"Windows Vista"
 		]	
 	},"2":{
-		"Phrase":"What is the name of the NPC that appears to the player first and offers helpful tips?",
-		"CorrectAnswer":"Guide",
+		"Phrase":"Which of the following jobs do not exist?",
+		"CorrectAnswer":"Cherry Farmer",
 		"IncorrectAnswer": [
-			"Princess",
-			"Fairy",
-			"Dude",
-			"Angler",
-			"Dryad",
-			"Party Girl"
+			"Wheat Farmer",
+			"Berry Farmer",
+			"Beekeeper",
+			"Forester",
+			"Flax Farmer"
 		]	
 	},"3":{
-		"Phrase":"Which of the following is not one of the selectable game difficulties?",
-		"CorrectAnswer":"Sandbox",
+		"Phrase":"What colonist job type can harvest berries from berry bushes?",
+		"CorrectAnswer":"Berry Farmer",
 		"IncorrectAnswer": [
-			"Journey",
-			"Expert",
-			"Master"
+			"Berry Picker",
+			"Scavenger",
+			"Berry Gatherer",
+			"Gatherer"
 		]	
 	},"4":{
-		"Phrase":"Which boss is one of the first the player encounter and is summoned with a Suspicious Looking Eye?",
-		"CorrectAnswer":"Eye of Cthulhu",
+		"Phrase":"What color of shirt does the Wheat Farmer wear?",
+		"CorrectAnswer":"Light Green",
 		"IncorrectAnswer":[
-			"Eater of Worlds",
-			"Wall of Eyes",
-			"Skeletron",
-			"Wall of Flesh"
+			"Red",
+			"Blue",
+			"Dark Green",
+			"Yellow",
+			"Light Grey"
 		]	
 	},"5":{
-		"Phrase":"Which NPC, once given a house, will heal the player for coins?",
-		"CorrectAnswer":"Nurse",
+		"Phrase":"As of version 0.8, Colony Survival has 4 guard types. Which of the following is not one of the types?",
+		"CorrectAnswer":"Fire Archer",
 		"IncorrectAnswer": [
-			"Merchant",
-			"Mechanic",
-			"Dryad",
-			"Tavernkeep"
+			"Slinger",
+			"Archer",
+			"Crossbow",
+			"Matchlock"
 		]	
 	},"6":{
-		"Phrase":"Which boss is found in the Corruption and can be summoned by breaking Shadow Orbs?",
-		"CorrectAnswer":"Eater of Worlds",
+		"Phrase":"What is the name of the meal crafted by Berry Farmers?",
+		"CorrectAnswer":"Berry Meal",
 		"IncorrectAnswer": [
-			"Brain of Cthulhu",
-			"Queen Bee",
-			"Skeletron",
-			"The Twins"
+			"Berry Salad",
+			"Handful of Berries",
+			"Berries",
+			"Berry Bowl"
 		]	
 	},"7":{
-		"Phrase":"Which boss, when defeated, converts the world to Hardmode?",
-		"CorrectAnswer":"Wall of Flesh",
+		"Phrase":"What is the name of the system introduced in 0.8 to measure progress in the form of points?",
+		"CorrectAnswer":"Colony Points",
 		"IncorrectAnswer": [
-			"Moon Lord",
-			"Eater of Worlds",
-			"Brain of Cthulhu",
-			"Skeletron",
-			"Eye of Cthulhu"
+			"Survival Points",
+			"Survival Rating",
+			"Colony Rating",
+			"Happiness",
+			"Luxury"
 		]	
 	},"8":{
-		"Phrase":"In which month and year was Terraria first released to PC?",
-		"CorrectAnswer":"May 2011",
+		"Phrase":"What is the maximum number of colonists per colony?",
+		"CorrectAnswer":"50000",
 		"IncorrectAnswer": [
-			"September 2009",
-			"August 2010",
-			"May 2010",
-			"May 2012"
+			"25000",
+			"100000",
+			"75000",
+			"10000"
 		]	
 	},"9":{
-		"Phrase":"The Wall of Flesh is summoned by throwing a voodoo doll of which NPC into lava?",
-		"CorrectAnswer":"The Guide",
+		"Phrase":"What technology is required before the Wheat Farmer can be unlocked?",
+		"CorrectAnswer":"Bread Production",
 		"IncorrectAnswer": [
-			"The Clothier",
-			"The Princess",
-			"The Pirate",
-			"Santa Claus"
+			"Berry Production",
+			"Farm Fields",
+			"Basic Farm Tools",
+			"Flour Production"
 		]	
 	},"10":{
-		"Phrase":"Which of the following is not a biome found in Terraria?",
-		"CorrectAnswer":"Sky",
+		"Phrase":"Which of the following is not an ingredient to craft a Bed?",
+		"CorrectAnswer":"Copper",
 		"IncorrectAnswer": [
-			"Jungle",
-			"Desert",
-			"Corruption",
-			"Hallow",
-			"Crimson"
+			"Planks",
+			"Straw",
+			"Copper Nails"
 		]	
 	},"11":{
-		"Phrase":"What type of item can be found from fishing containing random loot?",
-		"CorrectAnswer":"Crates",
+		"Phrase":"What is the name of the block that allows colonists to add items to the stockpile?",
+		"CorrectAnswer":"Crate",
 		"IncorrectAnswer": [
-			"Lootboxes",
-			"Grab Bags",
-			"Barrels",
-			"Chests"
+			"Drop Point",
+			"Box",
+			"Delivery Point",
+			"Collections Box",
+			"Shop"
 		]	
 	},"12":{
-		"Phrase":"Which fishing NPC will give quests involving catching rare fish to the player?",
-		"CorrectAnswer":"Angler",
+		"Phrase":"Which of the following is not a biome in the game?",
+		"CorrectAnswer":"Far West",
 		"IncorrectAnswer": [
-			"Guide",
-			"Fishmaster",
-			"Old Man",
-			"Dryad"
+			"Far East",
+			"Tropics",
+			"Old World",
+			"New World",
+			"Arctic"
 		]	
 	},"13":{
-		"Phrase":"The Queen Bee can be summoned by breaking Larva or by using which item in the Jungle?",
-		"CorrectAnswer":"Abeemination",
+		"Phrase":"Rice can be harvested by Rice Farmers in which biome only?",
+		"CorrectAnswer":"Far East",
 		"IncorrectAnswer": [
-			"Buzzer",
-			"Buzzing Button",
-			"Bee Radio",
-			"Beefree"
+			"Tropics",
+			"Old World",
+			"New World",
+			"Far West"
 		]	
 	},"14":{
-		"Phrase":"Which NPC vendor will report the percentage of Corruption, Crimson, and Hallow in the world when spoken to?",
-		"CorrectAnswer":"Dryad",
+		"Phrase":"The Luxury Meal requires many different ingredients. Which of the following is not one of those ingredients?",
+		"CorrectAnswer":"Berry",
 		"IncorrectAnswer": [
-			"Nurse",
-			"Tavernkeep",
-			"Truffle",
-			"Witch Doctor",
-			"Zoologist"
+			"Olive Oil",
+			"Cabbage",
+			"Bread",
+			"Chicken Meat",
+			"Raw Fish",
+			"Boiling Water"
 		]	
 	},"15":{
-		"Phrase":"Which boss is found in the Crimson and can be summoned by breaking Crimson Hearts?",
-		"CorrectAnswer":"Brain of Cthulhu",
+		"Phrase":"Olives can be processed by the Grinder to form what?",
+		"CorrectAnswer":"Olive Oil",
 		"IncorrectAnswer": [
-			"Eater of Worlds",
-			"Plantera",
-			"Skeletron Prime",
-			"The Twins"
+			"Olive Paste",
+			"Ground Olive",
+			"Dried Olive"
 		]	
 	},"16":{
-		"Phrase":"Which of the following NPCs can be encountered after defeating the Queen Bee?",
-		"CorrectAnswer":"Witch Doctor",
+		"Phrase":"Which luxury item can the Beekeeper craft?",
+		"CorrectAnswer":"Candle",
 		"IncorrectAnswer": [
-			"The Guide",
-			"Beeboy",
-			"The Golfer",
-			"Demolitionist"
+			"Cake",
+			"Cookies",
+			"Winter Coat",
+			"Wax Tablet"
 		]	
 	},"17":{
-		"Phrase":"Which of the following is unique to the Master difficulty mode?",
-		"CorrectAnswer":"Relics",
+		"Phrase":"Which of the following luxury items can be crafted in the New World boime?",
+		"CorrectAnswer":"Cotton Towel",
 		"IncorrectAnswer": [
-			"Plantera",
-			"Frost Legion",
-			"Pirate Invasion",
-			"Goblin Army"
+			"Chocolate",
+			"Coffee",
+			"Cookies",
+			"Silk Pillow"
 		]	
 	},"18":{
-		"Phrase":"The Twins can be summoned by using which item at night?",
-		"CorrectAnswer":"Mechanical eye",
+		"Phrase":"Which of the following blocks can a Miner colonist not mine?",
+		"CorrectAnswer":"Light Stone",
 		"IncorrectAnswer": [
-			"Suspicious Eye",
-			"Double Eye",
-			"Eye Probe",
+			"Dark Stone",
+			"Galena",
+			"Clay",
+			"Tin"
 		]	
 	},"19":{
-		"Phrase":"Which NPC will collect money for the player from other housed NPCs?",
-		"CorrectAnswer":"Tax Collector",
+		"Phrase":"Which of the following is not a valid color of carpet?",
+		"CorrectAnswer":"Black Carpet",
 		"IncorrectAnswer": [
-			"Banker",
-			"Robber",
-			"Pirate",
-			"Princess"
+			"Blue Carpet",
+			"White Carpet",
+			"Red Carpet",
+			"Yellow Carpet"
 		]	
 	},"20":{
-		"Phrase":"The Bestiary, a catalog of characters and enemies, was introduced in which named update?",
-		"CorrectAnswer":"Journey's End",
+		"Phrase":"As of 0.8, which of the following is not one of the color types of a zombie?",
+		"CorrectAnswer":"Blue",
 		"IncorrectAnswer": [
-			"Party Update",
-			"Wiring Update",
-			"Desert Update",
-			"Dungeon Defenders Crossover"
+			"Grey",
+			"Green",
+			"Red"
 		]	
-	},"21":{
-		"Phrase":"What does a Dungeon Guardian drop upon being defeated by the player?",
-		"CorrectAnswer":"Bone Key",
-		"IncorrectAnswer": [
-			"Dungeon Key",
-			"Guardian Figurine",
-			"Guardian Pet",
-			"Dragon Map"
-		]
-	},"22":{
-		"Phrase":"The Queen Slime is the post-Hardmode counterpart to which boss?",
-		"CorrectAnswer":"King Slime",
-		"IncorrectAnswer": [
-			"Big Slime",
-			"Tall Slime",
-			"God Slime",
-			"Slime Boy"
-		]
-	},"23":{
-		"Phrase":"The Tavernkeep NPC will sell items for which currency?",
-		"CorrectAnswer":"Defender Medals",
-		"IncorrectAnswer": [
-			"Silver Coins",
-			"Gold Coins",
-			"Combat Coins",
-			"Job Tokens"
-		]
-	},"24":{
-		"Phrase":"What is the name of seed that allows the player to grow Gem Trees?",
-		"CorrectAnswer":"Gemcorn",
-		"IncorrectAnswer": [
-			"Sparkling Sapling",
-			"Gemnut",
-			"Sparkle Seed",
-			"Gem Seed"
-		]
-	},"25":{
-		"Phrase":"The tool 'Guide To Critter Companionship' is used to prevent damaging which creatures?",
-		"CorrectAnswer":"Critters",
-		"IncorrectAnswer": [
-			"Enemies",
-			"NPCs",
-			"Bosses",
-			"Environment"
-		]
-	},"26":{
-		"Phrase":"Which boss is the mechanical version of Skeletron?",
-		"CorrectAnswer":"Skeletron Prime",
-		"IncorrectAnswer": [
-			"Metal Skeletron",
-			"The Destroyer",
-			"Metal Skull",
-			"Skeletron Mecha"
-		]
-	},"27":{
-		"Phrase":"Which NPC can be obtained by throwing Purification Powder onto a Tortured Soul enemy?",
-		"CorrectAnswer":"Tax Collector",
-		"IncorrectAnswer": [
-			"Fairy",
-			"Underworldling",
-			"Demon",
-			"Dryad",
-			"Party Girl"
-		]
-	},"28":{
-		"Phrase":"If the player has bad luck or fishes in a small enough pond, they will get junk. Which of the following is not one of these junk items?",
-		"CorrectAnswer":"Food Can",
-		"IncorrectAnswer": [
-			"Old Shoe",
-			"Seaweed",
-			"Tin Can"
-		]
-	},"29":{
-		"Phrase":"Which boss can be found in the Jungle Temple?",
-		"CorrectAnswer":"Golem",
-		"IncorrectAnswer": [
-			"Forrester",
-			"Plantera",
-			"Jungle King",
-			"Big Ape"
-		]
-	},"30":{
-		"Phrase":"Which of the following items act as a teleporter between biomes?",
-		"CorrectAnswer":"Pylons",
-		"IncorrectAnswer": [
-			"Teleport Pads",
-			"Fast Travel",
-			"Point of Interest"
-		]
-	},"31":{
-		"Phrase":"Which NPC sells animal-related items such as mounts, pets, and accessories?",
-		"CorrectAnswer":"Zoologist",
-		"IncorrectAnswer": [
-			"Witch Doctor",
-			"Dryad",
-			"Old Man",
-			"Truffle"
-		]
-	},"32":{
-		"Phrase":"Which of the following seasonal bosses only appear in the 3DS version of the game?",
-		"CorrectAnswer":"Turkor the Ungrateful",
-		"IncorrectAnswer": [
-			"Flying Dutchman",
-			"King Slime",
-			"Mrs. Claus",
-			"Queen Slime"
-		]
-	},"33":{
-		"Phrase":"Which of the following is not a type of town pet?",
-		"CorrectAnswer":"Wolf",
-		"IncorrectAnswer": [
-			"Cat",
-			"Dog",
-			"Bunny"
-		]
-	},"34":{
-		"Phrase":"The final boss, summoned by defeating four Celestial Pillars, is named what?",
-		"CorrectAnswer":"Moon Lord",
-		"IncorrectAnswer": [
-			"Empress of Light",
-			"Golem",
-			"Sun Lord",
-			"Plantera"
-		]
-	},"35":{
-		"Phrase":"Which NPC will only appear after housing all other NPCs?",
-		"CorrectAnswer":"Princess",
-		"IncorrectAnswer": [
-			"Fairy",
-			"Dude",
-			"Angler",
-			"Dryad",
-			"Party Girl"
-		]
 	}
 }
